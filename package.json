@@ -1,0 +1,40 @@
+{
+  "name": "segno-gebeya",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": ">=24.3.0 <25"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter @segno/merchant-web --filter @segno/admin-web dev",
+    "dev:merchant": "pnpm --filter @segno/merchant-web dev",
+    "dev:admin": "pnpm --filter @segno/admin-web dev",
+    "dev:mobile": "pnpm --filter @segno/mobile start",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "eslint apps packages scripts --ignore-pattern '**/android/**' --ignore-pattern '**/ios/**' --ignore-pattern '**/dist/**'",
+    "format": "prettier --write \"apps/**/*.{ts,tsx,json}\" \"packages/**/*.{ts,tsx,css,json}\" \"scripts/*.mjs\"",
+    "format:check": "prettier --check \"apps/**/*.{ts,tsx,json}\" \"packages/**/*.{ts,tsx,css,json}\" \"scripts/*.mjs\"",
+    "test": "vitest run",
+    "build": "pnpm --filter @segno/merchant-web build && pnpm --filter @segno/admin-web build",
+    "build:mobile:web": "pnpm --filter @segno/mobile exec expo export --platform web",
+    "api:check": "node scripts/check-api-contract.mjs && openapi-typescript packages/contracts/openapi.json -o packages/contracts/src/openapi.ts --check",
+    "test:e2e:web": "playwright test",
+    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm api:check && pnpm build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@playwright/test": "^1.58.0",
+    "@types/react": "~19.3.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "globals": "^17.0.0",
+    "prettier": "^3.8.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.57.0",
+    "vitest": "^4.1.0",
+    "openapi-typescript": "^7.13.0"
+  },
+  "type": "module"
+}

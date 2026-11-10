@@ -1,0 +1,17 @@
+import type { components } from "./openapi";
+type Schemas = components["schemas"];
+export const SCHEMA_VERSION = "1.0.0";
+export type User = Schemas["User"];
+export type Locale = User["locale"];
+export type StoreGrant = Schemas["StoreGrant"];
+export type IdentityResponse = Schemas["IdentityResponse"];
+export type Challenge = Schemas["Challenge"];
+export type MerchantApplication = Schemas["MerchantApplication"];
+export type ApplicationStatus = MerchantApplication["status"];
+export type Evidence = Schemas["Evidence"];
+export type ApplicationResponse = Schemas["ApplicationResponse"];
+export type ApplicationList = Schemas["ApplicationList"];
+export type DeviceSession = Schemas["SessionList"]["sessions"][number];
+export type Decision = Schemas["Decision"];
+export type Address = Schemas["Address"];
+export type ApiErrorBody = Partial<Schemas["Error"]>;

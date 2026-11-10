@@ -1,0 +1,2841 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Segno Gebeya M1 API",
+    "version": "1.0.0",
+    "description": "Local development contract. Cookie clients initialize /sanctum/csrf-cookie and send X-XSRF-TOKEN on writes. Admin tokens cannot use review endpoints. Phone delivery and evidence policy are development-only."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:18000"
+    }
+  ],
+  "paths": {
+    "/api/v1/health": {
+      "get": {
+        "operationId": "get_health",
+        "summary": "GET /health",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/register": {
+      "post": {
+        "operationId": "post_auth_register",
+        "summary": "POST /auth/register",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [],
+        "responses": {
+          "202": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/login": {
+      "post": {
+        "operationId": "post_auth_login",
+        "summary": "POST /auth/login",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentityResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/challenges": {
+      "post": {
+        "operationId": "post_auth_challenges",
+        "summary": "POST /auth/challenges",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [],
+        "responses": {
+          "202": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChallengeRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/verify": {
+      "post": {
+        "operationId": "post_auth_verify",
+        "summary": "POST /auth/verify",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VerifyResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/reset-password": {
+      "post": {
+        "operationId": "post_auth_reset_password",
+        "summary": "POST /auth/reset-password",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResetRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me": {
+      "get": {
+        "operationId": "get_me",
+        "summary": "GET /me",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentityResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/profile": {
+      "patch": {
+        "operationId": "patch_profile",
+        "summary": "PATCH /profile",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentityResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfileRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/logout": {
+      "post": {
+        "operationId": "post_auth_logout",
+        "summary": "POST /auth/logout",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sessions": {
+      "get": {
+        "operationId": "get_sessions",
+        "summary": "GET /sessions",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SessionList"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sessions/{id}": {
+      "delete": {
+        "operationId": "delete_sessions_id_",
+        "summary": "DELETE /sessions/{id}",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/context": {
+      "put": {
+        "operationId": "put_context",
+        "summary": "PUT /context",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContextResult"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContextRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/account/actions": {
+      "post": {
+        "operationId": "post_account_actions",
+        "summary": "POST /account/actions",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountAction"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/mfa/enroll": {
+      "post": {
+        "operationId": "post_admin_mfa_enroll",
+        "summary": "POST /admin/mfa/enroll",
+        "description": "Requires administrator password authentication in a trusted cookie session.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MfaSetup"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/mfa/verify": {
+      "post": {
+        "operationId": "post_admin_mfa_verify",
+        "summary": "POST /admin/mfa/verify",
+        "description": "Requires administrator password authentication in a trusted cookie session.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MfaResult"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfaVerify"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/merchant/applications": {
+      "get": {
+        "operationId": "get_merchant_applications",
+        "summary": "GET /merchant/applications",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationList"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "operationId": "post_merchant_applications",
+        "summary": "POST /merchant/applications",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApplicationRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/merchant/applications/{id}": {
+      "patch": {
+        "operationId": "patch_merchant_applications_id_",
+        "summary": "PATCH /merchant/applications/{id}",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApplicationUpdate"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/merchant/applications/{id}/documents": {
+      "post": {
+        "operationId": "post_merchant_applications_id_documents",
+        "summary": "POST /merchant/applications/{id}/documents",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Upload"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/merchant/applications/{id}/documents/{document}": {
+      "delete": {
+        "operationId": "delete_merchant_applications_id_documents_document_",
+        "summary": "DELETE /merchant/applications/{id}/documents/{document}",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "document",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/merchant/applications/{id}/submit": {
+      "post": {
+        "operationId": "post_merchant_applications_id_submit",
+        "summary": "POST /merchant/applications/{id}/submit",
+        "description": "M1 identity and merchant onboarding.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SubmitRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/applications": {
+      "get": {
+        "operationId": "get_admin_applications",
+        "summary": "GET /admin/applications",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationList"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "search",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/admin/applications/{id}": {
+      "get": {
+        "operationId": "get_admin_applications_id_",
+        "summary": "GET /admin/applications/{id}",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/admin/applications/{id}/documents/{document}": {
+      "get": {
+        "operationId": "get_admin_applications_id_documents_document_",
+        "summary": "GET /admin/applications/{id}/documents/{document}",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "document",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/admin/applications/{id}/decisions": {
+      "post": {
+        "operationId": "post_admin_applications_id_decisions",
+        "summary": "POST /admin/applications/{id}/decisions",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Decision"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DecisionRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/confirmations/{id}": {
+      "post": {
+        "operationId": "post_admin_confirmations_id_",
+        "summary": "POST /admin/confirmations/{id}",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConfirmRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/stores/{id}/suspend": {
+      "post": {
+        "operationId": "post_admin_stores_id_suspend",
+        "summary": "POST /admin/stores/{id}/suspend",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reason"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/preferences": {
+      "patch": {
+        "operationId": "patch_preferences",
+        "summary": "PATCH /preferences",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentityResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Preferences"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/addresses": {
+      "get": {
+        "operationId": "get_addresses",
+        "summary": "GET /addresses",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddressList"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "operationId": "post_addresses",
+        "summary": "POST /addresses",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddressResult"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressInput"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/addresses/{id}": {
+      "patch": {
+        "operationId": "patch_addresses_id",
+        "summary": "PATCH /addresses/{id}",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddressResult"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressInput"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "delete_addresses_id",
+        "summary": "DELETE /addresses/{id}",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/account/password": {
+      "post": {
+        "operationId": "post_account_password",
+        "summary": "POST /account/password",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PasswordChange"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/profile/photo": {
+      "get": {
+        "operationId": "get_profile_photo",
+        "summary": "GET /profile/photo",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "image/png": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "operationId": "post_profile_photo",
+        "summary": "POST /profile/photo",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentityResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/PhotoUpload"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "delete_profile_photo",
+        "summary": "DELETE /profile/photo",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          },
+          {
+            "deviceToken": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IdentityResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/admin/applications/{id}/start": {
+      "post": {
+        "operationId": "post_admin_applications_id_start",
+        "summary": "Begin a revision-checked review",
+        "description": "Requires an active administrator, cookie session and fresh MFA.",
+        "security": [
+          {
+            "cookieSession": [],
+            "csrf": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "headers": {
+              "X-Request-ID": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationResponse"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Validation, authentication, authorization, revision conflict, rate limit or service error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Revision"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "cookieSession": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "segno_session"
+      },
+      "csrf": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-XSRF-TOKEN"
+      },
+      "deviceToken": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    },
+    "schemas": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "email": {
+            "type": ["string", "null"]
+          },
+          "phone": {
+            "type": ["string", "null"]
+          },
+          "username": {
+            "type": ["string", "null"]
+          },
+          "bio": {
+            "type": ["string", "null"]
+          },
+          "locale": {
+            "type": "string",
+            "enum": ["en", "am"]
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "stores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StoreGrant"
+            }
+          },
+          "mfa_enrolled": {
+            "type": "boolean"
+          },
+          "country": {
+            "type": "string",
+            "enum": ["ET"]
+          },
+          "has_photo": {
+            "type": "boolean"
+          },
+          "photo_version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "email",
+          "phone",
+          "username",
+          "bio",
+          "locale",
+          "roles",
+          "stores",
+          "mfa_enrolled",
+          "country",
+          "has_photo",
+          "photo_version"
+        ]
+      },
+      "StoreGrant": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["id", "name", "role", "permissions"]
+      },
+      "IdentityResponse": {
+        "type": "object",
+        "properties": {
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "token": {
+            "type": ["string", "null"]
+          },
+          "admin_verified": {
+            "type": "boolean"
+          }
+        },
+        "required": ["user"]
+      },
+      "Challenge": {
+        "type": "object",
+        "properties": {
+          "challenge_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expires_in": {
+            "type": "integer"
+          },
+          "retry_after": {
+            "type": "integer"
+          },
+          "delivery": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "challenge_id",
+          "expires_in",
+          "retry_after",
+          "delivery",
+          "message"
+        ]
+      },
+      "Evidence": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "mime": {
+            "type": "string"
+          },
+          "size": {
+            "type": "integer"
+          }
+        },
+        "required": ["id", "name", "mime", "size"]
+      },
+      "MerchantApplication": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "store_name": {
+            "type": "string"
+          },
+          "business_type": {
+            "type": "string",
+            "enum": ["individual", "company"]
+          },
+          "representative": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "draft",
+              "submitted",
+              "under_review",
+              "information_needed",
+              "resubmitted",
+              "approved",
+              "rejected"
+            ]
+          },
+          "revision": {
+            "type": "integer"
+          },
+          "review_reason": {
+            "type": ["string", "null"]
+          },
+          "submitted_at": {
+            "type": ["string", "null"]
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "documents": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Evidence"
+            }
+          },
+          "applicant": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "email": {
+                "type": ["string", "null"]
+              },
+              "phone": {
+                "type": ["string", "null"]
+              }
+            },
+            "required": ["id", "name", "email", "phone"]
+          }
+        },
+        "required": [
+          "id",
+          "store_name",
+          "business_type",
+          "representative",
+          "status",
+          "revision",
+          "review_reason",
+          "documents",
+          "submitted_at",
+          "created_at"
+        ]
+      },
+      "ApplicationResponse": {
+        "type": "object",
+        "properties": {
+          "application": {
+            "$ref": "#/components/schemas/MerchantApplication"
+          }
+        },
+        "required": ["application"]
+      },
+      "ApplicationList": {
+        "type": "object",
+        "properties": {
+          "applications": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MerchantApplication"
+            }
+          },
+          "page": {
+            "type": "integer"
+          },
+          "last_page": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "evidence_policy": {
+            "type": "string"
+          }
+        },
+        "required": ["applications"]
+      },
+      "SessionList": {
+        "type": "object",
+        "properties": {
+          "sessions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "last_used_at": {
+                  "type": ["string", "null"]
+                },
+                "current": {
+                  "type": "boolean"
+                }
+              },
+              "required": ["id", "name", "last_used_at", "current"]
+            }
+          }
+        },
+        "required": ["sessions"]
+      },
+      "Decision": {
+        "type": "object",
+        "properties": {
+          "confirmation_id": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          },
+          "expires_in": {
+            "type": "integer"
+          },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "store_name": {
+                "type": "string"
+              },
+              "action": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "revision": {
+                "type": "integer"
+              }
+            },
+            "required": ["store_name", "action", "reason", "revision"]
+          }
+        },
+        "required": ["confirmation_id", "token", "expires_in", "summary"]
+      },
+      "Message": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": ["message"]
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "errors": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": ["message"]
+      },
+      "Health": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": ["ok", "degraded"]
+          },
+          "schema_version": {
+            "type": "string"
+          },
+          "product": {
+            "type": "string"
+          }
+        },
+        "required": ["status", "schema_version"]
+      },
+      "Registration": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 128
+          },
+          "password_confirmation": {
+            "type": "string"
+          },
+          "locale": {
+            "type": "string",
+            "enum": ["en", "am"]
+          },
+          "client": {
+            "type": "string",
+            "enum": ["mobile", "web"]
+          },
+          "terms": {
+            "enum": [true, 1, "1"]
+          }
+        },
+        "required": [
+          "identifier",
+          "password",
+          "password_confirmation",
+          "locale",
+          "client",
+          "terms"
+        ]
+      },
+      "Login": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "client": {
+            "type": "string",
+            "enum": ["mobile", "web"]
+          },
+          "area": {
+            "type": "string",
+            "enum": ["customer", "merchant", "admin"]
+          },
+          "device_name": {
+            "type": "string"
+          }
+        },
+        "required": ["identifier", "password", "client"]
+      },
+      "ChallengeRequest": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string",
+            "enum": ["verify", "recover"]
+          },
+          "client": {
+            "type": "string",
+            "enum": ["mobile", "web"]
+          }
+        },
+        "required": ["identifier", "purpose", "client"]
+      },
+      "VerifyRequest": {
+        "type": "object",
+        "properties": {
+          "challenge_id": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string",
+            "enum": ["verify", "recover"]
+          },
+          "code": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$"
+          },
+          "password": {
+            "type": "string",
+            "minLength": 12,
+            "maxLength": 128
+          },
+          "password_confirmation": {
+            "type": "string"
+          },
+          "device_name": {
+            "type": "string",
+            "maxLength": 80
+          }
+        },
+        "required": ["challenge_id", "purpose", "code"],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "purpose": {
+                  "const": "verify"
+                }
+              }
+            },
+            "then": {
+              "required": ["password", "password_confirmation"]
+            }
+          }
+        ]
+      },
+      "VerifyResponse": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/IdentityResponse"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "challenge_id": {
+                "type": "string"
+              },
+              "reset_token": {
+                "type": "string"
+              }
+            },
+            "required": ["challenge_id", "reset_token"]
+          }
+        ]
+      },
+      "ResetRequest": {
+        "type": "object",
+        "properties": {
+          "challenge_id": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string",
+            "minLength": 12
+          },
+          "password_confirmation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "challenge_id",
+          "token",
+          "password",
+          "password_confirmation"
+        ]
+      },
+      "ProfileRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 120
+          },
+          "username": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_]{3,40}$"
+          },
+          "bio": {
+            "type": ["string", "null"],
+            "maxLength": 160
+          },
+          "locale": {
+            "type": "string",
+            "enum": ["en", "am"]
+          }
+        },
+        "required": ["name", "username", "locale"]
+      },
+      "ApplicationRequest": {
+        "type": "object",
+        "properties": {
+          "store_name": {
+            "type": "string",
+            "maxLength": 120
+          },
+          "business_type": {
+            "type": "string",
+            "enum": ["individual", "company"]
+          },
+          "representative": {
+            "type": "string",
+            "maxLength": 120
+          }
+        },
+        "required": ["store_name", "business_type", "representative"]
+      },
+      "ApplicationUpdate": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/ApplicationRequest"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "revision": {
+                "type": "integer"
+              }
+            },
+            "required": ["revision"]
+          }
+        ]
+      },
+      "SubmitRequest": {
+        "type": "object",
+        "properties": {
+          "revision": {
+            "type": "integer"
+          },
+          "declaration": {
+            "enum": [true, 1, "1"]
+          }
+        },
+        "required": ["revision", "declaration"]
+      },
+      "MfaSetup": {
+        "type": "object",
+        "properties": {
+          "secret": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          }
+        },
+        "required": ["secret", "uri"]
+      },
+      "MfaVerify": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$"
+          },
+          "recovery_code": {
+            "type": "string"
+          }
+        },
+        "required": []
+      },
+      "MfaResult": {
+        "type": "object",
+        "properties": {
+          "verified": {
+            "type": "boolean"
+          },
+          "recovery_codes": {
+            "type": ["array", "null"],
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["verified", "recovery_codes"]
+      },
+      "ContextRequest": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": ["customer", "merchant"]
+          },
+          "store_id": {
+            "type": "integer"
+          }
+        },
+        "required": ["mode"]
+      },
+      "ContextResult": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string"
+          },
+          "store": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "type": "string"
+                  }
+                },
+                "required": ["id", "name", "role"]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": ["mode", "store"]
+      },
+      "AccountAction": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": ["deactivate", "request_deletion"]
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "required": ["action", "password"]
+      },
+      "DecisionRequest": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": ["approve", "reject", "request_information"]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 1000
+          },
+          "revision": {
+            "type": "integer"
+          }
+        },
+        "required": ["action", "reason", "revision"]
+      },
+      "ConfirmRequest": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "minLength": 64,
+            "maxLength": 64
+          }
+        },
+        "required": ["token"]
+      },
+      "Reason": {
+        "type": "object",
+        "properties": {
+          "reason": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 1000
+          }
+        },
+        "required": ["reason"]
+      },
+      "Upload": {
+        "type": "object",
+        "properties": {
+          "document": {
+            "type": "string",
+            "format": "binary"
+          }
+        },
+        "required": ["document"]
+      },
+      "AddressInput": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "sub_city": {
+            "type": "string"
+          },
+          "woreda": {
+            "type": "string"
+          },
+          "house": {
+            "type": "string"
+          },
+          "directions": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string",
+            "enum": ["ET"]
+          },
+          "is_default": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "label",
+          "recipient",
+          "phone",
+          "city",
+          "country",
+          "is_default"
+        ]
+      },
+      "Address": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "sub_city": {
+            "type": ["string", "null"]
+          },
+          "woreda": {
+            "type": ["string", "null"]
+          },
+          "house": {
+            "type": ["string", "null"]
+          },
+          "directions": {
+            "type": ["string", "null"]
+          },
+          "country": {
+            "type": "string",
+            "enum": ["ET"]
+          },
+          "is_default": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "recipient",
+          "phone",
+          "city",
+          "country",
+          "is_default"
+        ]
+      },
+      "AddressList": {
+        "type": "object",
+        "properties": {
+          "addresses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Address"
+            }
+          }
+        },
+        "required": ["addresses"]
+      },
+      "AddressResult": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "$ref": "#/components/schemas/Address"
+          }
+        },
+        "required": ["address"]
+      },
+      "Preferences": {
+        "type": "object",
+        "properties": {
+          "locale": {
+            "type": "string",
+            "enum": ["en", "am"]
+          },
+          "country": {
+            "type": "string",
+            "enum": ["ET"]
+          }
+        },
+        "required": ["locale"]
+      },
+      "PasswordChange": {
+        "type": "object",
+        "properties": {
+          "current_password": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "password_confirmation": {
+            "type": "string"
+          }
+        },
+        "required": ["current_password", "password", "password_confirmation"]
+      },
+      "PhotoUpload": {
+        "type": "object",
+        "properties": {
+          "photo": {
+            "type": "string",
+            "format": "binary"
+          }
+        },
+        "required": ["photo"]
+      },
+      "Revision": {
+        "type": "object",
+        "properties": {
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": ["revision"]
+      }
+    }
+  }
+}

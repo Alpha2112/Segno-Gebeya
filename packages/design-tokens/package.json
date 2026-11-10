@@ -1,0 +1,16 @@
+{
+  "name": "@segno/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": {
+      "types": "./styles.d.ts",
+      "default": "./styles.css"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  }
+}

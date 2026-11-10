@@ -1,0 +1,126 @@
+The Segno Gebeya plan is approved. Begin implementation now.
+
+This phase covers the project foundation and complete UI implementation.
+Work in the current project and preserve the existing requirements,
+design references, and approved decisions.
+
+1. CREATE THE PROJECT FOUNDATION
+
+Inspect the repository first and preserve existing work.
+
+Use the approved technology choices. If no mobile framework was chosen,
+use React Native with Expo, Expo Router, and TypeScript. Use React with
+TypeScript for the merchant and admin web dashboards, with Laravel/MySQL
+for the shared backend.
+
+Organize the project around:
+
+apps/
+  mobile/
+  merchant-web/
+  admin-web/
+
+services/
+  api/
+
+packages/
+  design-tokens/
+  contracts/
+  api-client/
+
+docs/
+  requirements/
+  design/
+  planning/
+
+Use one JavaScript workspace/package manager and a committed lockfile.
+Keep PHP dependencies managed through Composer.
+
+Set up the required configuration, environment examples, development
+commands, formatting, linting, type checking, and appropriate checks.
+Document how to run each application.
+
+Scaffold the backend foundation, but keep this phase focused on UI.
+Follow the approved milestones for later business logic and integrations.
+
+2. IMPLEMENT THE SHARED DESIGN SYSTEM
+
+Read the actual images in docs/design/images/ and SCREEN_INDEX.md.
+
+Create reusable colors, typography, spacing, icons, buttons, inputs,
+cards, navigation, dialogs, bottom sheets, badges, and feedback states.
+
+Match the reference direction:
+- Ivory and white surfaces.
+- Deep teal actions and dark green text.
+- Restrained lime accents.
+- Product photography and clear visual hierarchy.
+- Content-led social shopping.
+- Distinct customer and merchant navigation.
+
+Build real interface components. Do not embed screenshots of whole
+screens as the application UI.
+
+3. IMPLEMENT THE COMPLETE SCREEN COVERAGE
+
+Start with a connected customer journey:
+Welcome/sign-in → home feed → tagged product → product detail →
+variant selection → cart → checkout → order detail/tracking.
+
+Then continue through the remaining screen groups:
+- Onboarding, profiles, settings, and security.
+- Explore, search, storefronts, reels, stories, and social interactions.
+- Orders, returns, reviews, rewards, and notifications.
+- Messaging, calls, AI chat, voice, and telephone-support interfaces.
+- Live shopping, group buying, and creator tools.
+- Merchant mobile catalogue, content, inventory, and operations.
+- Merchant web dashboard.
+- Admin web dashboard.
+
+Use the screen index and master requirements together. Include required
+features absent from the image boards.
+
+For desktop screens without image references, create appropriate desktop
+layouts using the same design system.
+
+Use reusable patterns, while giving each workflow its appropriate layout.
+Represent drawers, dialogs, and screen states appropriately rather than
+forcing every design reference into a separate page.
+
+4. MAKE THE UI REVIEWABLE
+
+Implement navigation, form validation, selection, filtering, cart updates,
+mode switching, dialogs, and other local interactions.
+
+Use realistic fixtures for UI development. Clearly identify simulated
+authentication, payments, AI responses, calls, and delivery behavior.
+Do not imply that a real transaction or external action occurred.
+
+Include relevant loading, empty, error, offline, disabled, confirmation,
+and success states, plus accessibility and localization support.
+
+5. VERIFY AND TRACK PROGRESS
+
+Maintain docs/planning/UI_COVERAGE.md with:
+Requirement/screen | Design reference | Route/component | Status |
+Verification | Remaining work
+
+Complete and verify each screen group before continuing.
+Show an early runnable preview and provide progress updates.
+Continue through the authorized UI scope without requesting approval
+for every routine file edit.
+
+Run the checks supported by the project, inspect rendered screens,
+compare them with the references, and fix observed problems.
+
+Do not claim complete coverage without evidence.
+
+At handoff, provide:
+- Run commands and preview instructions.
+- Screenshots or recordings.
+- Completed screen coverage.
+- Actual check results.
+- Remaining gaps and backend integration work.
+
+Start by creating the foundation and implementing the shared design
+system and first connected customer journey.

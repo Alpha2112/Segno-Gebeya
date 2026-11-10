@@ -1,0 +1,48 @@
+name: segno-gebeya
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: segno_gebeya
+      MYSQL_USER: segno
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Run scripts/setup-local.py first}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Run scripts/setup-local.py first}
+    ports: ["127.0.0.1:13306:3306"]
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./infrastructure/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 5s
+      retries: 30
+  redis:
+    image: redis:7.4-alpine
+    ports: ["127.0.0.1:16379:6379"]
+  mail:
+    image: axllent/mailpit:v1.29
+    ports: ["127.0.0.1:18025:8025","127.0.0.1:11025:1025"]
+  api:
+    build: ./infrastructure/api
+    ports: ["127.0.0.1:18000:8000"]
+    volumes: ["./services/api:/app","api-vendor:/app/vendor"]
+    environment: &api-environment
+      DB_HOST: mysql
+      DB_PORT: 3306
+      MAIL_HOST: mail
+      MAIL_PORT: 1025
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    depends_on:
+      mysql: {condition: service_healthy}
+      mail: {condition: service_started}
+  worker:
+    image: segno-gebeya-api
+    command: ["php","artisan","queue:work","--sleep=1","--tries=3","--timeout=60"]
+    volumes: ["./services/api:/app","api-vendor:/app/vendor"]
+    environment: *api-environment
+    depends_on:
+      mysql: {condition: service_healthy}
+      mail: {condition: service_started}
+volumes:
+  mysql-data:
+  api-vendor:

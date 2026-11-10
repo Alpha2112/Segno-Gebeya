@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-11-05T17:39:14.133611+00:00",
+  "node": "v24.22.2",
+  "php": "8.4.27",
+  "laravel": "Laravel Framework 13.40.0",
+  "mysql": "mysql  Ver 8.4.13 for Linux on x86_64 (MySQL Community Server - GPL)",
+  "redis": "Redis server v=7.4.12 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=a3bb3c7b72c4210a",
+  "pnpm": "pnpm@12.15.0",
+  "mobile": {
+    "expo": "58.0.23",
+    "react-native": "0.88.1",
+    "react": "19.3.0",
+    "expo-secure-store": "58.0.2",
+    "expo-document-picker": "58.0.4",
+    "expo-file-system": "58.0.13"
+  },
+  "android": {
+    "api": 34,
+    "abi": "x86_64",
+    "signing": "local debug; emulator development build"
+  },
+  "ios": "not executed; user has no Mac or approved Apple/Expo signing account",
+  "ci": "configured; no hosted run claimed"
+}

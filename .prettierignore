@@ -1,0 +1,6 @@
+**/node_modules/**
+**/android/**
+**/ios/**
+**/dist/**
+**/.expo/**
+packages/contracts/src/openapi.ts

@@ -1,0 +1,66 @@
+{
+  "recorded_on": "2026-11-04",
+  "purpose": "Preserved original sources before M0 documentation edits",
+  "files": [
+    {
+      "path": "docs/requirements/MASTER_REQUIREMENTS.md",
+      "sha256": "160735552a7fafad34538e79dffe45a2a7eb8abace160c10a6e05f7ea265aad7"
+    },
+    {
+      "path": "docs/design/MASTER_DESIGN_BRIEF.md",
+      "sha256": "afe2525c44598cf659008abfd582a7fe38e778d316fb526c98808ddb82ec1cb8"
+    },
+    {
+      "path": "docs/design/SCREEN_INDEX.md",
+      "sha256": "c3fbcb678bf4c1f116aec347ffee645a4aa7286bf64fab29d73904eae777f1dc"
+    },
+    {
+      "path": "docs/planning/history/APPROVED_PLAN_2026-11-04.md",
+      "sha256": "c71adaaca65bfca7871fd30f53fcb88788c026988eea9b41e804e765688bb859"
+    },
+    {
+      "path": "docs/design/images/01-mobile-design-system.png",
+      "sha256": "0fc9329e4df872df94f6cc1a3087e4961e931678a5ecadc9ce430db11a18bb6f"
+    },
+    {
+      "path": "docs/design/images/02-access-and-onboarding.png",
+      "sha256": "813bef7483ab498ddeee83538c17ce2e83aa9469d79a4dd839bfd5ed7c419446"
+    },
+    {
+      "path": "docs/design/images/03-profile-and-settings.png",
+      "sha256": "225bea76061e1a1074ceb870c83c942acaac2b348ae99d8a314de9b56f931e64"
+    },
+    {
+      "path": "docs/design/images/04-social-and-discovery.png",
+      "sha256": "5cbd7c4c88920e1da3c71ba511efafc53f9e13cf1d8e01981bf22ebf2035fc7b"
+    },
+    {
+      "path": "docs/design/images/05-shopping-and-checkout.png",
+      "sha256": "ccb26c4b7d9e8b0a604ba69e50436522f4a96d74887f2f1e0e06fba930a77aa1"
+    },
+    {
+      "path": "docs/design/images/06-orders-reviews-and-rewards.png",
+      "sha256": "870914b43ea1ce1072988372301c922e9cadbb9c27154771fb214bd995bf4068"
+    },
+    {
+      "path": "docs/design/images/07-live-groups-and-creators.png",
+      "sha256": "f89f058e70188c292faeb4333092855f3ff9d98f24bafc25656b37812abe6013"
+    },
+    {
+      "path": "docs/design/images/08-messages-calls-and-ai.png",
+      "sha256": "17bbda3ae8e3d8435940a4f1294b73a52544f374b2b15544b4ea3351848cdc25"
+    },
+    {
+      "path": "docs/design/images/09-merchant-catalogue-and-content.png",
+      "sha256": "b358ee4f92a2ba70c6b0126ae85d1bfc713ced3a357e09810d9cd3f3f4f2c377"
+    },
+    {
+      "path": "docs/design/images/10-merchant-business-operations.png",
+      "sha256": "96058de18f03d6719ffd8d04390097a98b41ebcd1f151be93411caaac30016fc"
+    },
+    {
+      "path": "docs/design/images/11-smart-shopping-and-states.png",
+      "sha256": "393b829221f9de1142c4f2cd70b3fe7dd9f010345542b08ca1139ae5e7cd7fa0"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+packages:
+  - apps/*
+  - packages/*
+nodeLinker: hoisted
+strictPeerDependencies: false
+onlyBuiltDependencies:
+  - esbuild
+  - sharp

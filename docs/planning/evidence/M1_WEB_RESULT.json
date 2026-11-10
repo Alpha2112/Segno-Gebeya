@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05T17:34:15.033Z",
+  "runtime": "Chrome / Playwright",
+  "flows": [
+    "email registration and actual captured OTP",
+    "profile edit",
+    "private PNG upload",
+    "submit",
+    "CSRF denial",
+    "admin password + TOTP enrollment",
+    "one-time recovery presentation",
+    "request information and confirmed resubmission",
+    "confirmed approval",
+    "server-granted merchant switch",
+    "non-admin review denial",
+    "device revocation",
+    "Amharic/dark/narrow render"
+  ],
+  "secrets": "excluded"
+}

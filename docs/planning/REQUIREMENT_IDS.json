@@ -1,0 +1,8750 @@
+[
+  {
+    "id": "SG-1-001",
+    "section": "1",
+    "source_line": 18,
+    "text": "Customers discover products through photos, videos, reels, stories, live shopping sessions, creators, merchants, recommendations, and conversations. They can interact with merchants, ask questions, receive AI assistance, compare products, add products to their carts, make purchases, track deliveries, share recommendations, and earn rewards."
+  },
+  {
+    "id": "SG-1-002",
+    "section": "1",
+    "source_line": 20,
+    "text": "Merchants can operate their businesses through the mobile application and a dedicated web dashboard. They can create shoppable content, manage products and inventory, receive orders, communicate with customers, run promotional campaigns, collaborate with creators, and monitor business performance."
+  },
+  {
+    "id": "SG-1-003",
+    "section": "1",
+    "source_line": 22,
+    "text": "Artificial intelligence will be integrated throughout the platform, including AI shopping assistants, AI voice and telephone agents, product recommendations, visual product discovery, customer-support automation, merchant assistants, content tools, and intelligent analytics."
+  },
+  {
+    "id": "SG-1-004",
+    "section": "1",
+    "source_line": 24,
+    "text": "The platform should be designed as a scalable, secure, multilingual, multi-merchant commerce ecosystem that can expand into additional markets, payment providers, delivery networks, business models, and AI services."
+  },
+  {
+    "id": "SG-2.1-001",
+    "section": "2.1",
+    "source_line": 32,
+    "text": "Create an integrated social-commerce ecosystem where people can discover, experience, discuss, recommend, and purchase products without needing to move between separate social media, shopping, communication, and customer-support applications."
+  },
+  {
+    "id": "SG-2.2-001",
+    "section": "2.2",
+    "source_line": 36,
+    "text": "Make online shopping more interactive, visual, personal, and convenient."
+  },
+  {
+    "id": "SG-2.2-002",
+    "section": "2.2",
+    "source_line": 37,
+    "text": "Help merchants grow through social content and direct customer relationships."
+  },
+  {
+    "id": "SG-2.2-003",
+    "section": "2.2",
+    "source_line": 38,
+    "text": "Give creators and affiliates opportunities to earn commissions."
+  },
+  {
+    "id": "SG-2.2-004",
+    "section": "2.2",
+    "source_line": 39,
+    "text": "Make product discovery intelligent and personalized."
+  },
+  {
+    "id": "SG-2.2-005",
+    "section": "2.2",
+    "source_line": 40,
+    "text": "Provide fast, accurate, multilingual customer assistance through AI and human support."
+  },
+  {
+    "id": "SG-2.2-006",
+    "section": "2.2",
+    "source_line": 41,
+    "text": "Reward meaningful customer engagement and loyalty."
+  },
+  {
+    "id": "SG-2.2-007",
+    "section": "2.2",
+    "source_line": 42,
+    "text": "Build a trustworthy marketplace with secure transactions and reliable fulfilment."
+  },
+  {
+    "id": "SG-2.3-001",
+    "section": "2.3",
+    "source_line": 46,
+    "text": "Combine social media engagement and e-commerce transactions."
+  },
+  {
+    "id": "SG-2.3-002",
+    "section": "2.3",
+    "source_line": 47,
+    "text": "Support customers, merchants, creators, affiliates, and administrators."
+  },
+  {
+    "id": "SG-2.3-003",
+    "section": "2.3",
+    "source_line": 48,
+    "text": "Make every eligible piece of product content shoppable."
+  },
+  {
+    "id": "SG-2.3-004",
+    "section": "2.3",
+    "source_line": 49,
+    "text": "Support multiple products tagged within one photo or video."
+  },
+  {
+    "id": "SG-2.3-005",
+    "section": "2.3",
+    "source_line": 50,
+    "text": "Enable direct communication between customers and merchants."
+  },
+  {
+    "id": "SG-2.3-006",
+    "section": "2.3",
+    "source_line": 51,
+    "text": "Introduce AI agents that can answer questions and perform authorized commerce tasks."
+  },
+  {
+    "id": "SG-2.3-007",
+    "section": "2.3",
+    "source_line": 52,
+    "text": "Support live shopping, creator partnerships, promotions, and group buying."
+  },
+  {
+    "id": "SG-2.3-008",
+    "section": "2.3",
+    "source_line": 53,
+    "text": "Establish reliable order, payment, refund, and delivery management."
+  },
+  {
+    "id": "SG-2.3-009",
+    "section": "2.3",
+    "source_line": 54,
+    "text": "Provide merchants with useful business-management and analytics tools."
+  },
+  {
+    "id": "SG-2.3-010",
+    "section": "2.3",
+    "source_line": 55,
+    "text": "Build a foundation for international expansion."
+  },
+  {
+    "id": "SG-3.1-001",
+    "section": "3.1",
+    "source_line": 63,
+    "text": "One mobile application will support both customer and merchant experiences."
+  },
+  {
+    "id": "SG-3.1-002",
+    "section": "3.1",
+    "source_line": 69,
+    "text": "Discover products and merchants."
+  },
+  {
+    "id": "SG-3.1-003",
+    "section": "3.1",
+    "source_line": 70,
+    "text": "Follow merchants and creators."
+  },
+  {
+    "id": "SG-3.1-004",
+    "section": "3.1",
+    "source_line": 71,
+    "text": "Browse social shopping feeds."
+  },
+  {
+    "id": "SG-3.1-005",
+    "section": "3.1",
+    "source_line": 72,
+    "text": "Watch reels and product videos."
+  },
+  {
+    "id": "SG-3.1-006",
+    "section": "3.1",
+    "source_line": 73,
+    "text": "View stories and promotional offers."
+  },
+  {
+    "id": "SG-3.1-007",
+    "section": "3.1",
+    "source_line": 74,
+    "text": "Join live shopping sessions."
+  },
+  {
+    "id": "SG-3.1-008",
+    "section": "3.1",
+    "source_line": 75,
+    "text": "Search and compare products."
+  },
+  {
+    "id": "SG-3.1-009",
+    "section": "3.1",
+    "source_line": 76,
+    "text": "Chat or call merchants."
+  },
+  {
+    "id": "SG-3.1-010",
+    "section": "3.1",
+    "source_line": 77,
+    "text": "Use AI shopping assistance."
+  },
+  {
+    "id": "SG-3.1-011",
+    "section": "3.1",
+    "source_line": 78,
+    "text": "Add products to wishlists and carts."
+  },
+  {
+    "id": "SG-3.1-012",
+    "section": "3.1",
+    "source_line": 79,
+    "text": "Purchase products and make payments."
+  },
+  {
+    "id": "SG-3.1-013",
+    "section": "3.1",
+    "source_line": 80,
+    "text": "Track orders and deliveries."
+  },
+  {
+    "id": "SG-3.1-014",
+    "section": "3.1",
+    "source_line": 81,
+    "text": "Submit product reviews."
+  },
+  {
+    "id": "SG-3.1-015",
+    "section": "3.1",
+    "source_line": 82,
+    "text": "Earn and redeem rewards."
+  },
+  {
+    "id": "SG-3.1-016",
+    "section": "3.1",
+    "source_line": 83,
+    "text": "Refer friends and participate in campaigns."
+  },
+  {
+    "id": "SG-3.1-017",
+    "section": "3.1",
+    "source_line": 87,
+    "text": "Approved merchants can switch into merchant mode without creating a second personal account."
+  },
+  {
+    "id": "SG-3.1-018",
+    "section": "3.1",
+    "source_line": 91,
+    "text": "Create and manage a store."
+  },
+  {
+    "id": "SG-3.1-019",
+    "section": "3.1",
+    "source_line": 92,
+    "text": "Add and manage products."
+  },
+  {
+    "id": "SG-3.1-020",
+    "section": "3.1",
+    "source_line": 93,
+    "text": "Upload product photos and videos."
+  },
+  {
+    "id": "SG-3.1-021",
+    "section": "3.1",
+    "source_line": 94,
+    "text": "Publish product posts, reels, and stories."
+  },
+  {
+    "id": "SG-3.1-022",
+    "section": "3.1",
+    "source_line": 95,
+    "text": "Tag products in content."
+  },
+  {
+    "id": "SG-3.1-023",
+    "section": "3.1",
+    "source_line": 96,
+    "text": "Manage inventory and product variants."
+  },
+  {
+    "id": "SG-3.1-024",
+    "section": "3.1",
+    "source_line": 97,
+    "text": "Receive and process orders."
+  },
+  {
+    "id": "SG-3.1-025",
+    "section": "3.1",
+    "source_line": 98,
+    "text": "Communicate with customers."
+  },
+  {
+    "id": "SG-3.1-026",
+    "section": "3.1",
+    "source_line": 99,
+    "text": "Run promotions and discounts."
+  },
+  {
+    "id": "SG-3.1-027",
+    "section": "3.1",
+    "source_line": 100,
+    "text": "Collaborate with creators and affiliates."
+  },
+  {
+    "id": "SG-3.1-028",
+    "section": "3.1",
+    "source_line": 101,
+    "text": "Review sales and analytics."
+  },
+  {
+    "id": "SG-3.1-029",
+    "section": "3.1",
+    "source_line": 102,
+    "text": "Manage store information and policies."
+  },
+  {
+    "id": "SG-3.1-030",
+    "section": "3.1",
+    "source_line": 104,
+    "text": "Customer and merchant interfaces must have separate navigation and workflows. Merchant functionality should not overwhelm the customer shopping experience."
+  },
+  {
+    "id": "SG-3.2-001",
+    "section": "3.2",
+    "source_line": 108,
+    "text": "A dedicated React-based web dashboard will provide advanced business-management capabilities."
+  },
+  {
+    "id": "SG-3.2-002",
+    "section": "3.2",
+    "source_line": 110,
+    "text": "It will support bulk product management, inventory, order processing, content management, campaigns, customers, analytics, staff permissions, finance, and store settings."
+  },
+  {
+    "id": "SG-3.5-001",
+    "section": "3.5",
+    "source_line": 147,
+    "text": "One user identity can have multiple roles:"
+  },
+  {
+    "id": "SG-3.5-002",
+    "section": "3.5",
+    "source_line": 149,
+    "text": "Customer"
+  },
+  {
+    "id": "SG-3.5-003",
+    "section": "3.5",
+    "source_line": 150,
+    "text": "Merchant owner"
+  },
+  {
+    "id": "SG-3.5-004",
+    "section": "3.5",
+    "source_line": 151,
+    "text": "Merchant staff"
+  },
+  {
+    "id": "SG-3.5-005",
+    "section": "3.5",
+    "source_line": 152,
+    "text": "Creator or affiliate"
+  },
+  {
+    "id": "SG-3.5-006",
+    "section": "3.5",
+    "source_line": 153,
+    "text": "Customer support agent"
+  },
+  {
+    "id": "SG-3.5-007",
+    "section": "3.5",
+    "source_line": 154,
+    "text": "Moderator"
+  },
+  {
+    "id": "SG-3.5-008",
+    "section": "3.5",
+    "source_line": 155,
+    "text": "Finance operator"
+  },
+  {
+    "id": "SG-3.5-009",
+    "section": "3.5",
+    "source_line": 156,
+    "text": "Administrator"
+  },
+  {
+    "id": "SG-3.5-010",
+    "section": "3.5",
+    "source_line": 157,
+    "text": "Super administrator"
+  },
+  {
+    "id": "SG-3.5-011",
+    "section": "3.5",
+    "source_line": 159,
+    "text": "Roles and permissions must be enforced by the backend, not merely hidden or displayed by the frontend."
+  },
+  {
+    "id": "SG-3.5-012",
+    "section": "3.5",
+    "source_line": 161,
+    "text": "A merchant must not automatically receive administrative privileges."
+  },
+  {
+    "id": "SG-4.5-001",
+    "section": "4.5",
+    "source_line": 183,
+    "text": "Authorized personnel responsible for marketplace operations, compliance, payments, moderation, merchant approval, customer support, and system management."
+  },
+  {
+    "id": "SG-5.1-001",
+    "section": "5.1",
+    "source_line": 189,
+    "text": "Email registration."
+  },
+  {
+    "id": "SG-5.1-002",
+    "section": "5.1",
+    "source_line": 190,
+    "text": "Phone-number registration."
+  },
+  {
+    "id": "SG-5.1-003",
+    "section": "5.1",
+    "source_line": 191,
+    "text": "OTP verification."
+  },
+  {
+    "id": "SG-5.1-004",
+    "section": "5.1",
+    "source_line": 192,
+    "text": "Secure login and logout."
+  },
+  {
+    "id": "SG-5.1-005",
+    "section": "5.1",
+    "source_line": 193,
+    "text": "Password reset."
+  },
+  {
+    "id": "SG-5.1-006",
+    "section": "5.1",
+    "source_line": 194,
+    "text": "Optional social login."
+  },
+  {
+    "id": "SG-5.1-007",
+    "section": "5.1",
+    "source_line": 195,
+    "text": "Profile creation."
+  },
+  {
+    "id": "SG-5.1-008",
+    "section": "5.1",
+    "source_line": 196,
+    "text": "Profile photo and personal information."
+  },
+  {
+    "id": "SG-5.1-009",
+    "section": "5.1",
+    "source_line": 197,
+    "text": "Language and country preferences."
+  },
+  {
+    "id": "SG-5.1-010",
+    "section": "5.1",
+    "source_line": 198,
+    "text": "Location and delivery-address management."
+  },
+  {
+    "id": "SG-5.1-011",
+    "section": "5.1",
+    "source_line": 199,
+    "text": "Account security settings."
+  },
+  {
+    "id": "SG-5.1-012",
+    "section": "5.1",
+    "source_line": 200,
+    "text": "Session and device management."
+  },
+  {
+    "id": "SG-5.1-013",
+    "section": "5.1",
+    "source_line": 201,
+    "text": "Account deactivation and deletion."
+  },
+  {
+    "id": "SG-5.1-014",
+    "section": "5.1",
+    "source_line": 202,
+    "text": "Merchant application and verification workflow."
+  },
+  {
+    "id": "SG-5.2-001",
+    "section": "5.2",
+    "source_line": 208,
+    "text": "It should combine social content with product information and shopping actions."
+  },
+  {
+    "id": "SG-5.2-002",
+    "section": "5.2",
+    "source_line": 212,
+    "text": "Merchant product posts."
+  },
+  {
+    "id": "SG-5.2-003",
+    "section": "5.2",
+    "source_line": 213,
+    "text": "Creator recommendations."
+  },
+  {
+    "id": "SG-5.2-004",
+    "section": "5.2",
+    "source_line": 214,
+    "text": "Product demonstration videos."
+  },
+  {
+    "id": "SG-5.2-005",
+    "section": "5.2",
+    "source_line": 215,
+    "text": "Customer-generated product content."
+  },
+  {
+    "id": "SG-5.2-006",
+    "section": "5.2",
+    "source_line": 216,
+    "text": "Promotional posts."
+  },
+  {
+    "id": "SG-5.2-007",
+    "section": "5.2",
+    "source_line": 217,
+    "text": "Trending products."
+  },
+  {
+    "id": "SG-5.2-008",
+    "section": "5.2",
+    "source_line": 218,
+    "text": "New arrivals."
+  },
+  {
+    "id": "SG-5.2-009",
+    "section": "5.2",
+    "source_line": 219,
+    "text": "Personalized recommendations."
+  },
+  {
+    "id": "SG-5.2-010",
+    "section": "5.2",
+    "source_line": 220,
+    "text": "Sponsored content."
+  },
+  {
+    "id": "SG-5.2-011",
+    "section": "5.2",
+    "source_line": 221,
+    "text": "Seasonal campaigns."
+  },
+  {
+    "id": "SG-5.2-012",
+    "section": "5.2",
+    "source_line": 225,
+    "text": "Merchant name and profile."
+  },
+  {
+    "id": "SG-5.2-013",
+    "section": "5.2",
+    "source_line": 226,
+    "text": "Merchant verification status."
+  },
+  {
+    "id": "SG-5.2-014",
+    "section": "5.2",
+    "source_line": 227,
+    "text": "Product image or video."
+  },
+  {
+    "id": "SG-5.2-015",
+    "section": "5.2",
+    "source_line": 228,
+    "text": "Product title and description."
+  },
+  {
+    "id": "SG-5.2-016",
+    "section": "5.2",
+    "source_line": 229,
+    "text": "Price and discounted price."
+  },
+  {
+    "id": "SG-5.2-017",
+    "section": "5.2",
+    "source_line": 230,
+    "text": "Product availability."
+  },
+  {
+    "id": "SG-5.2-018",
+    "section": "5.2",
+    "source_line": 231,
+    "text": "Product tags."
+  },
+  {
+    "id": "SG-5.2-019",
+    "section": "5.2",
+    "source_line": 232,
+    "text": "Like and comment."
+  },
+  {
+    "id": "SG-5.2-020",
+    "section": "5.2",
+    "source_line": 233,
+    "text": "Share and repost."
+  },
+  {
+    "id": "SG-5.2-021",
+    "section": "5.2",
+    "source_line": 234,
+    "text": "Save to wishlist or collection."
+  },
+  {
+    "id": "SG-5.2-022",
+    "section": "5.2",
+    "source_line": 235,
+    "text": "Follow merchant."
+  },
+  {
+    "id": "SG-5.2-023",
+    "section": "5.2",
+    "source_line": 236,
+    "text": "Message merchant."
+  },
+  {
+    "id": "SG-5.2-024",
+    "section": "5.2",
+    "source_line": 237,
+    "text": "Add to cart."
+  },
+  {
+    "id": "SG-5.2-025",
+    "section": "5.2",
+    "source_line": 238,
+    "text": "Buy now."
+  },
+  {
+    "id": "SG-5.2-026",
+    "section": "5.2",
+    "source_line": 239,
+    "text": "View product details."
+  },
+  {
+    "id": "SG-5.2-027",
+    "section": "5.2",
+    "source_line": 241,
+    "text": "A single post can contain several tagged products. Customers can select an individual product tag to view its information and purchase options."
+  },
+  {
+    "id": "SG-5.2-028",
+    "section": "5.2",
+    "source_line": 243,
+    "text": "The feed should support personalized ranking, user preferences, content freshness, merchant quality, product availability, and meaningful engagement."
+  },
+  {
+    "id": "SG-5.3-001",
+    "section": "5.3",
+    "source_line": 247,
+    "text": "A dedicated discovery experience should include:"
+  },
+  {
+    "id": "SG-5.3-002",
+    "section": "5.3",
+    "source_line": 249,
+    "text": "Trending products."
+  },
+  {
+    "id": "SG-5.3-003",
+    "section": "5.3",
+    "source_line": 250,
+    "text": "Trending merchants."
+  },
+  {
+    "id": "SG-5.3-004",
+    "section": "5.3",
+    "source_line": 251,
+    "text": "Popular creators."
+  },
+  {
+    "id": "SG-5.3-005",
+    "section": "5.3",
+    "source_line": 252,
+    "text": "Product categories."
+  },
+  {
+    "id": "SG-5.3-006",
+    "section": "5.3",
+    "source_line": 253,
+    "text": "Recommended products."
+  },
+  {
+    "id": "SG-5.3-007",
+    "section": "5.3",
+    "source_line": 254,
+    "text": "New stores."
+  },
+  {
+    "id": "SG-5.3-008",
+    "section": "5.3",
+    "source_line": 255,
+    "text": "Seasonal collections."
+  },
+  {
+    "id": "SG-5.3-009",
+    "section": "5.3",
+    "source_line": 256,
+    "text": "Hashtags and product topics."
+  },
+  {
+    "id": "SG-5.3-010",
+    "section": "5.3",
+    "source_line": 257,
+    "text": "Location-based discovery where appropriate."
+  },
+  {
+    "id": "SG-5.3-011",
+    "section": "5.3",
+    "source_line": 258,
+    "text": "Recently viewed products."
+  },
+  {
+    "id": "SG-5.3-012",
+    "section": "5.3",
+    "source_line": 259,
+    "text": "Personalized recommendations."
+  },
+  {
+    "id": "SG-5.3-013",
+    "section": "5.3",
+    "source_line": 260,
+    "text": "Search suggestions."
+  },
+  {
+    "id": "SG-5.3-014",
+    "section": "5.3",
+    "source_line": 261,
+    "text": "Sponsored discovery placements."
+  },
+  {
+    "id": "SG-5.3-015",
+    "section": "5.3",
+    "source_line": 265,
+    "text": "Customers should eventually be able to upload a photo or select an object in an image to find visually similar products."
+  },
+  {
+    "id": "SG-5.3-016",
+    "section": "5.3",
+    "source_line": 269,
+    "text": "Image-based product search."
+  },
+  {
+    "id": "SG-5.3-017",
+    "section": "5.3",
+    "source_line": 270,
+    "text": "Similar product recommendations."
+  },
+  {
+    "id": "SG-5.3-018",
+    "section": "5.3",
+    "source_line": 271,
+    "text": "Search by color, style, category, or object."
+  },
+  {
+    "id": "SG-5.3-019",
+    "section": "5.3",
+    "source_line": 272,
+    "text": "Product matching from uploaded images."
+  },
+  {
+    "id": "SG-5.3-020",
+    "section": "5.3",
+    "source_line": 273,
+    "text": "Outfit and room inspiration."
+  },
+  {
+    "id": "SG-5.3-021",
+    "section": "5.3",
+    "source_line": 274,
+    "text": "Visual product comparisons."
+  },
+  {
+    "id": "SG-5.4-001",
+    "section": "5.4",
+    "source_line": 282,
+    "text": "Swipe to move between videos."
+  },
+  {
+    "id": "SG-5.4-002",
+    "section": "5.4",
+    "source_line": 283,
+    "text": "Like, comment, share, repost, and save."
+  },
+  {
+    "id": "SG-5.4-003",
+    "section": "5.4",
+    "source_line": 284,
+    "text": "Follow merchants and creators."
+  },
+  {
+    "id": "SG-5.4-004",
+    "section": "5.4",
+    "source_line": 285,
+    "text": "Product tags embedded in videos."
+  },
+  {
+    "id": "SG-5.4-005",
+    "section": "5.4",
+    "source_line": 286,
+    "text": "Multiple product tags per video."
+  },
+  {
+    "id": "SG-5.4-006",
+    "section": "5.4",
+    "source_line": 287,
+    "text": "Product information overlays."
+  },
+  {
+    "id": "SG-5.4-007",
+    "section": "5.4",
+    "source_line": 288,
+    "text": "Add-to-cart and buy-now actions."
+  },
+  {
+    "id": "SG-5.4-008",
+    "section": "5.4",
+    "source_line": 289,
+    "text": "Merchant profile access."
+  },
+  {
+    "id": "SG-5.4-009",
+    "section": "5.4",
+    "source_line": 290,
+    "text": "Related product recommendations."
+  },
+  {
+    "id": "SG-5.4-010",
+    "section": "5.4",
+    "source_line": 291,
+    "text": "Video captions and subtitles."
+  },
+  {
+    "id": "SG-5.4-011",
+    "section": "5.4",
+    "source_line": 292,
+    "text": "Audio and music options with appropriate usage rights."
+  },
+  {
+    "id": "SG-5.4-012",
+    "section": "5.4",
+    "source_line": 293,
+    "text": "Video views and engagement analytics."
+  },
+  {
+    "id": "SG-5.4-013",
+    "section": "5.4",
+    "source_line": 294,
+    "text": "Content reporting and moderation."
+  },
+  {
+    "id": "SG-5.4-014",
+    "section": "5.4",
+    "source_line": 295,
+    "text": "Personalized video recommendations."
+  },
+  {
+    "id": "SG-5.5-001",
+    "section": "5.5",
+    "source_line": 305,
+    "text": "Photo stories."
+  },
+  {
+    "id": "SG-5.5-002",
+    "section": "5.5",
+    "source_line": 306,
+    "text": "Video stories."
+  },
+  {
+    "id": "SG-5.5-003",
+    "section": "5.5",
+    "source_line": 307,
+    "text": "Product tags."
+  },
+  {
+    "id": "SG-5.5-004",
+    "section": "5.5",
+    "source_line": 308,
+    "text": "Promotional stories."
+  },
+  {
+    "id": "SG-5.5-005",
+    "section": "5.5",
+    "source_line": 309,
+    "text": "Limited-time offers."
+  },
+  {
+    "id": "SG-5.5-006",
+    "section": "5.5",
+    "source_line": 310,
+    "text": "Countdown stickers."
+  },
+  {
+    "id": "SG-5.5-007",
+    "section": "5.5",
+    "source_line": 311,
+    "text": "Polls and questions."
+  },
+  {
+    "id": "SG-5.5-008",
+    "section": "5.5",
+    "source_line": 312,
+    "text": "Reactions and replies."
+  },
+  {
+    "id": "SG-5.5-009",
+    "section": "5.5",
+    "source_line": 313,
+    "text": "Direct product links."
+  },
+  {
+    "id": "SG-5.5-010",
+    "section": "5.5",
+    "source_line": 314,
+    "text": "Story highlights on merchant profiles."
+  },
+  {
+    "id": "SG-5.5-011",
+    "section": "5.5",
+    "source_line": 315,
+    "text": "Story analytics for merchants."
+  },
+  {
+    "id": "SG-5.5-012",
+    "section": "5.5",
+    "source_line": 317,
+    "text": "Stories should support configurable expiration and archiving policies."
+  },
+  {
+    "id": "SG-5.6-001",
+    "section": "5.6",
+    "source_line": 321,
+    "text": "Each merchant should have a public storefront."
+  },
+  {
+    "id": "SG-5.6-002",
+    "section": "5.6",
+    "source_line": 325,
+    "text": "Store name and logo."
+  },
+  {
+    "id": "SG-5.6-003",
+    "section": "5.6",
+    "source_line": 326,
+    "text": "Cover image."
+  },
+  {
+    "id": "SG-5.6-004",
+    "section": "5.6",
+    "source_line": 327,
+    "text": "Store description."
+  },
+  {
+    "id": "SG-5.6-005",
+    "section": "5.6",
+    "source_line": 328,
+    "text": "Verification badge."
+  },
+  {
+    "id": "SG-5.6-006",
+    "section": "5.6",
+    "source_line": 329,
+    "text": "Contact information."
+  },
+  {
+    "id": "SG-5.6-007",
+    "section": "5.6",
+    "source_line": 330,
+    "text": "Store location, where applicable."
+  },
+  {
+    "id": "SG-5.6-008",
+    "section": "5.6",
+    "source_line": 331,
+    "text": "Business hours."
+  },
+  {
+    "id": "SG-5.6-009",
+    "section": "5.6",
+    "source_line": 332,
+    "text": "Shipping information."
+  },
+  {
+    "id": "SG-5.6-010",
+    "section": "5.6",
+    "source_line": 333,
+    "text": "Return and refund policies."
+  },
+  {
+    "id": "SG-5.6-011",
+    "section": "5.6",
+    "source_line": 334,
+    "text": "Customer ratings."
+  },
+  {
+    "id": "SG-5.6-012",
+    "section": "5.6",
+    "source_line": 335,
+    "text": "Product catalogue."
+  },
+  {
+    "id": "SG-5.6-013",
+    "section": "5.6",
+    "source_line": 336,
+    "text": "Posts, reels, and stories."
+  },
+  {
+    "id": "SG-5.6-014",
+    "section": "5.6",
+    "source_line": 337,
+    "text": "Product collections."
+  },
+  {
+    "id": "SG-5.6-015",
+    "section": "5.6",
+    "source_line": 338,
+    "text": "Promotional offers."
+  },
+  {
+    "id": "SG-5.6-016",
+    "section": "5.6",
+    "source_line": 339,
+    "text": "Featured products."
+  },
+  {
+    "id": "SG-5.6-017",
+    "section": "5.6",
+    "source_line": 340,
+    "text": "Merchant response information."
+  },
+  {
+    "id": "SG-5.6-018",
+    "section": "5.6",
+    "source_line": 344,
+    "text": "Follow merchant."
+  },
+  {
+    "id": "SG-5.6-019",
+    "section": "5.6",
+    "source_line": 345,
+    "text": "Unfollow merchant."
+  },
+  {
+    "id": "SG-5.6-020",
+    "section": "5.6",
+    "source_line": 346,
+    "text": "View products."
+  },
+  {
+    "id": "SG-5.6-021",
+    "section": "5.6",
+    "source_line": 347,
+    "text": "Message merchant."
+  },
+  {
+    "id": "SG-5.6-022",
+    "section": "5.6",
+    "source_line": 348,
+    "text": "Call merchant."
+  },
+  {
+    "id": "SG-5.6-023",
+    "section": "5.6",
+    "source_line": 349,
+    "text": "View reviews."
+  },
+  {
+    "id": "SG-5.6-024",
+    "section": "5.6",
+    "source_line": 350,
+    "text": "Share store."
+  },
+  {
+    "id": "SG-5.6-025",
+    "section": "5.6",
+    "source_line": 351,
+    "text": "Save store."
+  },
+  {
+    "id": "SG-5.6-026",
+    "section": "5.6",
+    "source_line": 352,
+    "text": "Browse product collections."
+  },
+  {
+    "id": "SG-5.7-001",
+    "section": "5.7",
+    "source_line": 358,
+    "text": "Profile photo."
+  },
+  {
+    "id": "SG-5.7-002",
+    "section": "5.7",
+    "source_line": 359,
+    "text": "Username and display name."
+  },
+  {
+    "id": "SG-5.7-003",
+    "section": "5.7",
+    "source_line": 360,
+    "text": "Biography."
+  },
+  {
+    "id": "SG-5.7-004",
+    "section": "5.7",
+    "source_line": 361,
+    "text": "Public posts or shared content."
+  },
+  {
+    "id": "SG-5.7-005",
+    "section": "5.7",
+    "source_line": 362,
+    "text": "Followed merchants and creators."
+  },
+  {
+    "id": "SG-5.7-006",
+    "section": "5.7",
+    "source_line": 363,
+    "text": "Wishlist and saved collections."
+  },
+  {
+    "id": "SG-5.7-007",
+    "section": "5.7",
+    "source_line": 364,
+    "text": "Customer reviews."
+  },
+  {
+    "id": "SG-5.7-008",
+    "section": "5.7",
+    "source_line": 365,
+    "text": "Reposted content."
+  },
+  {
+    "id": "SG-5.7-009",
+    "section": "5.7",
+    "source_line": 366,
+    "text": "Reward level and points, subject to privacy settings."
+  },
+  {
+    "id": "SG-5.7-010",
+    "section": "5.7",
+    "source_line": 367,
+    "text": "Referral information."
+  },
+  {
+    "id": "SG-5.7-011",
+    "section": "5.7",
+    "source_line": 369,
+    "text": "Order history, addresses, payment information, and other sensitive data must remain private by default."
+  },
+  {
+    "id": "SG-5.8-001",
+    "section": "5.8",
+    "source_line": 375,
+    "text": "Likes."
+  },
+  {
+    "id": "SG-5.8-002",
+    "section": "5.8",
+    "source_line": 376,
+    "text": "Comments."
+  },
+  {
+    "id": "SG-5.8-003",
+    "section": "5.8",
+    "source_line": 377,
+    "text": "Replies."
+  },
+  {
+    "id": "SG-5.8-004",
+    "section": "5.8",
+    "source_line": 378,
+    "text": "Mentions."
+  },
+  {
+    "id": "SG-5.8-005",
+    "section": "5.8",
+    "source_line": 379,
+    "text": "Hashtags."
+  },
+  {
+    "id": "SG-5.8-006",
+    "section": "5.8",
+    "source_line": 380,
+    "text": "Reposts."
+  },
+  {
+    "id": "SG-5.8-007",
+    "section": "5.8",
+    "source_line": 381,
+    "text": "Shares."
+  },
+  {
+    "id": "SG-5.8-008",
+    "section": "5.8",
+    "source_line": 382,
+    "text": "Saves."
+  },
+  {
+    "id": "SG-5.8-009",
+    "section": "5.8",
+    "source_line": 383,
+    "text": "Following and unfollowing."
+  },
+  {
+    "id": "SG-5.8-010",
+    "section": "5.8",
+    "source_line": 384,
+    "text": "Product recommendations."
+  },
+  {
+    "id": "SG-5.8-011",
+    "section": "5.8",
+    "source_line": 385,
+    "text": "Notifications."
+  },
+  {
+    "id": "SG-5.8-012",
+    "section": "5.8",
+    "source_line": 386,
+    "text": "Content reporting."
+  },
+  {
+    "id": "SG-5.8-013",
+    "section": "5.8",
+    "source_line": 387,
+    "text": "Blocking and restricting accounts."
+  },
+  {
+    "id": "SG-5.8-014",
+    "section": "5.8",
+    "source_line": 389,
+    "text": "Social comments and likes must remain separate from verified-purchase product reviews."
+  },
+  {
+    "id": "SG-5.9-001",
+    "section": "5.9",
+    "source_line": 393,
+    "text": "A built-in communication system should support:"
+  },
+  {
+    "id": "SG-5.9-002",
+    "section": "5.9",
+    "source_line": 395,
+    "text": "One-to-one messaging."
+  },
+  {
+    "id": "SG-5.9-003",
+    "section": "5.9",
+    "source_line": 396,
+    "text": "Merchant and customer conversations."
+  },
+  {
+    "id": "SG-5.9-004",
+    "section": "5.9",
+    "source_line": 397,
+    "text": "Text messages."
+  },
+  {
+    "id": "SG-5.9-005",
+    "section": "5.9",
+    "source_line": 398,
+    "text": "Images."
+  },
+  {
+    "id": "SG-5.9-006",
+    "section": "5.9",
+    "source_line": 399,
+    "text": "Videos."
+  },
+  {
+    "id": "SG-5.9-007",
+    "section": "5.9",
+    "source_line": 400,
+    "text": "Voice notes."
+  },
+  {
+    "id": "SG-5.9-008",
+    "section": "5.9",
+    "source_line": 401,
+    "text": "Product cards."
+  },
+  {
+    "id": "SG-5.9-009",
+    "section": "5.9",
+    "source_line": 402,
+    "text": "Product links."
+  },
+  {
+    "id": "SG-5.9-010",
+    "section": "5.9",
+    "source_line": 403,
+    "text": "Order information cards."
+  },
+  {
+    "id": "SG-5.9-011",
+    "section": "5.9",
+    "source_line": 404,
+    "text": "Delivery updates."
+  },
+  {
+    "id": "SG-5.9-012",
+    "section": "5.9",
+    "source_line": 405,
+    "text": "Message reactions."
+  },
+  {
+    "id": "SG-5.9-013",
+    "section": "5.9",
+    "source_line": 406,
+    "text": "Read receipts."
+  },
+  {
+    "id": "SG-5.9-014",
+    "section": "5.9",
+    "source_line": 407,
+    "text": "Typing indicators."
+  },
+  {
+    "id": "SG-5.9-015",
+    "section": "5.9",
+    "source_line": 408,
+    "text": "Online status with privacy controls."
+  },
+  {
+    "id": "SG-5.9-016",
+    "section": "5.9",
+    "source_line": 409,
+    "text": "Conversation search."
+  },
+  {
+    "id": "SG-5.9-017",
+    "section": "5.9",
+    "source_line": 410,
+    "text": "Message reporting."
+  },
+  {
+    "id": "SG-5.9-018",
+    "section": "5.9",
+    "source_line": 411,
+    "text": "Blocking and restrictions."
+  },
+  {
+    "id": "SG-5.9-019",
+    "section": "5.9",
+    "source_line": 412,
+    "text": "Push notifications."
+  },
+  {
+    "id": "SG-5.9-020",
+    "section": "5.9",
+    "source_line": 416,
+    "text": "Customers should be able to call merchants through the platform."
+  },
+  {
+    "id": "SG-5.9-021",
+    "section": "5.9",
+    "source_line": 420,
+    "text": "Voice calls."
+  },
+  {
+    "id": "SG-5.9-022",
+    "section": "5.9",
+    "source_line": 421,
+    "text": "Video calls."
+  },
+  {
+    "id": "SG-5.9-023",
+    "section": "5.9",
+    "source_line": 422,
+    "text": "Incoming call notifications."
+  },
+  {
+    "id": "SG-5.9-024",
+    "section": "5.9",
+    "source_line": 423,
+    "text": "Missed call notifications."
+  },
+  {
+    "id": "SG-5.9-025",
+    "section": "5.9",
+    "source_line": 424,
+    "text": "Call history."
+  },
+  {
+    "id": "SG-5.9-026",
+    "section": "5.9",
+    "source_line": 425,
+    "text": "Call availability settings."
+  },
+  {
+    "id": "SG-5.9-027",
+    "section": "5.9",
+    "source_line": 426,
+    "text": "Merchant working hours."
+  },
+  {
+    "id": "SG-5.9-028",
+    "section": "5.9",
+    "source_line": 427,
+    "text": "Call permission controls."
+  },
+  {
+    "id": "SG-5.9-029",
+    "section": "5.9",
+    "source_line": 428,
+    "text": "Optional call scheduling."
+  },
+  {
+    "id": "SG-5.9-030",
+    "section": "5.9",
+    "source_line": 429,
+    "text": "Human support escalation."
+  },
+  {
+    "id": "SG-5.9-031",
+    "section": "5.9",
+    "source_line": 431,
+    "text": "WebRTC or a suitable managed real-time communications provider should handle media transmission. Laravel should manage authentication, authorization, signaling, call records, and business rules."
+  },
+  {
+    "id": "SG-5.10-001",
+    "section": "5.10",
+    "source_line": 435,
+    "text": "A dedicated shopping section should provide a conventional e-commerce browsing experience."
+  },
+  {
+    "id": "SG-5.10-002",
+    "section": "5.10",
+    "source_line": 439,
+    "text": "Categories and subcategories."
+  },
+  {
+    "id": "SG-5.10-003",
+    "section": "5.10",
+    "source_line": 440,
+    "text": "Product collections."
+  },
+  {
+    "id": "SG-5.10-004",
+    "section": "5.10",
+    "source_line": 441,
+    "text": "Search."
+  },
+  {
+    "id": "SG-5.10-005",
+    "section": "5.10",
+    "source_line": 442,
+    "text": "Sorting and filtering."
+  },
+  {
+    "id": "SG-5.10-006",
+    "section": "5.10",
+    "source_line": 443,
+    "text": "Price ranges."
+  },
+  {
+    "id": "SG-5.10-007",
+    "section": "5.10",
+    "source_line": 444,
+    "text": "Merchant filters."
+  },
+  {
+    "id": "SG-5.10-008",
+    "section": "5.10",
+    "source_line": 445,
+    "text": "Ratings and reviews."
+  },
+  {
+    "id": "SG-5.10-009",
+    "section": "5.10",
+    "source_line": 446,
+    "text": "Availability filters."
+  },
+  {
+    "id": "SG-5.10-010",
+    "section": "5.10",
+    "source_line": 447,
+    "text": "Discount filters."
+  },
+  {
+    "id": "SG-5.10-011",
+    "section": "5.10",
+    "source_line": 448,
+    "text": "New arrivals."
+  },
+  {
+    "id": "SG-5.10-012",
+    "section": "5.10",
+    "source_line": 449,
+    "text": "Best sellers."
+  },
+  {
+    "id": "SG-5.10-013",
+    "section": "5.10",
+    "source_line": 450,
+    "text": "Trending products."
+  },
+  {
+    "id": "SG-5.10-014",
+    "section": "5.10",
+    "source_line": 451,
+    "text": "Recommended products."
+  },
+  {
+    "id": "SG-5.10-015",
+    "section": "5.10",
+    "source_line": 452,
+    "text": "Recently viewed products."
+  },
+  {
+    "id": "SG-5.10-016",
+    "section": "5.10",
+    "source_line": 453,
+    "text": "Similar products."
+  },
+  {
+    "id": "SG-5.11-001",
+    "section": "5.11",
+    "source_line": 457,
+    "text": "Every product should have a comprehensive detail page."
+  },
+  {
+    "id": "SG-5.11-002",
+    "section": "5.11",
+    "source_line": 461,
+    "text": "Product name."
+  },
+  {
+    "id": "SG-5.11-003",
+    "section": "5.11",
+    "source_line": 462,
+    "text": "Product images."
+  },
+  {
+    "id": "SG-5.11-004",
+    "section": "5.11",
+    "source_line": 463,
+    "text": "Product videos."
+  },
+  {
+    "id": "SG-5.11-005",
+    "section": "5.11",
+    "source_line": 464,
+    "text": "Product description."
+  },
+  {
+    "id": "SG-5.11-006",
+    "section": "5.11",
+    "source_line": 465,
+    "text": "Price."
+  },
+  {
+    "id": "SG-5.11-007",
+    "section": "5.11",
+    "source_line": 466,
+    "text": "Discounted price."
+  },
+  {
+    "id": "SG-5.11-008",
+    "section": "5.11",
+    "source_line": 467,
+    "text": "Product variants."
+  },
+  {
+    "id": "SG-5.11-009",
+    "section": "5.11",
+    "source_line": 468,
+    "text": "Color and size."
+  },
+  {
+    "id": "SG-5.11-010",
+    "section": "5.11",
+    "source_line": 469,
+    "text": "Specifications."
+  },
+  {
+    "id": "SG-5.11-011",
+    "section": "5.11",
+    "source_line": 470,
+    "text": "Availability."
+  },
+  {
+    "id": "SG-5.11-012",
+    "section": "5.11",
+    "source_line": 471,
+    "text": "Stock information where appropriate."
+  },
+  {
+    "id": "SG-5.11-013",
+    "section": "5.11",
+    "source_line": 472,
+    "text": "Merchant information."
+  },
+  {
+    "id": "SG-5.11-014",
+    "section": "5.11",
+    "source_line": 473,
+    "text": "Ratings and reviews."
+  },
+  {
+    "id": "SG-5.11-015",
+    "section": "5.11",
+    "source_line": 474,
+    "text": "Delivery estimates."
+  },
+  {
+    "id": "SG-5.11-016",
+    "section": "5.11",
+    "source_line": 475,
+    "text": "Shipping fees."
+  },
+  {
+    "id": "SG-5.11-017",
+    "section": "5.11",
+    "source_line": 476,
+    "text": "Return policy."
+  },
+  {
+    "id": "SG-5.11-018",
+    "section": "5.11",
+    "source_line": 477,
+    "text": "Warranty information where applicable."
+  },
+  {
+    "id": "SG-5.11-019",
+    "section": "5.11",
+    "source_line": 478,
+    "text": "Related products."
+  },
+  {
+    "id": "SG-5.11-020",
+    "section": "5.11",
+    "source_line": 479,
+    "text": "Frequently bought together."
+  },
+  {
+    "id": "SG-5.11-021",
+    "section": "5.11",
+    "source_line": 480,
+    "text": "Questions and answers."
+  },
+  {
+    "id": "SG-5.11-022",
+    "section": "5.11",
+    "source_line": 484,
+    "text": "Add to cart."
+  },
+  {
+    "id": "SG-5.11-023",
+    "section": "5.11",
+    "source_line": 485,
+    "text": "Buy now."
+  },
+  {
+    "id": "SG-5.11-024",
+    "section": "5.11",
+    "source_line": 486,
+    "text": "Add to wishlist."
+  },
+  {
+    "id": "SG-5.11-025",
+    "section": "5.11",
+    "source_line": 487,
+    "text": "Compare."
+  },
+  {
+    "id": "SG-5.11-026",
+    "section": "5.11",
+    "source_line": 488,
+    "text": "Share."
+  },
+  {
+    "id": "SG-5.11-027",
+    "section": "5.11",
+    "source_line": 489,
+    "text": "Ask AI about this product."
+  },
+  {
+    "id": "SG-5.11-028",
+    "section": "5.11",
+    "source_line": 490,
+    "text": "Message merchant."
+  },
+  {
+    "id": "SG-5.11-029",
+    "section": "5.11",
+    "source_line": 491,
+    "text": "Call merchant."
+  },
+  {
+    "id": "SG-5.12-001",
+    "section": "5.12",
+    "source_line": 495,
+    "text": "Customers should be able to compare products using:"
+  },
+  {
+    "id": "SG-5.12-002",
+    "section": "5.12",
+    "source_line": 497,
+    "text": "Price."
+  },
+  {
+    "id": "SG-5.12-003",
+    "section": "5.12",
+    "source_line": 498,
+    "text": "Features."
+  },
+  {
+    "id": "SG-5.12-004",
+    "section": "5.12",
+    "source_line": 499,
+    "text": "Specifications."
+  },
+  {
+    "id": "SG-5.12-005",
+    "section": "5.12",
+    "source_line": 500,
+    "text": "Ratings."
+  },
+  {
+    "id": "SG-5.12-006",
+    "section": "5.12",
+    "source_line": 501,
+    "text": "Merchant information."
+  },
+  {
+    "id": "SG-5.12-007",
+    "section": "5.12",
+    "source_line": 502,
+    "text": "Delivery options."
+  },
+  {
+    "id": "SG-5.12-008",
+    "section": "5.12",
+    "source_line": 503,
+    "text": "Warranty."
+  },
+  {
+    "id": "SG-5.12-009",
+    "section": "5.12",
+    "source_line": 504,
+    "text": "Availability."
+  },
+  {
+    "id": "SG-5.12-010",
+    "section": "5.12",
+    "source_line": 506,
+    "text": "AI can summarize differences and explain which product better matches a customer's stated requirements."
+  },
+  {
+    "id": "SG-5.13-001",
+    "section": "5.13",
+    "source_line": 510,
+    "text": "Save products."
+  },
+  {
+    "id": "SG-5.13-002",
+    "section": "5.13",
+    "source_line": 511,
+    "text": "Create named collections."
+  },
+  {
+    "id": "SG-5.13-003",
+    "section": "5.13",
+    "source_line": 512,
+    "text": "Organize saved products."
+  },
+  {
+    "id": "SG-5.13-004",
+    "section": "5.13",
+    "source_line": 513,
+    "text": "Remove products."
+  },
+  {
+    "id": "SG-5.13-005",
+    "section": "5.13",
+    "source_line": 514,
+    "text": "Share collections where enabled."
+  },
+  {
+    "id": "SG-5.13-006",
+    "section": "5.13",
+    "source_line": 515,
+    "text": "Receive price-drop alerts."
+  },
+  {
+    "id": "SG-5.13-007",
+    "section": "5.13",
+    "source_line": 516,
+    "text": "Receive restock notifications."
+  },
+  {
+    "id": "SG-5.13-008",
+    "section": "5.13",
+    "source_line": 517,
+    "text": "Receive promotion notifications."
+  },
+  {
+    "id": "SG-5.13-009",
+    "section": "5.13",
+    "source_line": 518,
+    "text": "Track price history where reliable data is available."
+  },
+  {
+    "id": "SG-5.14-001",
+    "section": "5.14",
+    "source_line": 524,
+    "text": "Multiple products."
+  },
+  {
+    "id": "SG-5.14-002",
+    "section": "5.14",
+    "source_line": 525,
+    "text": "Multiple merchants."
+  },
+  {
+    "id": "SG-5.14-003",
+    "section": "5.14",
+    "source_line": 526,
+    "text": "Quantity management."
+  },
+  {
+    "id": "SG-5.14-004",
+    "section": "5.14",
+    "source_line": 527,
+    "text": "Product variant selection."
+  },
+  {
+    "id": "SG-5.14-005",
+    "section": "5.14",
+    "source_line": 528,
+    "text": "Product availability validation."
+  },
+  {
+    "id": "SG-5.14-006",
+    "section": "5.14",
+    "source_line": 529,
+    "text": "Price calculation."
+  },
+  {
+    "id": "SG-5.14-007",
+    "section": "5.14",
+    "source_line": 530,
+    "text": "Discounts."
+  },
+  {
+    "id": "SG-5.14-008",
+    "section": "5.14",
+    "source_line": 531,
+    "text": "Shipping calculation."
+  },
+  {
+    "id": "SG-5.14-009",
+    "section": "5.14",
+    "source_line": 532,
+    "text": "Taxes and fees where applicable."
+  },
+  {
+    "id": "SG-5.14-010",
+    "section": "5.14",
+    "source_line": 533,
+    "text": "Remove item."
+  },
+  {
+    "id": "SG-5.14-011",
+    "section": "5.14",
+    "source_line": 534,
+    "text": "Save for later."
+  },
+  {
+    "id": "SG-5.14-012",
+    "section": "5.14",
+    "source_line": 535,
+    "text": "Merchant-level grouping."
+  },
+  {
+    "id": "SG-5.14-013",
+    "section": "5.14",
+    "source_line": 536,
+    "text": "Cart recovery notifications."
+  },
+  {
+    "id": "SG-5.14-014",
+    "section": "5.14",
+    "source_line": 538,
+    "text": "For multi-merchant orders, the system must clearly explain whether items will be delivered together or through separate shipments."
+  },
+  {
+    "id": "SG-5.15-001",
+    "section": "5.15",
+    "source_line": 544,
+    "text": "Delivery address."
+  },
+  {
+    "id": "SG-5.15-002",
+    "section": "5.15",
+    "source_line": 545,
+    "text": "Contact information."
+  },
+  {
+    "id": "SG-5.15-003",
+    "section": "5.15",
+    "source_line": 546,
+    "text": "Delivery method."
+  },
+  {
+    "id": "SG-5.15-004",
+    "section": "5.15",
+    "source_line": 547,
+    "text": "Delivery instructions."
+  },
+  {
+    "id": "SG-5.15-005",
+    "section": "5.15",
+    "source_line": 548,
+    "text": "Shipping cost."
+  },
+  {
+    "id": "SG-5.15-006",
+    "section": "5.15",
+    "source_line": 549,
+    "text": "Tax and fee calculation."
+  },
+  {
+    "id": "SG-5.15-007",
+    "section": "5.15",
+    "source_line": 550,
+    "text": "Coupon application."
+  },
+  {
+    "id": "SG-5.15-008",
+    "section": "5.15",
+    "source_line": 551,
+    "text": "Reward redemption."
+  },
+  {
+    "id": "SG-5.15-009",
+    "section": "5.15",
+    "source_line": 552,
+    "text": "Order summary."
+  },
+  {
+    "id": "SG-5.15-010",
+    "section": "5.15",
+    "source_line": 553,
+    "text": "Payment selection."
+  },
+  {
+    "id": "SG-5.15-011",
+    "section": "5.15",
+    "source_line": 554,
+    "text": "Terms and policy confirmation."
+  },
+  {
+    "id": "SG-5.15-012",
+    "section": "5.15",
+    "source_line": 555,
+    "text": "Final order confirmation."
+  },
+  {
+    "id": "SG-5.15-013",
+    "section": "5.15",
+    "source_line": 557,
+    "text": "The checkout process should be simple, secure, transparent, and optimized for mobile devices."
+  },
+  {
+    "id": "SG-5.16-001",
+    "section": "5.16",
+    "source_line": 561,
+    "text": "Support payment methods appropriate to each launch market."
+  },
+  {
+    "id": "SG-5.16-002",
+    "section": "5.16",
+    "source_line": 565,
+    "text": "Bank cards."
+  },
+  {
+    "id": "SG-5.16-003",
+    "section": "5.16",
+    "source_line": 566,
+    "text": "Mobile money."
+  },
+  {
+    "id": "SG-5.16-004",
+    "section": "5.16",
+    "source_line": 567,
+    "text": "Bank transfers."
+  },
+  {
+    "id": "SG-5.16-005",
+    "section": "5.16",
+    "source_line": 568,
+    "text": "Digital wallets."
+  },
+  {
+    "id": "SG-5.16-006",
+    "section": "5.16",
+    "source_line": 569,
+    "text": "Supported local payment gateways."
+  },
+  {
+    "id": "SG-5.16-007",
+    "section": "5.16",
+    "source_line": 570,
+    "text": "Cash on delivery, where operationally appropriate."
+  },
+  {
+    "id": "SG-5.16-008",
+    "section": "5.16",
+    "source_line": 571,
+    "text": "Other regionally available payment methods."
+  },
+  {
+    "id": "SG-5.16-009",
+    "section": "5.16",
+    "source_line": 575,
+    "text": "Payment gateway integration."
+  },
+  {
+    "id": "SG-5.16-010",
+    "section": "5.16",
+    "source_line": 576,
+    "text": "Transaction verification."
+  },
+  {
+    "id": "SG-5.16-011",
+    "section": "5.16",
+    "source_line": 577,
+    "text": "Payment status tracking."
+  },
+  {
+    "id": "SG-5.16-012",
+    "section": "5.16",
+    "source_line": 578,
+    "text": "Payment receipts."
+  },
+  {
+    "id": "SG-5.16-013",
+    "section": "5.16",
+    "source_line": 579,
+    "text": "Refund management."
+  },
+  {
+    "id": "SG-5.16-014",
+    "section": "5.16",
+    "source_line": 580,
+    "text": "Failed payment recovery."
+  },
+  {
+    "id": "SG-5.16-015",
+    "section": "5.16",
+    "source_line": 581,
+    "text": "Reconciliation."
+  },
+  {
+    "id": "SG-5.16-016",
+    "section": "5.16",
+    "source_line": 582,
+    "text": "Fraud monitoring."
+  },
+  {
+    "id": "SG-5.16-017",
+    "section": "5.16",
+    "source_line": 583,
+    "text": "Merchant settlement."
+  },
+  {
+    "id": "SG-5.16-018",
+    "section": "5.16",
+    "source_line": 584,
+    "text": "Commission calculation."
+  },
+  {
+    "id": "SG-5.16-019",
+    "section": "5.16",
+    "source_line": 586,
+    "text": "Never store raw card details in the platform database. Use payment providers and tokenization or hosted payment components."
+  },
+  {
+    "id": "SG-5.17-001",
+    "section": "5.17",
+    "source_line": 592,
+    "text": "View current orders."
+  },
+  {
+    "id": "SG-5.17-002",
+    "section": "5.17",
+    "source_line": 593,
+    "text": "View previous orders."
+  },
+  {
+    "id": "SG-5.17-003",
+    "section": "5.17",
+    "source_line": 594,
+    "text": "View order details."
+  },
+  {
+    "id": "SG-5.17-004",
+    "section": "5.17",
+    "source_line": 595,
+    "text": "Cancel eligible orders."
+  },
+  {
+    "id": "SG-5.17-005",
+    "section": "5.17",
+    "source_line": 596,
+    "text": "Request returns."
+  },
+  {
+    "id": "SG-5.17-006",
+    "section": "5.17",
+    "source_line": 597,
+    "text": "Request refunds."
+  },
+  {
+    "id": "SG-5.17-007",
+    "section": "5.17",
+    "source_line": 598,
+    "text": "Contact merchants."
+  },
+  {
+    "id": "SG-5.17-008",
+    "section": "5.17",
+    "source_line": 599,
+    "text": "Contact support."
+  },
+  {
+    "id": "SG-5.17-009",
+    "section": "5.17",
+    "source_line": 600,
+    "text": "Track shipments."
+  },
+  {
+    "id": "SG-5.17-010",
+    "section": "5.17",
+    "source_line": 601,
+    "text": "Receive delivery notifications."
+  },
+  {
+    "id": "SG-5.17-011",
+    "section": "5.17",
+    "source_line": 602,
+    "text": "Confirm receipt where appropriate."
+  },
+  {
+    "id": "SG-5.17-012",
+    "section": "5.17",
+    "source_line": 603,
+    "text": "Reorder products."
+  },
+  {
+    "id": "SG-5.17-013",
+    "section": "5.17",
+    "source_line": 607,
+    "text": "Pending payment."
+  },
+  {
+    "id": "SG-5.17-014",
+    "section": "5.17",
+    "source_line": 608,
+    "text": "Payment confirmed."
+  },
+  {
+    "id": "SG-5.17-015",
+    "section": "5.17",
+    "source_line": 609,
+    "text": "Order confirmed."
+  },
+  {
+    "id": "SG-5.17-016",
+    "section": "5.17",
+    "source_line": 610,
+    "text": "Processing."
+  },
+  {
+    "id": "SG-5.17-017",
+    "section": "5.17",
+    "source_line": 611,
+    "text": "Packed."
+  },
+  {
+    "id": "SG-5.17-018",
+    "section": "5.17",
+    "source_line": 612,
+    "text": "Shipped."
+  },
+  {
+    "id": "SG-5.17-019",
+    "section": "5.17",
+    "source_line": 613,
+    "text": "Out for delivery."
+  },
+  {
+    "id": "SG-5.17-020",
+    "section": "5.17",
+    "source_line": 614,
+    "text": "Delivered."
+  },
+  {
+    "id": "SG-5.17-021",
+    "section": "5.17",
+    "source_line": 615,
+    "text": "Completed."
+  },
+  {
+    "id": "SG-5.17-022",
+    "section": "5.17",
+    "source_line": 617,
+    "text": "Additional states should cover cancellation, failed delivery, return requested, returned, refunded, and disputed orders."
+  },
+  {
+    "id": "SG-5.17-023",
+    "section": "5.17",
+    "source_line": 619,
+    "text": "Tracking should integrate with delivery providers or merchant-managed fulfilment systems."
+  },
+  {
+    "id": "SG-5.18-001",
+    "section": "5.18",
+    "source_line": 625,
+    "text": "Rate products."
+  },
+  {
+    "id": "SG-5.18-002",
+    "section": "5.18",
+    "source_line": 626,
+    "text": "Submit written reviews."
+  },
+  {
+    "id": "SG-5.18-003",
+    "section": "5.18",
+    "source_line": 627,
+    "text": "Upload photos and videos."
+  },
+  {
+    "id": "SG-5.18-004",
+    "section": "5.18",
+    "source_line": 628,
+    "text": "Rate delivery and merchant service separately."
+  },
+  {
+    "id": "SG-5.18-005",
+    "section": "5.18",
+    "source_line": 629,
+    "text": "Edit or report reviews according to policy."
+  },
+  {
+    "id": "SG-5.18-006",
+    "section": "5.18",
+    "source_line": 630,
+    "text": "View verified-purchase labels."
+  },
+  {
+    "id": "SG-5.18-007",
+    "section": "5.18",
+    "source_line": 632,
+    "text": "Only eligible purchases should receive verified-purchase status."
+  },
+  {
+    "id": "SG-5.18-008",
+    "section": "5.18",
+    "source_line": 634,
+    "text": "Review rewards must be governed by campaign rules and must not require positive reviews."
+  },
+  {
+    "id": "SG-5.19-001",
+    "section": "5.19",
+    "source_line": 638,
+    "text": "A configurable rewards system should encourage meaningful engagement and repeat purchases."
+  },
+  {
+    "id": "SG-5.19-002",
+    "section": "5.19",
+    "source_line": 642,
+    "text": "Following eligible merchants."
+  },
+  {
+    "id": "SG-5.19-003",
+    "section": "5.19",
+    "source_line": 643,
+    "text": "Participating in campaigns."
+  },
+  {
+    "id": "SG-5.19-004",
+    "section": "5.19",
+    "source_line": 644,
+    "text": "Referring new customers."
+  },
+  {
+    "id": "SG-5.19-005",
+    "section": "5.19",
+    "source_line": 645,
+    "text": "Making purchases."
+  },
+  {
+    "id": "SG-5.19-006",
+    "section": "5.19",
+    "source_line": 646,
+    "text": "Completing eligible orders."
+  },
+  {
+    "id": "SG-5.19-007",
+    "section": "5.19",
+    "source_line": 647,
+    "text": "Submitting verified-purchase reviews."
+  },
+  {
+    "id": "SG-5.19-008",
+    "section": "5.19",
+    "source_line": 648,
+    "text": "Participating in approved promotional activities."
+  },
+  {
+    "id": "SG-5.19-009",
+    "section": "5.19",
+    "source_line": 649,
+    "text": "Joining loyalty programs."
+  },
+  {
+    "id": "SG-5.19-010",
+    "section": "5.19",
+    "source_line": 650,
+    "text": "Completing merchant-defined challenges."
+  },
+  {
+    "id": "SG-5.19-011",
+    "section": "5.19",
+    "source_line": 654,
+    "text": "Points."
+  },
+  {
+    "id": "SG-5.19-012",
+    "section": "5.19",
+    "source_line": 655,
+    "text": "Coupons."
+  },
+  {
+    "id": "SG-5.19-013",
+    "section": "5.19",
+    "source_line": 656,
+    "text": "Discounts."
+  },
+  {
+    "id": "SG-5.19-014",
+    "section": "5.19",
+    "source_line": 657,
+    "text": "Free delivery."
+  },
+  {
+    "id": "SG-5.19-015",
+    "section": "5.19",
+    "source_line": 658,
+    "text": "Loyalty levels."
+  },
+  {
+    "id": "SG-5.19-016",
+    "section": "5.19",
+    "source_line": 659,
+    "text": "Exclusive offers."
+  },
+  {
+    "id": "SG-5.19-017",
+    "section": "5.19",
+    "source_line": 660,
+    "text": "Special campaign access."
+  },
+  {
+    "id": "SG-5.19-018",
+    "section": "5.19",
+    "source_line": 664,
+    "text": "Do not automatically give unlimited discounts for every like or follow."
+  },
+  {
+    "id": "SG-5.19-019",
+    "section": "5.19",
+    "source_line": 665,
+    "text": "Use configurable point values."
+  },
+  {
+    "id": "SG-5.19-020",
+    "section": "5.19",
+    "source_line": 666,
+    "text": "Apply campaign budgets."
+  },
+  {
+    "id": "SG-5.19-021",
+    "section": "5.19",
+    "source_line": 667,
+    "text": "Set earning limits."
+  },
+  {
+    "id": "SG-5.19-022",
+    "section": "5.19",
+    "source_line": 668,
+    "text": "Prevent duplicate rewards."
+  },
+  {
+    "id": "SG-5.19-023",
+    "section": "5.19",
+    "source_line": 669,
+    "text": "Validate eligible actions."
+  },
+  {
+    "id": "SG-5.19-024",
+    "section": "5.19",
+    "source_line": 670,
+    "text": "Reverse appropriate rewards after refunds or cancellations."
+  },
+  {
+    "id": "SG-5.19-025",
+    "section": "5.19",
+    "source_line": 671,
+    "text": "Detect fake accounts and automated engagement."
+  },
+  {
+    "id": "SG-5.19-026",
+    "section": "5.19",
+    "source_line": 672,
+    "text": "Apply coupon expiration and redemption rules."
+  },
+  {
+    "id": "SG-5.19-027",
+    "section": "5.19",
+    "source_line": 673,
+    "text": "Maintain a complete reward ledger."
+  },
+  {
+    "id": "SG-5.20-001",
+    "section": "5.20",
+    "source_line": 677,
+    "text": "Support push, in-app, and optional email or SMS notifications."
+  },
+  {
+    "id": "SG-5.20-002",
+    "section": "5.20",
+    "source_line": 681,
+    "text": "New followers."
+  },
+  {
+    "id": "SG-5.20-003",
+    "section": "5.20",
+    "source_line": 682,
+    "text": "Likes and comments."
+  },
+  {
+    "id": "SG-5.20-004",
+    "section": "5.20",
+    "source_line": 683,
+    "text": "Mentions."
+  },
+  {
+    "id": "SG-5.20-005",
+    "section": "5.20",
+    "source_line": 684,
+    "text": "Messages."
+  },
+  {
+    "id": "SG-5.20-006",
+    "section": "5.20",
+    "source_line": 685,
+    "text": "Incoming calls."
+  },
+  {
+    "id": "SG-5.20-007",
+    "section": "5.20",
+    "source_line": 686,
+    "text": "Promotions."
+  },
+  {
+    "id": "SG-5.20-008",
+    "section": "5.20",
+    "source_line": 687,
+    "text": "Price drops."
+  },
+  {
+    "id": "SG-5.20-009",
+    "section": "5.20",
+    "source_line": 688,
+    "text": "Restocks."
+  },
+  {
+    "id": "SG-5.20-010",
+    "section": "5.20",
+    "source_line": 689,
+    "text": "Order updates."
+  },
+  {
+    "id": "SG-5.20-011",
+    "section": "5.20",
+    "source_line": 690,
+    "text": "Payment confirmations."
+  },
+  {
+    "id": "SG-5.20-012",
+    "section": "5.20",
+    "source_line": 691,
+    "text": "Delivery updates."
+  },
+  {
+    "id": "SG-5.20-013",
+    "section": "5.20",
+    "source_line": 692,
+    "text": "Rewards."
+  },
+  {
+    "id": "SG-5.20-014",
+    "section": "5.20",
+    "source_line": 693,
+    "text": "Referrals."
+  },
+  {
+    "id": "SG-5.20-015",
+    "section": "5.20",
+    "source_line": 694,
+    "text": "Live shopping events."
+  },
+  {
+    "id": "SG-5.20-016",
+    "section": "5.20",
+    "source_line": 695,
+    "text": "Merchant announcements."
+  },
+  {
+    "id": "SG-5.20-017",
+    "section": "5.20",
+    "source_line": 697,
+    "text": "Customers should control notification preferences."
+  },
+  {
+    "id": "SG-6-001",
+    "section": "6",
+    "source_line": 701,
+    "text": "These features can create a stronger and more differentiated shopping experience."
+  },
+  {
+    "id": "SG-6.1-001",
+    "section": "6.1",
+    "source_line": 705,
+    "text": "Merchants and creators can broadcast live video sessions and sell products in real time."
+  },
+  {
+    "id": "SG-6.1-002",
+    "section": "6.1",
+    "source_line": 709,
+    "text": "Live video streaming."
+  },
+  {
+    "id": "SG-6.1-003",
+    "section": "6.1",
+    "source_line": 710,
+    "text": "Product tagging during broadcasts."
+  },
+  {
+    "id": "SG-6.1-004",
+    "section": "6.1",
+    "source_line": 711,
+    "text": "Multiple products in one session."
+  },
+  {
+    "id": "SG-6.1-005",
+    "section": "6.1",
+    "source_line": 712,
+    "text": "Pinned products."
+  },
+  {
+    "id": "SG-6.1-006",
+    "section": "6.1",
+    "source_line": 713,
+    "text": "Product demonstration."
+  },
+  {
+    "id": "SG-6.1-007",
+    "section": "6.1",
+    "source_line": 714,
+    "text": "Live comments."
+  },
+  {
+    "id": "SG-6.1-008",
+    "section": "6.1",
+    "source_line": 715,
+    "text": "Customer questions."
+  },
+  {
+    "id": "SG-6.1-009",
+    "section": "6.1",
+    "source_line": 716,
+    "text": "Reactions."
+  },
+  {
+    "id": "SG-6.1-010",
+    "section": "6.1",
+    "source_line": 717,
+    "text": "Limited-time offers."
+  },
+  {
+    "id": "SG-6.1-011",
+    "section": "6.1",
+    "source_line": 718,
+    "text": "Live-only coupons."
+  },
+  {
+    "id": "SG-6.1-012",
+    "section": "6.1",
+    "source_line": 719,
+    "text": "Countdown deals."
+  },
+  {
+    "id": "SG-6.1-013",
+    "section": "6.1",
+    "source_line": 720,
+    "text": "Host and guest participation."
+  },
+  {
+    "id": "SG-6.1-014",
+    "section": "6.1",
+    "source_line": 721,
+    "text": "Live shopping analytics."
+  },
+  {
+    "id": "SG-6.1-015",
+    "section": "6.1",
+    "source_line": 722,
+    "text": "Replay and recorded content options."
+  },
+  {
+    "id": "SG-6.2-001",
+    "section": "6.2",
+    "source_line": 726,
+    "text": "Customers can invite friends to purchase a product together and unlock a better price when campaign conditions are met."
+  },
+  {
+    "id": "SG-6.2-002",
+    "section": "6.2",
+    "source_line": 730,
+    "text": "Group purchase creation."
+  },
+  {
+    "id": "SG-6.2-003",
+    "section": "6.2",
+    "source_line": 731,
+    "text": "Invite links."
+  },
+  {
+    "id": "SG-6.2-004",
+    "section": "6.2",
+    "source_line": 732,
+    "text": "Participant tracking."
+  },
+  {
+    "id": "SG-6.2-005",
+    "section": "6.2",
+    "source_line": 733,
+    "text": "Countdown."
+  },
+  {
+    "id": "SG-6.2-006",
+    "section": "6.2",
+    "source_line": 734,
+    "text": "Minimum participant threshold."
+  },
+  {
+    "id": "SG-6.2-007",
+    "section": "6.2",
+    "source_line": 735,
+    "text": "Campaign expiration."
+  },
+  {
+    "id": "SG-6.2-008",
+    "section": "6.2",
+    "source_line": 736,
+    "text": "Automatic success or failure handling."
+  },
+  {
+    "id": "SG-6.2-009",
+    "section": "6.2",
+    "source_line": 737,
+    "text": "Refund handling if campaign conditions are not met."
+  },
+  {
+    "id": "SG-6.3-001",
+    "section": "6.3",
+    "source_line": 741,
+    "text": "Merchants can collaborate with creators and affiliates."
+  },
+  {
+    "id": "SG-6.3-002",
+    "section": "6.3",
+    "source_line": 745,
+    "text": "Creator profiles."
+  },
+  {
+    "id": "SG-6.3-003",
+    "section": "6.3",
+    "source_line": 746,
+    "text": "Merchant collaboration requests."
+  },
+  {
+    "id": "SG-6.3-004",
+    "section": "6.3",
+    "source_line": 747,
+    "text": "Affiliate product catalogue."
+  },
+  {
+    "id": "SG-6.3-005",
+    "section": "6.3",
+    "source_line": 748,
+    "text": "Commission rules."
+  },
+  {
+    "id": "SG-6.3-006",
+    "section": "6.3",
+    "source_line": 749,
+    "text": "Referral links."
+  },
+  {
+    "id": "SG-6.3-007",
+    "section": "6.3",
+    "source_line": 750,
+    "text": "Product tagging."
+  },
+  {
+    "id": "SG-6.3-008",
+    "section": "6.3",
+    "source_line": 751,
+    "text": "Campaign invitations."
+  },
+  {
+    "id": "SG-6.3-009",
+    "section": "6.3",
+    "source_line": 752,
+    "text": "Creator performance analytics."
+  },
+  {
+    "id": "SG-6.3-010",
+    "section": "6.3",
+    "source_line": 753,
+    "text": "Commission statements."
+  },
+  {
+    "id": "SG-6.3-011",
+    "section": "6.3",
+    "source_line": 754,
+    "text": "Payout management."
+  },
+  {
+    "id": "SG-6.3-012",
+    "section": "6.3",
+    "source_line": 755,
+    "text": "Fraud prevention."
+  },
+  {
+    "id": "SG-6.3-013",
+    "section": "6.3",
+    "source_line": 757,
+    "text": "Affiliate attribution must use clear, configurable rules and avoid double-counting commissions."
+  },
+  {
+    "id": "SG-6.4-001",
+    "section": "6.4",
+    "source_line": 761,
+    "text": "Customers should be able to discover and purchase products directly through conversations."
+  },
+  {
+    "id": "SG-6.4-002",
+    "section": "6.4",
+    "source_line": 765,
+    "text": "Product recommendations inside chats."
+  },
+  {
+    "id": "SG-6.4-003",
+    "section": "6.4",
+    "source_line": 766,
+    "text": "Product cards."
+  },
+  {
+    "id": "SG-6.4-004",
+    "section": "6.4",
+    "source_line": 767,
+    "text": "Product comparison."
+  },
+  {
+    "id": "SG-6.4-005",
+    "section": "6.4",
+    "source_line": 768,
+    "text": "Cart links."
+  },
+  {
+    "id": "SG-6.4-006",
+    "section": "6.4",
+    "source_line": 769,
+    "text": "Order summaries."
+  },
+  {
+    "id": "SG-6.4-007",
+    "section": "6.4",
+    "source_line": 770,
+    "text": "Payment links or approved checkout flows."
+  },
+  {
+    "id": "SG-6.4-008",
+    "section": "6.4",
+    "source_line": 771,
+    "text": "AI assistance within conversations."
+  },
+  {
+    "id": "SG-6.5-001",
+    "section": "6.5",
+    "source_line": 775,
+    "text": "Merchants and creators can create curated collections such as:"
+  },
+  {
+    "id": "SG-6.5-002",
+    "section": "6.5",
+    "source_line": 777,
+    "text": "Best products under a specific budget."
+  },
+  {
+    "id": "SG-6.5-003",
+    "section": "6.5",
+    "source_line": 778,
+    "text": "Seasonal products."
+  },
+  {
+    "id": "SG-6.5-004",
+    "section": "6.5",
+    "source_line": 779,
+    "text": "Outfit combinations."
+  },
+  {
+    "id": "SG-6.5-005",
+    "section": "6.5",
+    "source_line": 780,
+    "text": "Home decoration ideas."
+  },
+  {
+    "id": "SG-6.5-006",
+    "section": "6.5",
+    "source_line": 781,
+    "text": "Gift collections."
+  },
+  {
+    "id": "SG-6.5-007",
+    "section": "6.5",
+    "source_line": 782,
+    "text": "Trending products."
+  },
+  {
+    "id": "SG-6.5-008",
+    "section": "6.5",
+    "source_line": 783,
+    "text": "Frequently bought together."
+  },
+  {
+    "id": "SG-6.6-001",
+    "section": "6.6",
+    "source_line": 787,
+    "text": "Support scheduled product launches, exclusive collections, waitlists, and limited-quantity campaigns."
+  },
+  {
+    "id": "SG-6.6-002",
+    "section": "6.6",
+    "source_line": 789,
+    "text": "Include fair access controls, inventory reservations, anti-bot measures, and transparent purchase limits."
+  },
+  {
+    "id": "SG-6.7-001",
+    "section": "6.7",
+    "source_line": 793,
+    "text": "Where merchants provide reliable location information, customers can discover:"
+  },
+  {
+    "id": "SG-6.7-002",
+    "section": "6.7",
+    "source_line": 795,
+    "text": "Nearby stores."
+  },
+  {
+    "id": "SG-6.7-003",
+    "section": "6.7",
+    "source_line": 796,
+    "text": "Local products."
+  },
+  {
+    "id": "SG-6.7-004",
+    "section": "6.7",
+    "source_line": 797,
+    "text": "Pickup locations."
+  },
+  {
+    "id": "SG-6.7-005",
+    "section": "6.7",
+    "source_line": 798,
+    "text": "Local delivery options."
+  },
+  {
+    "id": "SG-6.7-006",
+    "section": "6.7",
+    "source_line": 799,
+    "text": "Store opening hours."
+  },
+  {
+    "id": "SG-6.7-007",
+    "section": "6.7",
+    "source_line": 800,
+    "text": "Location-based promotions."
+  },
+  {
+    "id": "SG-6.7-008",
+    "section": "6.7",
+    "source_line": 802,
+    "text": "Location permissions must be optional and privacy-conscious."
+  },
+  {
+    "id": "SG-7-001",
+    "section": "7",
+    "source_line": 806,
+    "text": "AI should be integrated as a platform-wide service, not treated as a single chatbot."
+  },
+  {
+    "id": "SG-7-002",
+    "section": "7",
+    "source_line": 808,
+    "text": "The platform should support a coordinated group of AI assistants with defined permissions and specialized responsibilities."
+  },
+  {
+    "id": "SG-7.1-001",
+    "section": "7.1",
+    "source_line": 812,
+    "text": "Customers can interact with an AI assistant through text, voice, or supported visual input."
+  },
+  {
+    "id": "SG-7.1-002",
+    "section": "7.1",
+    "source_line": 816,
+    "text": "Understand shopping requirements."
+  },
+  {
+    "id": "SG-7.1-003",
+    "section": "7.1",
+    "source_line": 817,
+    "text": "Ask clarifying questions."
+  },
+  {
+    "id": "SG-7.1-004",
+    "section": "7.1",
+    "source_line": 818,
+    "text": "Recommend products."
+  },
+  {
+    "id": "SG-7.1-005",
+    "section": "7.1",
+    "source_line": 819,
+    "text": "Search the product catalogue."
+  },
+  {
+    "id": "SG-7.1-006",
+    "section": "7.1",
+    "source_line": 820,
+    "text": "Explain product specifications."
+  },
+  {
+    "id": "SG-7.1-007",
+    "section": "7.1",
+    "source_line": 821,
+    "text": "Compare products."
+  },
+  {
+    "id": "SG-7.1-008",
+    "section": "7.1",
+    "source_line": 822,
+    "text": "Recommend alternatives."
+  },
+  {
+    "id": "SG-7.1-009",
+    "section": "7.1",
+    "source_line": 823,
+    "text": "Find products within a budget."
+  },
+  {
+    "id": "SG-7.1-010",
+    "section": "7.1",
+    "source_line": 824,
+    "text": "Explain discounts."
+  },
+  {
+    "id": "SG-7.1-011",
+    "section": "7.1",
+    "source_line": 825,
+    "text": "Check product availability."
+  },
+  {
+    "id": "SG-7.1-012",
+    "section": "7.1",
+    "source_line": 826,
+    "text": "Explain delivery options."
+  },
+  {
+    "id": "SG-7.1-013",
+    "section": "7.1",
+    "source_line": 827,
+    "text": "Help with size and fit where suitable data exists."
+  },
+  {
+    "id": "SG-7.1-014",
+    "section": "7.1",
+    "source_line": 828,
+    "text": "Suggest complementary products."
+  },
+  {
+    "id": "SG-7.1-015",
+    "section": "7.1",
+    "source_line": 829,
+    "text": "Build shopping lists."
+  },
+  {
+    "id": "SG-7.1-016",
+    "section": "7.1",
+    "source_line": 830,
+    "text": "Help customers manage their carts."
+  },
+  {
+    "id": "SG-7.1-017",
+    "section": "7.1",
+    "source_line": 831,
+    "text": "Guide customers through checkout."
+  },
+  {
+    "id": "SG-7.1-018",
+    "section": "7.1",
+    "source_line": 837,
+    "text": "The AI should ask relevant questions, search actual catalogue data, compare suitable products, explain trade-offs, and present products that are genuinely available."
+  },
+  {
+    "id": "SG-7.2-001",
+    "section": "7.2",
+    "source_line": 841,
+    "text": "Customers can press a microphone or call button and speak naturally."
+  },
+  {
+    "id": "SG-7.2-002",
+    "section": "7.2",
+    "source_line": 845,
+    "text": "Understand spoken questions."
+  },
+  {
+    "id": "SG-7.2-003",
+    "section": "7.2",
+    "source_line": 846,
+    "text": "Respond with natural speech."
+  },
+  {
+    "id": "SG-7.2-004",
+    "section": "7.2",
+    "source_line": 847,
+    "text": "Support multiple languages where quality is validated."
+  },
+  {
+    "id": "SG-7.2-005",
+    "section": "7.2",
+    "source_line": 848,
+    "text": "Understand follow-up questions."
+  },
+  {
+    "id": "SG-7.2-006",
+    "section": "7.2",
+    "source_line": 849,
+    "text": "Handle interruptions."
+  },
+  {
+    "id": "SG-7.2-007",
+    "section": "7.2",
+    "source_line": 850,
+    "text": "Retrieve relevant product information."
+  },
+  {
+    "id": "SG-7.2-008",
+    "section": "7.2",
+    "source_line": 851,
+    "text": "Present product cards alongside spoken recommendations."
+  },
+  {
+    "id": "SG-7.2-009",
+    "section": "7.2",
+    "source_line": 852,
+    "text": "Read order information when authorized."
+  },
+  {
+    "id": "SG-7.2-010",
+    "section": "7.2",
+    "source_line": 853,
+    "text": "Transfer the conversation to a human agent."
+  },
+  {
+    "id": "SG-7.3-001",
+    "section": "7.3",
+    "source_line": 859,
+    "text": "The platform should provide AI agents that can answer incoming customer telephone calls and provide comprehensive information about the marketplace."
+  },
+  {
+    "id": "SG-7.3-002",
+    "section": "7.3",
+    "source_line": 861,
+    "text": "Customers should be able to call a published support number and receive assistance without necessarily opening the mobile application."
+  },
+  {
+    "id": "SG-7.3-003",
+    "section": "7.3",
+    "source_line": 867,
+    "text": "Explain how the platform works."
+  },
+  {
+    "id": "SG-7.3-004",
+    "section": "7.3",
+    "source_line": 868,
+    "text": "Explain registration and account access."
+  },
+  {
+    "id": "SG-7.3-005",
+    "section": "7.3",
+    "source_line": 869,
+    "text": "Explain customer and merchant services."
+  },
+  {
+    "id": "SG-7.3-006",
+    "section": "7.3",
+    "source_line": 870,
+    "text": "Explain promotions and rewards."
+  },
+  {
+    "id": "SG-7.3-007",
+    "section": "7.3",
+    "source_line": 871,
+    "text": "Explain payment methods."
+  },
+  {
+    "id": "SG-7.3-008",
+    "section": "7.3",
+    "source_line": 872,
+    "text": "Explain delivery procedures."
+  },
+  {
+    "id": "SG-7.3-009",
+    "section": "7.3",
+    "source_line": 873,
+    "text": "Explain return and refund policies."
+  },
+  {
+    "id": "SG-7.3-010",
+    "section": "7.3",
+    "source_line": 877,
+    "text": "Search available products."
+  },
+  {
+    "id": "SG-7.3-011",
+    "section": "7.3",
+    "source_line": 878,
+    "text": "Explain product specifications."
+  },
+  {
+    "id": "SG-7.3-012",
+    "section": "7.3",
+    "source_line": 879,
+    "text": "Compare products."
+  },
+  {
+    "id": "SG-7.3-013",
+    "section": "7.3",
+    "source_line": 880,
+    "text": "Check current prices."
+  },
+  {
+    "id": "SG-7.3-014",
+    "section": "7.3",
+    "source_line": 881,
+    "text": "Check current stock."
+  },
+  {
+    "id": "SG-7.3-015",
+    "section": "7.3",
+    "source_line": 882,
+    "text": "Explain product variants."
+  },
+  {
+    "id": "SG-7.3-016",
+    "section": "7.3",
+    "source_line": 883,
+    "text": "Recommend alternatives."
+  },
+  {
+    "id": "SG-7.3-017",
+    "section": "7.3",
+    "source_line": 884,
+    "text": "Identify suitable products based on customer needs."
+  },
+  {
+    "id": "SG-7.3-018",
+    "section": "7.3",
+    "source_line": 888,
+    "text": "Authenticate the customer using an approved verification process."
+  },
+  {
+    "id": "SG-7.3-019",
+    "section": "7.3",
+    "source_line": 889,
+    "text": "Retrieve eligible order information."
+  },
+  {
+    "id": "SG-7.3-020",
+    "section": "7.3",
+    "source_line": 890,
+    "text": "Explain order status."
+  },
+  {
+    "id": "SG-7.3-021",
+    "section": "7.3",
+    "source_line": 891,
+    "text": "Check shipment tracking."
+  },
+  {
+    "id": "SG-7.3-022",
+    "section": "7.3",
+    "source_line": 892,
+    "text": "Explain delivery updates."
+  },
+  {
+    "id": "SG-7.3-023",
+    "section": "7.3",
+    "source_line": 893,
+    "text": "Help initiate eligible cancellation, return, or refund requests."
+  },
+  {
+    "id": "SG-7.3-024",
+    "section": "7.3",
+    "source_line": 894,
+    "text": "Provide a reference number for support cases."
+  },
+  {
+    "id": "SG-7.3-025",
+    "section": "7.3",
+    "source_line": 898,
+    "text": "Explain merchant registration."
+  },
+  {
+    "id": "SG-7.3-026",
+    "section": "7.3",
+    "source_line": 899,
+    "text": "Guide merchants through store setup."
+  },
+  {
+    "id": "SG-7.3-027",
+    "section": "7.3",
+    "source_line": 900,
+    "text": "Explain product listing requirements."
+  },
+  {
+    "id": "SG-7.3-028",
+    "section": "7.3",
+    "source_line": 901,
+    "text": "Help merchants understand orders."
+  },
+  {
+    "id": "SG-7.3-029",
+    "section": "7.3",
+    "source_line": 902,
+    "text": "Explain platform commissions and payouts."
+  },
+  {
+    "id": "SG-7.3-030",
+    "section": "7.3",
+    "source_line": 903,
+    "text": "Guide merchants through promotions and content creation."
+  },
+  {
+    "id": "SG-7.3-031",
+    "section": "7.3",
+    "source_line": 904,
+    "text": "Escalate merchant account issues."
+  },
+  {
+    "id": "SG-7.3-032",
+    "section": "7.3",
+    "source_line": 908,
+    "text": "Answer common questions."
+  },
+  {
+    "id": "SG-7.3-033",
+    "section": "7.3",
+    "source_line": 909,
+    "text": "Understand complaints."
+  },
+  {
+    "id": "SG-7.3-034",
+    "section": "7.3",
+    "source_line": 910,
+    "text": "Create support tickets."
+  },
+  {
+    "id": "SG-7.3-035",
+    "section": "7.3",
+    "source_line": 911,
+    "text": "Collect relevant information."
+  },
+  {
+    "id": "SG-7.3-036",
+    "section": "7.3",
+    "source_line": 912,
+    "text": "Explain available solutions."
+  },
+  {
+    "id": "SG-7.3-037",
+    "section": "7.3",
+    "source_line": 913,
+    "text": "Escalate complex cases."
+  },
+  {
+    "id": "SG-7.3-038",
+    "section": "7.3",
+    "source_line": 914,
+    "text": "Transfer calls to human support when required."
+  },
+  {
+    "id": "SG-7.3-039",
+    "section": "7.3",
+    "source_line": 918,
+    "text": "The telephone system should connect to a voice infrastructure provider and an AI voice service."
+  },
+  {
+    "id": "SG-7.3-040",
+    "section": "7.3",
+    "source_line": 946,
+    "text": "Clearly identify the agent as an AI assistant."
+  },
+  {
+    "id": "SG-7.3-041",
+    "section": "7.3",
+    "source_line": 947,
+    "text": "Use approved identity verification before exposing private account information."
+  },
+  {
+    "id": "SG-7.3-042",
+    "section": "7.3",
+    "source_line": 948,
+    "text": "Never reveal another customer's information."
+  },
+  {
+    "id": "SG-7.3-043",
+    "section": "7.3",
+    "source_line": 949,
+    "text": "Never invent product prices, stock, delivery dates, or policies."
+  },
+  {
+    "id": "SG-7.3-044",
+    "section": "7.3",
+    "source_line": 950,
+    "text": "Retrieve current information from authorized platform systems."
+  },
+  {
+    "id": "SG-7.3-045",
+    "section": "7.3",
+    "source_line": 951,
+    "text": "Ask for confirmation before consequential actions."
+  },
+  {
+    "id": "SG-7.3-046",
+    "section": "7.3",
+    "source_line": 952,
+    "text": "Never claim a refund, cancellation, payment, or order modification succeeded until the backend confirms it."
+  },
+  {
+    "id": "SG-7.3-047",
+    "section": "7.3",
+    "source_line": 953,
+    "text": "Transfer difficult, sensitive, or unresolved cases to a human."
+  },
+  {
+    "id": "SG-7.3-048",
+    "section": "7.3",
+    "source_line": 954,
+    "text": "Preserve conversation context during human handoff."
+  },
+  {
+    "id": "SG-7.3-049",
+    "section": "7.3",
+    "source_line": 955,
+    "text": "Record and retain call data only according to applicable consent, privacy, and retention rules."
+  },
+  {
+    "id": "SG-7.3-050",
+    "section": "7.3",
+    "source_line": 956,
+    "text": "Provide language and accessibility options."
+  },
+  {
+    "id": "SG-7.3-051",
+    "section": "7.3",
+    "source_line": 957,
+    "text": "Monitor call quality, task completion, latency, and customer satisfaction."
+  },
+  {
+    "id": "SG-7.4-001",
+    "section": "7.4",
+    "source_line": 963,
+    "text": "The platform should be designed to support the following agents."
+  },
+  {
+    "id": "SG-7.4-002",
+    "section": "7.4",
+    "source_line": 967,
+    "text": "Shopping agent — Product discovery and recommendations"
+  },
+  {
+    "id": "SG-7.4-003",
+    "section": "7.4",
+    "source_line": 968,
+    "text": "Voice support agent — Spoken customer assistance"
+  },
+  {
+    "id": "SG-7.4-004",
+    "section": "7.4",
+    "source_line": 969,
+    "text": "Telephone agent — Incoming and permitted outbound calls"
+  },
+  {
+    "id": "SG-7.4-005",
+    "section": "7.4",
+    "source_line": 970,
+    "text": "Order agent — Order and delivery questions"
+  },
+  {
+    "id": "SG-7.4-006",
+    "section": "7.4",
+    "source_line": 971,
+    "text": "Merchant assistant — Store and business-management guidance"
+  },
+  {
+    "id": "SG-7.4-007",
+    "section": "7.4",
+    "source_line": 972,
+    "text": "Content assistant — Product descriptions, captions and content ideas"
+  },
+  {
+    "id": "SG-7.4-008",
+    "section": "7.4",
+    "source_line": 973,
+    "text": "Product discovery agent — Visual and semantic product search"
+  },
+  {
+    "id": "SG-7.4-009",
+    "section": "7.4",
+    "source_line": 974,
+    "text": "Recommendation agent — Personalized product suggestions"
+  },
+  {
+    "id": "SG-7.4-010",
+    "section": "7.4",
+    "source_line": 975,
+    "text": "Campaign assistant — Promotion and campaign suggestions"
+  },
+  {
+    "id": "SG-7.4-011",
+    "section": "7.4",
+    "source_line": 976,
+    "text": "Support agent — Customer complaints and support tickets"
+  },
+  {
+    "id": "SG-7.4-012",
+    "section": "7.4",
+    "source_line": 977,
+    "text": "Moderation assistant — Detect potentially harmful or prohibited content"
+  },
+  {
+    "id": "SG-7.4-013",
+    "section": "7.4",
+    "source_line": 978,
+    "text": "Analytics assistant — Explain business performance and trends"
+  },
+  {
+    "id": "SG-7.4-014",
+    "section": "7.4",
+    "source_line": 980,
+    "text": "Agents may work together, but each must have a clearly defined role, data access scope, and permission boundary."
+  },
+  {
+    "id": "SG-7.5-001",
+    "section": "7.5",
+    "source_line": 986,
+    "text": "Create product descriptions."
+  },
+  {
+    "id": "SG-7.5-002",
+    "section": "7.5",
+    "source_line": 987,
+    "text": "Improve titles."
+  },
+  {
+    "id": "SG-7.5-003",
+    "section": "7.5",
+    "source_line": 988,
+    "text": "Suggest product categories."
+  },
+  {
+    "id": "SG-7.5-004",
+    "section": "7.5",
+    "source_line": 989,
+    "text": "Generate captions."
+  },
+  {
+    "id": "SG-7.5-005",
+    "section": "7.5",
+    "source_line": 990,
+    "text": "Suggest content ideas."
+  },
+  {
+    "id": "SG-7.5-006",
+    "section": "7.5",
+    "source_line": 991,
+    "text": "Create promotional text."
+  },
+  {
+    "id": "SG-7.5-007",
+    "section": "7.5",
+    "source_line": 992,
+    "text": "Analyze product performance."
+  },
+  {
+    "id": "SG-7.5-008",
+    "section": "7.5",
+    "source_line": 993,
+    "text": "Identify inventory risks."
+  },
+  {
+    "id": "SG-7.5-009",
+    "section": "7.5",
+    "source_line": 994,
+    "text": "Summarize customer feedback."
+  },
+  {
+    "id": "SG-7.5-010",
+    "section": "7.5",
+    "source_line": 995,
+    "text": "Answer routine customer questions."
+  },
+  {
+    "id": "SG-7.5-011",
+    "section": "7.5",
+    "source_line": 996,
+    "text": "Recommend campaign improvements."
+  },
+  {
+    "id": "SG-7.5-012",
+    "section": "7.5",
+    "source_line": 998,
+    "text": "AI-generated content must be reviewed by the merchant before publication unless the merchant explicitly enables an approved automation workflow."
+  },
+  {
+    "id": "SG-7.6-001",
+    "section": "7.6",
+    "source_line": 1004,
+    "text": "Caption generation."
+  },
+  {
+    "id": "SG-7.6-002",
+    "section": "7.6",
+    "source_line": 1005,
+    "text": "Hashtag suggestions."
+  },
+  {
+    "id": "SG-7.6-003",
+    "section": "7.6",
+    "source_line": 1006,
+    "text": "Product description writing."
+  },
+  {
+    "id": "SG-7.6-004",
+    "section": "7.6",
+    "source_line": 1007,
+    "text": "Video script suggestions."
+  },
+  {
+    "id": "SG-7.6-005",
+    "section": "7.6",
+    "source_line": 1008,
+    "text": "Product photo enhancement."
+  },
+  {
+    "id": "SG-7.6-006",
+    "section": "7.6",
+    "source_line": 1009,
+    "text": "Background removal."
+  },
+  {
+    "id": "SG-7.6-007",
+    "section": "7.6",
+    "source_line": 1010,
+    "text": "Image quality checks."
+  },
+  {
+    "id": "SG-7.6-008",
+    "section": "7.6",
+    "source_line": 1011,
+    "text": "Automatic subtitle generation."
+  },
+  {
+    "id": "SG-7.6-009",
+    "section": "7.6",
+    "source_line": 1012,
+    "text": "Translation."
+  },
+  {
+    "id": "SG-7.6-010",
+    "section": "7.6",
+    "source_line": 1013,
+    "text": "Content resizing."
+  },
+  {
+    "id": "SG-7.6-011",
+    "section": "7.6",
+    "source_line": 1014,
+    "text": "Promotional content suggestions."
+  },
+  {
+    "id": "SG-7.6-012",
+    "section": "7.6",
+    "source_line": 1016,
+    "text": "AI must not fabricate product attributes, product certifications, or customer testimonials."
+  },
+  {
+    "id": "SG-7.7-001",
+    "section": "7.7",
+    "source_line": 1020,
+    "text": "Recommendation systems should consider:"
+  },
+  {
+    "id": "SG-7.7-002",
+    "section": "7.7",
+    "source_line": 1022,
+    "text": "Customer interests."
+  },
+  {
+    "id": "SG-7.7-003",
+    "section": "7.7",
+    "source_line": 1023,
+    "text": "Product views."
+  },
+  {
+    "id": "SG-7.7-004",
+    "section": "7.7",
+    "source_line": 1024,
+    "text": "Search history."
+  },
+  {
+    "id": "SG-7.7-005",
+    "section": "7.7",
+    "source_line": 1025,
+    "text": "Purchases."
+  },
+  {
+    "id": "SG-7.7-006",
+    "section": "7.7",
+    "source_line": 1026,
+    "text": "Saved products."
+  },
+  {
+    "id": "SG-7.7-007",
+    "section": "7.7",
+    "source_line": 1027,
+    "text": "Merchant relationships."
+  },
+  {
+    "id": "SG-7.7-008",
+    "section": "7.7",
+    "source_line": 1028,
+    "text": "Content engagement."
+  },
+  {
+    "id": "SG-7.7-009",
+    "section": "7.7",
+    "source_line": 1029,
+    "text": "Product availability."
+  },
+  {
+    "id": "SG-7.7-010",
+    "section": "7.7",
+    "source_line": 1030,
+    "text": "Price preferences."
+  },
+  {
+    "id": "SG-7.7-011",
+    "section": "7.7",
+    "source_line": 1031,
+    "text": "Location where permission is given."
+  },
+  {
+    "id": "SG-7.7-012",
+    "section": "7.7",
+    "source_line": 1033,
+    "text": "Customers should have understandable controls for personalization and privacy."
+  },
+  {
+    "id": "SG-7.8-001",
+    "section": "7.8",
+    "source_line": 1037,
+    "text": "Ground factual answers in trusted platform data."
+  },
+  {
+    "id": "SG-7.8-002",
+    "section": "7.8",
+    "source_line": 1038,
+    "text": "Apply role-based tool permissions."
+  },
+  {
+    "id": "SG-7.8-003",
+    "section": "7.8",
+    "source_line": 1039,
+    "text": "Log sensitive agent actions."
+  },
+  {
+    "id": "SG-7.8-004",
+    "section": "7.8",
+    "source_line": 1040,
+    "text": "Require confirmation for important transactions."
+  },
+  {
+    "id": "SG-7.8-005",
+    "section": "7.8",
+    "source_line": 1041,
+    "text": "Protect against prompt injection and malicious content."
+  },
+  {
+    "id": "SG-7.8-006",
+    "section": "7.8",
+    "source_line": 1042,
+    "text": "Provide human review for sensitive cases."
+  },
+  {
+    "id": "SG-7.8-007",
+    "section": "7.8",
+    "source_line": 1043,
+    "text": "Evaluate accuracy and fairness."
+  },
+  {
+    "id": "SG-7.8-008",
+    "section": "7.8",
+    "source_line": 1044,
+    "text": "Monitor model costs and response latency."
+  },
+  {
+    "id": "SG-7.8-009",
+    "section": "7.8",
+    "source_line": 1045,
+    "text": "Provide fallback responses when AI services are unavailable."
+  },
+  {
+    "id": "SG-7.8-010",
+    "section": "7.8",
+    "source_line": 1046,
+    "text": "Maintain an auditable record of important AI-assisted actions."
+  },
+  {
+    "id": "SG-8-001",
+    "section": "8",
+    "source_line": 1050,
+    "text": "Merchant mode should offer a simplified business-management interface."
+  },
+  {
+    "id": "SG-8-002",
+    "section": "8",
+    "source_line": 1054,
+    "text": "Merchant home."
+  },
+  {
+    "id": "SG-8-003",
+    "section": "8",
+    "source_line": 1055,
+    "text": "Store profile."
+  },
+  {
+    "id": "SG-8-004",
+    "section": "8",
+    "source_line": 1056,
+    "text": "Products."
+  },
+  {
+    "id": "SG-8-005",
+    "section": "8",
+    "source_line": 1057,
+    "text": "Inventory."
+  },
+  {
+    "id": "SG-8-006",
+    "section": "8",
+    "source_line": 1058,
+    "text": "Create content."
+  },
+  {
+    "id": "SG-8-007",
+    "section": "8",
+    "source_line": 1059,
+    "text": "Orders."
+  },
+  {
+    "id": "SG-8-008",
+    "section": "8",
+    "source_line": 1060,
+    "text": "Customers."
+  },
+  {
+    "id": "SG-8-009",
+    "section": "8",
+    "source_line": 1061,
+    "text": "Messages."
+  },
+  {
+    "id": "SG-8-010",
+    "section": "8",
+    "source_line": 1062,
+    "text": "Promotions."
+  },
+  {
+    "id": "SG-8-011",
+    "section": "8",
+    "source_line": 1063,
+    "text": "Earnings."
+  },
+  {
+    "id": "SG-8-012",
+    "section": "8",
+    "source_line": 1064,
+    "text": "Analytics."
+  },
+  {
+    "id": "SG-8-013",
+    "section": "8",
+    "source_line": 1065,
+    "text": "Settings."
+  },
+  {
+    "id": "SG-8-014",
+    "section": "8",
+    "source_line": 1069,
+    "text": "Sales summary."
+  },
+  {
+    "id": "SG-8-015",
+    "section": "8",
+    "source_line": 1070,
+    "text": "Pending orders."
+  },
+  {
+    "id": "SG-8-016",
+    "section": "8",
+    "source_line": 1071,
+    "text": "New orders."
+  },
+  {
+    "id": "SG-8-017",
+    "section": "8",
+    "source_line": 1072,
+    "text": "Low-stock products."
+  },
+  {
+    "id": "SG-8-018",
+    "section": "8",
+    "source_line": 1073,
+    "text": "Customer messages."
+  },
+  {
+    "id": "SG-8-019",
+    "section": "8",
+    "source_line": 1074,
+    "text": "Recent reviews."
+  },
+  {
+    "id": "SG-8-020",
+    "section": "8",
+    "source_line": 1075,
+    "text": "Active campaigns."
+  },
+  {
+    "id": "SG-8-021",
+    "section": "8",
+    "source_line": 1076,
+    "text": "Revenue overview."
+  },
+  {
+    "id": "SG-8-022",
+    "section": "8",
+    "source_line": 1077,
+    "text": "Important alerts."
+  },
+  {
+    "id": "SG-9-001",
+    "section": "9",
+    "source_line": 1083,
+    "text": "It must be suitable for individual sellers, small businesses, and larger merchants."
+  },
+  {
+    "id": "SG-9.1-001",
+    "section": "9.1",
+    "source_line": 1087,
+    "text": "Total sales."
+  },
+  {
+    "id": "SG-9.1-002",
+    "section": "9.1",
+    "source_line": 1088,
+    "text": "Revenue."
+  },
+  {
+    "id": "SG-9.1-003",
+    "section": "9.1",
+    "source_line": 1089,
+    "text": "Orders."
+  },
+  {
+    "id": "SG-9.1-004",
+    "section": "9.1",
+    "source_line": 1090,
+    "text": "Average order value."
+  },
+  {
+    "id": "SG-9.1-005",
+    "section": "9.1",
+    "source_line": 1091,
+    "text": "Conversion rate."
+  },
+  {
+    "id": "SG-9.1-006",
+    "section": "9.1",
+    "source_line": 1092,
+    "text": "Top products."
+  },
+  {
+    "id": "SG-9.1-007",
+    "section": "9.1",
+    "source_line": 1093,
+    "text": "Customer growth."
+  },
+  {
+    "id": "SG-9.1-008",
+    "section": "9.1",
+    "source_line": 1094,
+    "text": "Inventory alerts."
+  },
+  {
+    "id": "SG-9.1-009",
+    "section": "9.1",
+    "source_line": 1095,
+    "text": "Content performance."
+  },
+  {
+    "id": "SG-9.1-010",
+    "section": "9.1",
+    "source_line": 1096,
+    "text": "Campaign performance."
+  },
+  {
+    "id": "SG-9.1-011",
+    "section": "9.1",
+    "source_line": 1097,
+    "text": "Pending payouts."
+  },
+  {
+    "id": "SG-9.2-001",
+    "section": "9.2",
+    "source_line": 1101,
+    "text": "Store registration."
+  },
+  {
+    "id": "SG-9.2-002",
+    "section": "9.2",
+    "source_line": 1102,
+    "text": "Store verification."
+  },
+  {
+    "id": "SG-9.2-003",
+    "section": "9.2",
+    "source_line": 1103,
+    "text": "Business details."
+  },
+  {
+    "id": "SG-9.2-004",
+    "section": "9.2",
+    "source_line": 1104,
+    "text": "Store logo and cover."
+  },
+  {
+    "id": "SG-9.2-005",
+    "section": "9.2",
+    "source_line": 1105,
+    "text": "Store description."
+  },
+  {
+    "id": "SG-9.2-006",
+    "section": "9.2",
+    "source_line": 1106,
+    "text": "Contact details."
+  },
+  {
+    "id": "SG-9.2-007",
+    "section": "9.2",
+    "source_line": 1107,
+    "text": "Store policies."
+  },
+  {
+    "id": "SG-9.2-008",
+    "section": "9.2",
+    "source_line": 1108,
+    "text": "Shipping settings."
+  },
+  {
+    "id": "SG-9.2-009",
+    "section": "9.2",
+    "source_line": 1109,
+    "text": "Return policies."
+  },
+  {
+    "id": "SG-9.2-010",
+    "section": "9.2",
+    "source_line": 1110,
+    "text": "Staff accounts."
+  },
+  {
+    "id": "SG-9.2-011",
+    "section": "9.2",
+    "source_line": 1111,
+    "text": "Store permissions."
+  },
+  {
+    "id": "SG-9.3-001",
+    "section": "9.3",
+    "source_line": 1117,
+    "text": "Create."
+  },
+  {
+    "id": "SG-9.3-002",
+    "section": "9.3",
+    "source_line": 1118,
+    "text": "View."
+  },
+  {
+    "id": "SG-9.3-003",
+    "section": "9.3",
+    "source_line": 1119,
+    "text": "Edit."
+  },
+  {
+    "id": "SG-9.3-004",
+    "section": "9.3",
+    "source_line": 1120,
+    "text": "Delete or archive."
+  },
+  {
+    "id": "SG-9.3-005",
+    "section": "9.3",
+    "source_line": 1121,
+    "text": "Publish."
+  },
+  {
+    "id": "SG-9.3-006",
+    "section": "9.3",
+    "source_line": 1122,
+    "text": "Unpublish."
+  },
+  {
+    "id": "SG-9.3-007",
+    "section": "9.3",
+    "source_line": 1123,
+    "text": "Approve, where required."
+  },
+  {
+    "id": "SG-9.3-008",
+    "section": "9.3",
+    "source_line": 1127,
+    "text": "Name."
+  },
+  {
+    "id": "SG-9.3-009",
+    "section": "9.3",
+    "source_line": 1128,
+    "text": "SKU."
+  },
+  {
+    "id": "SG-9.3-010",
+    "section": "9.3",
+    "source_line": 1129,
+    "text": "Description."
+  },
+  {
+    "id": "SG-9.3-011",
+    "section": "9.3",
+    "source_line": 1130,
+    "text": "Category."
+  },
+  {
+    "id": "SG-9.3-012",
+    "section": "9.3",
+    "source_line": 1131,
+    "text": "Brand."
+  },
+  {
+    "id": "SG-9.3-013",
+    "section": "9.3",
+    "source_line": 1132,
+    "text": "Price."
+  },
+  {
+    "id": "SG-9.3-014",
+    "section": "9.3",
+    "source_line": 1133,
+    "text": "Discount."
+  },
+  {
+    "id": "SG-9.3-015",
+    "section": "9.3",
+    "source_line": 1134,
+    "text": "Images."
+  },
+  {
+    "id": "SG-9.3-016",
+    "section": "9.3",
+    "source_line": 1135,
+    "text": "Videos."
+  },
+  {
+    "id": "SG-9.3-017",
+    "section": "9.3",
+    "source_line": 1136,
+    "text": "Variants."
+  },
+  {
+    "id": "SG-9.3-018",
+    "section": "9.3",
+    "source_line": 1137,
+    "text": "Specifications."
+  },
+  {
+    "id": "SG-9.3-019",
+    "section": "9.3",
+    "source_line": 1138,
+    "text": "Inventory."
+  },
+  {
+    "id": "SG-9.3-020",
+    "section": "9.3",
+    "source_line": 1139,
+    "text": "Shipping information."
+  },
+  {
+    "id": "SG-9.3-021",
+    "section": "9.3",
+    "source_line": 1140,
+    "text": "Product status."
+  },
+  {
+    "id": "SG-9.3-022",
+    "section": "9.3",
+    "source_line": 1142,
+    "text": "Bulk upload and bulk editing should be supported."
+  },
+  {
+    "id": "SG-9.4-001",
+    "section": "9.4",
+    "source_line": 1146,
+    "text": "Stock quantities."
+  },
+  {
+    "id": "SG-9.4-002",
+    "section": "9.4",
+    "source_line": 1147,
+    "text": "Variant-level stock."
+  },
+  {
+    "id": "SG-9.4-003",
+    "section": "9.4",
+    "source_line": 1148,
+    "text": "Low-stock alerts."
+  },
+  {
+    "id": "SG-9.4-004",
+    "section": "9.4",
+    "source_line": 1149,
+    "text": "Stock adjustments."
+  },
+  {
+    "id": "SG-9.4-005",
+    "section": "9.4",
+    "source_line": 1150,
+    "text": "Inventory history."
+  },
+  {
+    "id": "SG-9.4-006",
+    "section": "9.4",
+    "source_line": 1151,
+    "text": "Stock reservation."
+  },
+  {
+    "id": "SG-9.4-007",
+    "section": "9.4",
+    "source_line": 1152,
+    "text": "Returns and restocking."
+  },
+  {
+    "id": "SG-9.4-008",
+    "section": "9.4",
+    "source_line": 1153,
+    "text": "Multiple warehouse support when required."
+  },
+  {
+    "id": "SG-9.5-001",
+    "section": "9.5",
+    "source_line": 1157,
+    "text": "Create posts."
+  },
+  {
+    "id": "SG-9.5-002",
+    "section": "9.5",
+    "source_line": 1158,
+    "text": "Upload reels."
+  },
+  {
+    "id": "SG-9.5-003",
+    "section": "9.5",
+    "source_line": 1159,
+    "text": "Publish stories."
+  },
+  {
+    "id": "SG-9.5-004",
+    "section": "9.5",
+    "source_line": 1160,
+    "text": "Tag products."
+  },
+  {
+    "id": "SG-9.5-005",
+    "section": "9.5",
+    "source_line": 1161,
+    "text": "Schedule content."
+  },
+  {
+    "id": "SG-9.5-006",
+    "section": "9.5",
+    "source_line": 1162,
+    "text": "Manage drafts."
+  },
+  {
+    "id": "SG-9.5-007",
+    "section": "9.5",
+    "source_line": 1163,
+    "text": "Manage comments."
+  },
+  {
+    "id": "SG-9.5-008",
+    "section": "9.5",
+    "source_line": 1164,
+    "text": "View engagement."
+  },
+  {
+    "id": "SG-9.5-009",
+    "section": "9.5",
+    "source_line": 1165,
+    "text": "View content performance."
+  },
+  {
+    "id": "SG-9.5-010",
+    "section": "9.5",
+    "source_line": 1166,
+    "text": "Manage live shopping sessions."
+  },
+  {
+    "id": "SG-9.6-001",
+    "section": "9.6",
+    "source_line": 1170,
+    "text": "View orders."
+  },
+  {
+    "id": "SG-9.6-002",
+    "section": "9.6",
+    "source_line": 1171,
+    "text": "Filter orders."
+  },
+  {
+    "id": "SG-9.6-003",
+    "section": "9.6",
+    "source_line": 1172,
+    "text": "Search orders."
+  },
+  {
+    "id": "SG-9.6-004",
+    "section": "9.6",
+    "source_line": 1173,
+    "text": "Update permitted order statuses."
+  },
+  {
+    "id": "SG-9.6-005",
+    "section": "9.6",
+    "source_line": 1174,
+    "text": "Print invoices."
+  },
+  {
+    "id": "SG-9.6-006",
+    "section": "9.6",
+    "source_line": 1175,
+    "text": "Print packing slips."
+  },
+  {
+    "id": "SG-9.6-007",
+    "section": "9.6",
+    "source_line": 1176,
+    "text": "Manage shipment details."
+  },
+  {
+    "id": "SG-9.6-008",
+    "section": "9.6",
+    "source_line": 1177,
+    "text": "Process eligible cancellations."
+  },
+  {
+    "id": "SG-9.6-009",
+    "section": "9.6",
+    "source_line": 1178,
+    "text": "Manage returns."
+  },
+  {
+    "id": "SG-9.6-010",
+    "section": "9.6",
+    "source_line": 1179,
+    "text": "Manage refunds."
+  },
+  {
+    "id": "SG-9.6-011",
+    "section": "9.6",
+    "source_line": 1180,
+    "text": "Export order information."
+  },
+  {
+    "id": "SG-9.7-001",
+    "section": "9.7",
+    "source_line": 1184,
+    "text": "Customer profiles with permitted information."
+  },
+  {
+    "id": "SG-9.7-002",
+    "section": "9.7",
+    "source_line": 1185,
+    "text": "Purchase history."
+  },
+  {
+    "id": "SG-9.7-003",
+    "section": "9.7",
+    "source_line": 1186,
+    "text": "Customer conversations."
+  },
+  {
+    "id": "SG-9.7-004",
+    "section": "9.7",
+    "source_line": 1187,
+    "text": "Customer questions."
+  },
+  {
+    "id": "SG-9.7-005",
+    "section": "9.7",
+    "source_line": 1188,
+    "text": "Customer support records."
+  },
+  {
+    "id": "SG-9.7-006",
+    "section": "9.7",
+    "source_line": 1189,
+    "text": "Customer segmentation."
+  },
+  {
+    "id": "SG-9.7-007",
+    "section": "9.7",
+    "source_line": 1190,
+    "text": "Loyalty information."
+  },
+  {
+    "id": "SG-9.7-008",
+    "section": "9.7",
+    "source_line": 1191,
+    "text": "Communication preferences."
+  },
+  {
+    "id": "SG-9.8-001",
+    "section": "9.8",
+    "source_line": 1195,
+    "text": "Discount campaigns."
+  },
+  {
+    "id": "SG-9.8-002",
+    "section": "9.8",
+    "source_line": 1196,
+    "text": "Coupon creation."
+  },
+  {
+    "id": "SG-9.8-003",
+    "section": "9.8",
+    "source_line": 1197,
+    "text": "Flash sales."
+  },
+  {
+    "id": "SG-9.8-004",
+    "section": "9.8",
+    "source_line": 1198,
+    "text": "Bundle offers."
+  },
+  {
+    "id": "SG-9.8-005",
+    "section": "9.8",
+    "source_line": 1199,
+    "text": "Buy-one-get-one campaigns."
+  },
+  {
+    "id": "SG-9.8-006",
+    "section": "9.8",
+    "source_line": 1200,
+    "text": "Free delivery campaigns."
+  },
+  {
+    "id": "SG-9.8-007",
+    "section": "9.8",
+    "source_line": 1201,
+    "text": "Referral campaigns."
+  },
+  {
+    "id": "SG-9.8-008",
+    "section": "9.8",
+    "source_line": 1202,
+    "text": "Group-buy campaigns."
+  },
+  {
+    "id": "SG-9.8-009",
+    "section": "9.8",
+    "source_line": 1203,
+    "text": "Live-only promotions."
+  },
+  {
+    "id": "SG-9.8-010",
+    "section": "9.8",
+    "source_line": 1204,
+    "text": "Loyalty campaigns."
+  },
+  {
+    "id": "SG-9.8-011",
+    "section": "9.8",
+    "source_line": 1205,
+    "text": "Affiliate campaigns."
+  },
+  {
+    "id": "SG-9.9-001",
+    "section": "9.9",
+    "source_line": 1211,
+    "text": "Discover creators."
+  },
+  {
+    "id": "SG-9.9-002",
+    "section": "9.9",
+    "source_line": 1212,
+    "text": "Invite creators."
+  },
+  {
+    "id": "SG-9.9-003",
+    "section": "9.9",
+    "source_line": 1213,
+    "text": "Approve partnerships."
+  },
+  {
+    "id": "SG-9.9-004",
+    "section": "9.9",
+    "source_line": 1214,
+    "text": "Assign products."
+  },
+  {
+    "id": "SG-9.9-005",
+    "section": "9.9",
+    "source_line": 1215,
+    "text": "Set commissions."
+  },
+  {
+    "id": "SG-9.9-006",
+    "section": "9.9",
+    "source_line": 1216,
+    "text": "Manage campaigns."
+  },
+  {
+    "id": "SG-9.9-007",
+    "section": "9.9",
+    "source_line": 1217,
+    "text": "Track attributed sales."
+  },
+  {
+    "id": "SG-9.9-008",
+    "section": "9.9",
+    "source_line": 1218,
+    "text": "Review creator performance."
+  },
+  {
+    "id": "SG-9.9-009",
+    "section": "9.9",
+    "source_line": 1219,
+    "text": "Manage commission payouts."
+  },
+  {
+    "id": "SG-9.10-001",
+    "section": "9.10",
+    "source_line": 1223,
+    "text": "Sales reports."
+  },
+  {
+    "id": "SG-9.10-002",
+    "section": "9.10",
+    "source_line": 1224,
+    "text": "Fees and commissions."
+  },
+  {
+    "id": "SG-9.10-003",
+    "section": "9.10",
+    "source_line": 1225,
+    "text": "Payment status."
+  },
+  {
+    "id": "SG-9.10-004",
+    "section": "9.10",
+    "source_line": 1226,
+    "text": "Refunds."
+  },
+  {
+    "id": "SG-9.10-005",
+    "section": "9.10",
+    "source_line": 1227,
+    "text": "Settlement history."
+  },
+  {
+    "id": "SG-9.10-006",
+    "section": "9.10",
+    "source_line": 1228,
+    "text": "Payout requests."
+  },
+  {
+    "id": "SG-9.10-007",
+    "section": "9.10",
+    "source_line": 1229,
+    "text": "Payout statements."
+  },
+  {
+    "id": "SG-9.10-008",
+    "section": "9.10",
+    "source_line": 1230,
+    "text": "Tax and financial exports where applicable."
+  },
+  {
+    "id": "SG-9.11-001",
+    "section": "9.11",
+    "source_line": 1234,
+    "text": "Sales trends."
+  },
+  {
+    "id": "SG-9.11-002",
+    "section": "9.11",
+    "source_line": 1235,
+    "text": "Product performance."
+  },
+  {
+    "id": "SG-9.11-003",
+    "section": "9.11",
+    "source_line": 1236,
+    "text": "Traffic sources."
+  },
+  {
+    "id": "SG-9.11-004",
+    "section": "9.11",
+    "source_line": 1237,
+    "text": "Conversion rates."
+  },
+  {
+    "id": "SG-9.11-005",
+    "section": "9.11",
+    "source_line": 1238,
+    "text": "Customer retention."
+  },
+  {
+    "id": "SG-9.11-006",
+    "section": "9.11",
+    "source_line": 1239,
+    "text": "Repeat purchases."
+  },
+  {
+    "id": "SG-9.11-007",
+    "section": "9.11",
+    "source_line": 1240,
+    "text": "Content engagement."
+  },
+  {
+    "id": "SG-9.11-008",
+    "section": "9.11",
+    "source_line": 1241,
+    "text": "Video performance."
+  },
+  {
+    "id": "SG-9.11-009",
+    "section": "9.11",
+    "source_line": 1242,
+    "text": "Campaign performance."
+  },
+  {
+    "id": "SG-9.11-010",
+    "section": "9.11",
+    "source_line": 1243,
+    "text": "Affiliate performance."
+  },
+  {
+    "id": "SG-9.11-011",
+    "section": "9.11",
+    "source_line": 1244,
+    "text": "Inventory turnover."
+  },
+  {
+    "id": "SG-9.12-001",
+    "section": "9.12",
+    "source_line": 1248,
+    "text": "Store information."
+  },
+  {
+    "id": "SG-9.12-002",
+    "section": "9.12",
+    "source_line": 1249,
+    "text": "Account security."
+  },
+  {
+    "id": "SG-9.12-003",
+    "section": "9.12",
+    "source_line": 1250,
+    "text": "Staff roles."
+  },
+  {
+    "id": "SG-9.12-004",
+    "section": "9.12",
+    "source_line": 1251,
+    "text": "Notification settings."
+  },
+  {
+    "id": "SG-9.12-005",
+    "section": "9.12",
+    "source_line": 1252,
+    "text": "Payment settings."
+  },
+  {
+    "id": "SG-9.12-006",
+    "section": "9.12",
+    "source_line": 1253,
+    "text": "Shipping configuration."
+  },
+  {
+    "id": "SG-9.12-007",
+    "section": "9.12",
+    "source_line": 1254,
+    "text": "Return policies."
+  },
+  {
+    "id": "SG-9.12-008",
+    "section": "9.12",
+    "source_line": 1255,
+    "text": "API integrations where approved."
+  },
+  {
+    "id": "SG-10.1-001",
+    "section": "10.1",
+    "source_line": 1263,
+    "text": "Total customers."
+  },
+  {
+    "id": "SG-10.1-002",
+    "section": "10.1",
+    "source_line": 1264,
+    "text": "Total merchants."
+  },
+  {
+    "id": "SG-10.1-003",
+    "section": "10.1",
+    "source_line": 1265,
+    "text": "Pending merchant approvals."
+  },
+  {
+    "id": "SG-10.1-004",
+    "section": "10.1",
+    "source_line": 1266,
+    "text": "Total products."
+  },
+  {
+    "id": "SG-10.1-005",
+    "section": "10.1",
+    "source_line": 1267,
+    "text": "Active orders."
+  },
+  {
+    "id": "SG-10.1-006",
+    "section": "10.1",
+    "source_line": 1268,
+    "text": "Total sales volume."
+  },
+  {
+    "id": "SG-10.1-007",
+    "section": "10.1",
+    "source_line": 1269,
+    "text": "Platform revenue."
+  },
+  {
+    "id": "SG-10.1-008",
+    "section": "10.1",
+    "source_line": 1270,
+    "text": "Pending payouts."
+  },
+  {
+    "id": "SG-10.1-009",
+    "section": "10.1",
+    "source_line": 1271,
+    "text": "Refund requests."
+  },
+  {
+    "id": "SG-10.1-010",
+    "section": "10.1",
+    "source_line": 1272,
+    "text": "Reported content."
+  },
+  {
+    "id": "SG-10.1-011",
+    "section": "10.1",
+    "source_line": 1273,
+    "text": "Support tickets."
+  },
+  {
+    "id": "SG-10.1-012",
+    "section": "10.1",
+    "source_line": 1274,
+    "text": "AI support performance."
+  },
+  {
+    "id": "SG-10.1-013",
+    "section": "10.1",
+    "source_line": 1275,
+    "text": "Delivery issues."
+  },
+  {
+    "id": "SG-10.1-014",
+    "section": "10.1",
+    "source_line": 1276,
+    "text": "Platform activity."
+  },
+  {
+    "id": "SG-10.2-001",
+    "section": "10.2",
+    "source_line": 1280,
+    "text": "Customer list."
+  },
+  {
+    "id": "SG-10.2-002",
+    "section": "10.2",
+    "source_line": 1281,
+    "text": "Merchant list."
+  },
+  {
+    "id": "SG-10.2-003",
+    "section": "10.2",
+    "source_line": 1282,
+    "text": "Staff list."
+  },
+  {
+    "id": "SG-10.2-004",
+    "section": "10.2",
+    "source_line": 1283,
+    "text": "Search and filters."
+  },
+  {
+    "id": "SG-10.2-005",
+    "section": "10.2",
+    "source_line": 1284,
+    "text": "User details."
+  },
+  {
+    "id": "SG-10.2-006",
+    "section": "10.2",
+    "source_line": 1285,
+    "text": "Account status."
+  },
+  {
+    "id": "SG-10.2-007",
+    "section": "10.2",
+    "source_line": 1286,
+    "text": "Account verification."
+  },
+  {
+    "id": "SG-10.2-008",
+    "section": "10.2",
+    "source_line": 1287,
+    "text": "Suspensions."
+  },
+  {
+    "id": "SG-10.2-009",
+    "section": "10.2",
+    "source_line": 1288,
+    "text": "Restrictions."
+  },
+  {
+    "id": "SG-10.2-010",
+    "section": "10.2",
+    "source_line": 1289,
+    "text": "Account recovery."
+  },
+  {
+    "id": "SG-10.2-011",
+    "section": "10.2",
+    "source_line": 1290,
+    "text": "Activity history."
+  },
+  {
+    "id": "SG-10.3-001",
+    "section": "10.3",
+    "source_line": 1294,
+    "text": "Merchant applications."
+  },
+  {
+    "id": "SG-10.3-002",
+    "section": "10.3",
+    "source_line": 1295,
+    "text": "Verification."
+  },
+  {
+    "id": "SG-10.3-003",
+    "section": "10.3",
+    "source_line": 1296,
+    "text": "Business documents."
+  },
+  {
+    "id": "SG-10.3-004",
+    "section": "10.3",
+    "source_line": 1297,
+    "text": "Approval and rejection."
+  },
+  {
+    "id": "SG-10.3-005",
+    "section": "10.3",
+    "source_line": 1298,
+    "text": "Store suspension."
+  },
+  {
+    "id": "SG-10.3-006",
+    "section": "10.3",
+    "source_line": 1299,
+    "text": "Merchant performance."
+  },
+  {
+    "id": "SG-10.3-007",
+    "section": "10.3",
+    "source_line": 1300,
+    "text": "Merchant disputes."
+  },
+  {
+    "id": "SG-10.3-008",
+    "section": "10.3",
+    "source_line": 1301,
+    "text": "Commission configuration."
+  },
+  {
+    "id": "SG-10.3-009",
+    "section": "10.3",
+    "source_line": 1302,
+    "text": "Merchant risk monitoring."
+  },
+  {
+    "id": "SG-10.4-001",
+    "section": "10.4",
+    "source_line": 1306,
+    "text": "Products."
+  },
+  {
+    "id": "SG-10.4-002",
+    "section": "10.4",
+    "source_line": 1307,
+    "text": "Categories."
+  },
+  {
+    "id": "SG-10.4-003",
+    "section": "10.4",
+    "source_line": 1308,
+    "text": "Subcategories."
+  },
+  {
+    "id": "SG-10.4-004",
+    "section": "10.4",
+    "source_line": 1309,
+    "text": "Brands."
+  },
+  {
+    "id": "SG-10.4-005",
+    "section": "10.4",
+    "source_line": 1310,
+    "text": "Attributes."
+  },
+  {
+    "id": "SG-10.4-006",
+    "section": "10.4",
+    "source_line": 1311,
+    "text": "Product approval."
+  },
+  {
+    "id": "SG-10.4-007",
+    "section": "10.4",
+    "source_line": 1312,
+    "text": "Product reports."
+  },
+  {
+    "id": "SG-10.4-008",
+    "section": "10.4",
+    "source_line": 1313,
+    "text": "Restricted products."
+  },
+  {
+    "id": "SG-10.4-009",
+    "section": "10.4",
+    "source_line": 1314,
+    "text": "Duplicate listings."
+  },
+  {
+    "id": "SG-10.4-010",
+    "section": "10.4",
+    "source_line": 1315,
+    "text": "Product quality checks."
+  },
+  {
+    "id": "SG-10.5-001",
+    "section": "10.5",
+    "source_line": 1319,
+    "text": "Posts."
+  },
+  {
+    "id": "SG-10.5-002",
+    "section": "10.5",
+    "source_line": 1320,
+    "text": "Reels."
+  },
+  {
+    "id": "SG-10.5-003",
+    "section": "10.5",
+    "source_line": 1321,
+    "text": "Stories."
+  },
+  {
+    "id": "SG-10.5-004",
+    "section": "10.5",
+    "source_line": 1322,
+    "text": "Comments."
+  },
+  {
+    "id": "SG-10.5-005",
+    "section": "10.5",
+    "source_line": 1323,
+    "text": "Live sessions."
+  },
+  {
+    "id": "SG-10.5-006",
+    "section": "10.5",
+    "source_line": 1324,
+    "text": "Reports."
+  },
+  {
+    "id": "SG-10.5-007",
+    "section": "10.5",
+    "source_line": 1325,
+    "text": "Copyright complaints."
+  },
+  {
+    "id": "SG-10.5-008",
+    "section": "10.5",
+    "source_line": 1326,
+    "text": "Fraudulent content."
+  },
+  {
+    "id": "SG-10.5-009",
+    "section": "10.5",
+    "source_line": 1327,
+    "text": "Restricted products."
+  },
+  {
+    "id": "SG-10.5-010",
+    "section": "10.5",
+    "source_line": 1328,
+    "text": "AI-assisted moderation."
+  },
+  {
+    "id": "SG-10.5-011",
+    "section": "10.5",
+    "source_line": 1329,
+    "text": "Moderator review queues."
+  },
+  {
+    "id": "SG-10.5-012",
+    "section": "10.5",
+    "source_line": 1330,
+    "text": "Appeals and decisions."
+  },
+  {
+    "id": "SG-10.6-001",
+    "section": "10.6",
+    "source_line": 1334,
+    "text": "All orders."
+  },
+  {
+    "id": "SG-10.6-002",
+    "section": "10.6",
+    "source_line": 1335,
+    "text": "Order details."
+  },
+  {
+    "id": "SG-10.6-003",
+    "section": "10.6",
+    "source_line": 1336,
+    "text": "Status tracking."
+  },
+  {
+    "id": "SG-10.6-004",
+    "section": "10.6",
+    "source_line": 1337,
+    "text": "Cancellation."
+  },
+  {
+    "id": "SG-10.6-005",
+    "section": "10.6",
+    "source_line": 1338,
+    "text": "Refunds."
+  },
+  {
+    "id": "SG-10.6-006",
+    "section": "10.6",
+    "source_line": 1339,
+    "text": "Disputes."
+  },
+  {
+    "id": "SG-10.6-007",
+    "section": "10.6",
+    "source_line": 1340,
+    "text": "Merchant fulfilment performance."
+  },
+  {
+    "id": "SG-10.6-008",
+    "section": "10.6",
+    "source_line": 1341,
+    "text": "Delivery issues."
+  },
+  {
+    "id": "SG-10.7-001",
+    "section": "10.7",
+    "source_line": 1345,
+    "text": "Payment transactions."
+  },
+  {
+    "id": "SG-10.7-002",
+    "section": "10.7",
+    "source_line": 1346,
+    "text": "Failed payments."
+  },
+  {
+    "id": "SG-10.7-003",
+    "section": "10.7",
+    "source_line": 1347,
+    "text": "Refunds."
+  },
+  {
+    "id": "SG-10.7-004",
+    "section": "10.7",
+    "source_line": 1348,
+    "text": "Merchant settlements."
+  },
+  {
+    "id": "SG-10.7-005",
+    "section": "10.7",
+    "source_line": 1349,
+    "text": "Platform commissions."
+  },
+  {
+    "id": "SG-10.7-006",
+    "section": "10.7",
+    "source_line": 1350,
+    "text": "Payout approvals."
+  },
+  {
+    "id": "SG-10.7-007",
+    "section": "10.7",
+    "source_line": 1351,
+    "text": "Reconciliation."
+  },
+  {
+    "id": "SG-10.7-008",
+    "section": "10.7",
+    "source_line": 1352,
+    "text": "Financial reporting."
+  },
+  {
+    "id": "SG-10.7-009",
+    "section": "10.7",
+    "source_line": 1353,
+    "text": "Fraud alerts."
+  },
+  {
+    "id": "SG-10.8-001",
+    "section": "10.8",
+    "source_line": 1357,
+    "text": "Delivery providers."
+  },
+  {
+    "id": "SG-10.8-002",
+    "section": "10.8",
+    "source_line": 1358,
+    "text": "Shipping methods."
+  },
+  {
+    "id": "SG-10.8-003",
+    "section": "10.8",
+    "source_line": 1359,
+    "text": "Delivery charges."
+  },
+  {
+    "id": "SG-10.8-004",
+    "section": "10.8",
+    "source_line": 1360,
+    "text": "Shipment records."
+  },
+  {
+    "id": "SG-10.8-005",
+    "section": "10.8",
+    "source_line": 1361,
+    "text": "Tracking events."
+  },
+  {
+    "id": "SG-10.8-006",
+    "section": "10.8",
+    "source_line": 1362,
+    "text": "Delivery exceptions."
+  },
+  {
+    "id": "SG-10.8-007",
+    "section": "10.8",
+    "source_line": 1363,
+    "text": "Failed deliveries."
+  },
+  {
+    "id": "SG-10.8-008",
+    "section": "10.8",
+    "source_line": 1364,
+    "text": "Return shipments."
+  },
+  {
+    "id": "SG-10.8-009",
+    "section": "10.8",
+    "source_line": 1365,
+    "text": "Delivery performance."
+  },
+  {
+    "id": "SG-10.9-001",
+    "section": "10.9",
+    "source_line": 1369,
+    "text": "Reward rules."
+  },
+  {
+    "id": "SG-10.9-002",
+    "section": "10.9",
+    "source_line": 1370,
+    "text": "Point values."
+  },
+  {
+    "id": "SG-10.9-003",
+    "section": "10.9",
+    "source_line": 1371,
+    "text": "Reward campaigns."
+  },
+  {
+    "id": "SG-10.9-004",
+    "section": "10.9",
+    "source_line": 1372,
+    "text": "Coupon management."
+  },
+  {
+    "id": "SG-10.9-005",
+    "section": "10.9",
+    "source_line": 1373,
+    "text": "Referral rules."
+  },
+  {
+    "id": "SG-10.9-006",
+    "section": "10.9",
+    "source_line": 1374,
+    "text": "Loyalty levels."
+  },
+  {
+    "id": "SG-10.9-007",
+    "section": "10.9",
+    "source_line": 1375,
+    "text": "Redemption history."
+  },
+  {
+    "id": "SG-10.9-008",
+    "section": "10.9",
+    "source_line": 1376,
+    "text": "Fraud monitoring."
+  },
+  {
+    "id": "SG-10.9-009",
+    "section": "10.9",
+    "source_line": 1377,
+    "text": "Reward reversals."
+  },
+  {
+    "id": "SG-10.9-010",
+    "section": "10.9",
+    "source_line": 1378,
+    "text": "Campaign budgets."
+  },
+  {
+    "id": "SG-10.10-001",
+    "section": "10.10",
+    "source_line": 1382,
+    "text": "Product reviews."
+  },
+  {
+    "id": "SG-10.10-002",
+    "section": "10.10",
+    "source_line": 1383,
+    "text": "Merchant ratings."
+  },
+  {
+    "id": "SG-10.10-003",
+    "section": "10.10",
+    "source_line": 1384,
+    "text": "Customer complaints."
+  },
+  {
+    "id": "SG-10.10-004",
+    "section": "10.10",
+    "source_line": 1385,
+    "text": "Review reports."
+  },
+  {
+    "id": "SG-10.10-005",
+    "section": "10.10",
+    "source_line": 1386,
+    "text": "Verified purchase validation."
+  },
+  {
+    "id": "SG-10.10-006",
+    "section": "10.10",
+    "source_line": 1387,
+    "text": "Review moderation."
+  },
+  {
+    "id": "SG-10.10-007",
+    "section": "10.10",
+    "source_line": 1388,
+    "text": "Dispute records."
+  },
+  {
+    "id": "SG-10.11-001",
+    "section": "10.11",
+    "source_line": 1392,
+    "text": "Support inbox."
+  },
+  {
+    "id": "SG-10.11-002",
+    "section": "10.11",
+    "source_line": 1393,
+    "text": "Customer tickets."
+  },
+  {
+    "id": "SG-10.11-003",
+    "section": "10.11",
+    "source_line": 1394,
+    "text": "Merchant tickets."
+  },
+  {
+    "id": "SG-10.11-004",
+    "section": "10.11",
+    "source_line": 1395,
+    "text": "Conversation history."
+  },
+  {
+    "id": "SG-10.11-005",
+    "section": "10.11",
+    "source_line": 1396,
+    "text": "Call records, where permitted."
+  },
+  {
+    "id": "SG-10.11-006",
+    "section": "10.11",
+    "source_line": 1397,
+    "text": "AI escalation queue."
+  },
+  {
+    "id": "SG-10.11-007",
+    "section": "10.11",
+    "source_line": 1398,
+    "text": "Human-agent assignments."
+  },
+  {
+    "id": "SG-10.11-008",
+    "section": "10.11",
+    "source_line": 1399,
+    "text": "Support response analytics."
+  },
+  {
+    "id": "SG-10.12-001",
+    "section": "10.12",
+    "source_line": 1403,
+    "text": "AI agent configuration."
+  },
+  {
+    "id": "SG-10.12-002",
+    "section": "10.12",
+    "source_line": 1404,
+    "text": "Agent permissions."
+  },
+  {
+    "id": "SG-10.12-003",
+    "section": "10.12",
+    "source_line": 1405,
+    "text": "Knowledge sources."
+  },
+  {
+    "id": "SG-10.12-004",
+    "section": "10.12",
+    "source_line": 1406,
+    "text": "Approved response policies."
+  },
+  {
+    "id": "SG-10.12-005",
+    "section": "10.12",
+    "source_line": 1407,
+    "text": "Supported languages."
+  },
+  {
+    "id": "SG-10.12-006",
+    "section": "10.12",
+    "source_line": 1408,
+    "text": "Human handoff settings."
+  },
+  {
+    "id": "SG-10.12-007",
+    "section": "10.12",
+    "source_line": 1409,
+    "text": "Call and conversation analytics."
+  },
+  {
+    "id": "SG-10.12-008",
+    "section": "10.12",
+    "source_line": 1410,
+    "text": "AI usage and costs."
+  },
+  {
+    "id": "SG-10.12-009",
+    "section": "10.12",
+    "source_line": 1411,
+    "text": "Quality evaluations."
+  },
+  {
+    "id": "SG-10.12-010",
+    "section": "10.12",
+    "source_line": 1412,
+    "text": "Error reports."
+  },
+  {
+    "id": "SG-10.12-011",
+    "section": "10.12",
+    "source_line": 1413,
+    "text": "Safety monitoring."
+  },
+  {
+    "id": "SG-10.13-001",
+    "section": "10.13",
+    "source_line": 1417,
+    "text": "Roles."
+  },
+  {
+    "id": "SG-10.13-002",
+    "section": "10.13",
+    "source_line": 1418,
+    "text": "Permissions."
+  },
+  {
+    "id": "SG-10.13-003",
+    "section": "10.13",
+    "source_line": 1419,
+    "text": "Admin accounts."
+  },
+  {
+    "id": "SG-10.13-004",
+    "section": "10.13",
+    "source_line": 1420,
+    "text": "Audit logs."
+  },
+  {
+    "id": "SG-10.13-005",
+    "section": "10.13",
+    "source_line": 1421,
+    "text": "Login history."
+  },
+  {
+    "id": "SG-10.13-006",
+    "section": "10.13",
+    "source_line": 1422,
+    "text": "Security events."
+  },
+  {
+    "id": "SG-10.13-007",
+    "section": "10.13",
+    "source_line": 1423,
+    "text": "System settings."
+  },
+  {
+    "id": "SG-10.13-008",
+    "section": "10.13",
+    "source_line": 1424,
+    "text": "API configuration."
+  },
+  {
+    "id": "SG-10.13-009",
+    "section": "10.13",
+    "source_line": 1425,
+    "text": "Integration status."
+  },
+  {
+    "id": "SG-10.13-010",
+    "section": "10.13",
+    "source_line": 1426,
+    "text": "Backup status."
+  },
+  {
+    "id": "SG-10.13-011",
+    "section": "10.13",
+    "source_line": 1427,
+    "text": "Operational alerts."
+  },
+  {
+    "id": "SG-11-001",
+    "section": "11",
+    "source_line": 1431,
+    "text": "The system must be designed around separate but connected business entities."
+  },
+  {
+    "id": "SG-11.1-001",
+    "section": "11.1",
+    "source_line": 1441,
+    "text": "users"
+  },
+  {
+    "id": "SG-11.1-002",
+    "section": "11.1",
+    "source_line": 1442,
+    "text": "customer_profiles"
+  },
+  {
+    "id": "SG-11.1-003",
+    "section": "11.1",
+    "source_line": 1443,
+    "text": "merchant_profiles"
+  },
+  {
+    "id": "SG-11.1-004",
+    "section": "11.1",
+    "source_line": 1444,
+    "text": "stores"
+  },
+  {
+    "id": "SG-11.1-005",
+    "section": "11.1",
+    "source_line": 1445,
+    "text": "store_members"
+  },
+  {
+    "id": "SG-11.1-006",
+    "section": "11.1",
+    "source_line": 1446,
+    "text": "roles"
+  },
+  {
+    "id": "SG-11.1-007",
+    "section": "11.1",
+    "source_line": 1447,
+    "text": "permissions"
+  },
+  {
+    "id": "SG-11.1-008",
+    "section": "11.1",
+    "source_line": 1448,
+    "text": "role_permissions"
+  },
+  {
+    "id": "SG-11.1-009",
+    "section": "11.1",
+    "source_line": 1449,
+    "text": "user_roles"
+  },
+  {
+    "id": "SG-11.1-010",
+    "section": "11.1",
+    "source_line": 1450,
+    "text": "verification_records"
+  },
+  {
+    "id": "SG-11.1-011",
+    "section": "11.1",
+    "source_line": 1451,
+    "text": "sessions"
+  },
+  {
+    "id": "SG-11.1-012",
+    "section": "11.1",
+    "source_line": 1452,
+    "text": "audit_logs"
+  },
+  {
+    "id": "SG-11.1-013",
+    "section": "11.1",
+    "source_line": 1456,
+    "text": "products"
+  },
+  {
+    "id": "SG-11.1-014",
+    "section": "11.1",
+    "source_line": 1457,
+    "text": "product_variants"
+  },
+  {
+    "id": "SG-11.1-015",
+    "section": "11.1",
+    "source_line": 1458,
+    "text": "product_images"
+  },
+  {
+    "id": "SG-11.1-016",
+    "section": "11.1",
+    "source_line": 1459,
+    "text": "product_videos"
+  },
+  {
+    "id": "SG-11.1-017",
+    "section": "11.1",
+    "source_line": 1460,
+    "text": "categories"
+  },
+  {
+    "id": "SG-11.1-018",
+    "section": "11.1",
+    "source_line": 1461,
+    "text": "brands"
+  },
+  {
+    "id": "SG-11.1-019",
+    "section": "11.1",
+    "source_line": 1462,
+    "text": "product_attributes"
+  },
+  {
+    "id": "SG-11.1-020",
+    "section": "11.1",
+    "source_line": 1463,
+    "text": "product_attribute_values"
+  },
+  {
+    "id": "SG-11.1-021",
+    "section": "11.1",
+    "source_line": 1464,
+    "text": "inventory"
+  },
+  {
+    "id": "SG-11.1-022",
+    "section": "11.1",
+    "source_line": 1465,
+    "text": "warehouses"
+  },
+  {
+    "id": "SG-11.1-023",
+    "section": "11.1",
+    "source_line": 1466,
+    "text": "stock_movements"
+  },
+  {
+    "id": "SG-11.1-024",
+    "section": "11.1",
+    "source_line": 1470,
+    "text": "content_posts"
+  },
+  {
+    "id": "SG-11.1-025",
+    "section": "11.1",
+    "source_line": 1471,
+    "text": "content_media"
+  },
+  {
+    "id": "SG-11.1-026",
+    "section": "11.1",
+    "source_line": 1472,
+    "text": "reels"
+  },
+  {
+    "id": "SG-11.1-027",
+    "section": "11.1",
+    "source_line": 1473,
+    "text": "stories"
+  },
+  {
+    "id": "SG-11.1-028",
+    "section": "11.1",
+    "source_line": 1474,
+    "text": "story_views"
+  },
+  {
+    "id": "SG-11.1-029",
+    "section": "11.1",
+    "source_line": 1475,
+    "text": "product_tags"
+  },
+  {
+    "id": "SG-11.1-030",
+    "section": "11.1",
+    "source_line": 1476,
+    "text": "comments"
+  },
+  {
+    "id": "SG-11.1-031",
+    "section": "11.1",
+    "source_line": 1477,
+    "text": "comment_replies"
+  },
+  {
+    "id": "SG-11.1-032",
+    "section": "11.1",
+    "source_line": 1478,
+    "text": "likes"
+  },
+  {
+    "id": "SG-11.1-033",
+    "section": "11.1",
+    "source_line": 1479,
+    "text": "reposts"
+  },
+  {
+    "id": "SG-11.1-034",
+    "section": "11.1",
+    "source_line": 1480,
+    "text": "saves"
+  },
+  {
+    "id": "SG-11.1-035",
+    "section": "11.1",
+    "source_line": 1481,
+    "text": "follows"
+  },
+  {
+    "id": "SG-11.1-036",
+    "section": "11.1",
+    "source_line": 1482,
+    "text": "hashtags"
+  },
+  {
+    "id": "SG-11.1-037",
+    "section": "11.1",
+    "source_line": 1483,
+    "text": "mentions"
+  },
+  {
+    "id": "SG-11.1-038",
+    "section": "11.1",
+    "source_line": 1484,
+    "text": "reports"
+  },
+  {
+    "id": "SG-11.1-039",
+    "section": "11.1",
+    "source_line": 1488,
+    "text": "reviews"
+  },
+  {
+    "id": "SG-11.1-040",
+    "section": "11.1",
+    "source_line": 1489,
+    "text": "review_media"
+  },
+  {
+    "id": "SG-11.1-041",
+    "section": "11.1",
+    "source_line": 1490,
+    "text": "review_votes"
+  },
+  {
+    "id": "SG-11.1-042",
+    "section": "11.1",
+    "source_line": 1491,
+    "text": "review_reports"
+  },
+  {
+    "id": "SG-11.1-043",
+    "section": "11.1",
+    "source_line": 1492,
+    "text": "verified_purchase_records"
+  },
+  {
+    "id": "SG-11.1-044",
+    "section": "11.1",
+    "source_line": 1496,
+    "text": "carts"
+  },
+  {
+    "id": "SG-11.1-045",
+    "section": "11.1",
+    "source_line": 1497,
+    "text": "cart_items"
+  },
+  {
+    "id": "SG-11.1-046",
+    "section": "11.1",
+    "source_line": 1498,
+    "text": "wishlists"
+  },
+  {
+    "id": "SG-11.1-047",
+    "section": "11.1",
+    "source_line": 1499,
+    "text": "wishlist_items"
+  },
+  {
+    "id": "SG-11.1-048",
+    "section": "11.1",
+    "source_line": 1500,
+    "text": "orders"
+  },
+  {
+    "id": "SG-11.1-049",
+    "section": "11.1",
+    "source_line": 1501,
+    "text": "order_items"
+  },
+  {
+    "id": "SG-11.1-050",
+    "section": "11.1",
+    "source_line": 1502,
+    "text": "payments"
+  },
+  {
+    "id": "SG-11.1-051",
+    "section": "11.1",
+    "source_line": 1503,
+    "text": "refunds"
+  },
+  {
+    "id": "SG-11.1-052",
+    "section": "11.1",
+    "source_line": 1504,
+    "text": "invoices"
+  },
+  {
+    "id": "SG-11.1-053",
+    "section": "11.1",
+    "source_line": 1505,
+    "text": "transactions"
+  },
+  {
+    "id": "SG-11.1-054",
+    "section": "11.1",
+    "source_line": 1506,
+    "text": "commissions"
+  },
+  {
+    "id": "SG-11.1-055",
+    "section": "11.1",
+    "source_line": 1507,
+    "text": "merchant_payouts"
+  },
+  {
+    "id": "SG-11.1-056",
+    "section": "11.1",
+    "source_line": 1511,
+    "text": "shipping_methods"
+  },
+  {
+    "id": "SG-11.1-057",
+    "section": "11.1",
+    "source_line": 1512,
+    "text": "shipments"
+  },
+  {
+    "id": "SG-11.1-058",
+    "section": "11.1",
+    "source_line": 1513,
+    "text": "shipment_items"
+  },
+  {
+    "id": "SG-11.1-059",
+    "section": "11.1",
+    "source_line": 1514,
+    "text": "delivery_providers"
+  },
+  {
+    "id": "SG-11.1-060",
+    "section": "11.1",
+    "source_line": 1515,
+    "text": "tracking_events"
+  },
+  {
+    "id": "SG-11.1-061",
+    "section": "11.1",
+    "source_line": 1516,
+    "text": "delivery_addresses"
+  },
+  {
+    "id": "SG-11.1-062",
+    "section": "11.1",
+    "source_line": 1517,
+    "text": "return_requests"
+  },
+  {
+    "id": "SG-11.1-063",
+    "section": "11.1",
+    "source_line": 1521,
+    "text": "campaigns"
+  },
+  {
+    "id": "SG-11.1-064",
+    "section": "11.1",
+    "source_line": 1522,
+    "text": "coupons"
+  },
+  {
+    "id": "SG-11.1-065",
+    "section": "11.1",
+    "source_line": 1523,
+    "text": "coupon_redemptions"
+  },
+  {
+    "id": "SG-11.1-066",
+    "section": "11.1",
+    "source_line": 1524,
+    "text": "reward_accounts"
+  },
+  {
+    "id": "SG-11.1-067",
+    "section": "11.1",
+    "source_line": 1525,
+    "text": "reward_ledger"
+  },
+  {
+    "id": "SG-11.1-068",
+    "section": "11.1",
+    "source_line": 1526,
+    "text": "reward_rules"
+  },
+  {
+    "id": "SG-11.1-069",
+    "section": "11.1",
+    "source_line": 1527,
+    "text": "reward_events"
+  },
+  {
+    "id": "SG-11.1-070",
+    "section": "11.1",
+    "source_line": 1528,
+    "text": "loyalty_tiers"
+  },
+  {
+    "id": "SG-11.1-071",
+    "section": "11.1",
+    "source_line": 1529,
+    "text": "referrals"
+  },
+  {
+    "id": "SG-11.1-072",
+    "section": "11.1",
+    "source_line": 1530,
+    "text": "affiliate_campaigns"
+  },
+  {
+    "id": "SG-11.1-073",
+    "section": "11.1",
+    "source_line": 1531,
+    "text": "affiliate_clicks"
+  },
+  {
+    "id": "SG-11.1-074",
+    "section": "11.1",
+    "source_line": 1532,
+    "text": "affiliate_commissions"
+  },
+  {
+    "id": "SG-11.1-075",
+    "section": "11.1",
+    "source_line": 1536,
+    "text": "conversations"
+  },
+  {
+    "id": "SG-11.1-076",
+    "section": "11.1",
+    "source_line": 1537,
+    "text": "conversation_participants"
+  },
+  {
+    "id": "SG-11.1-077",
+    "section": "11.1",
+    "source_line": 1538,
+    "text": "messages"
+  },
+  {
+    "id": "SG-11.1-078",
+    "section": "11.1",
+    "source_line": 1539,
+    "text": "message_attachments"
+  },
+  {
+    "id": "SG-11.1-079",
+    "section": "11.1",
+    "source_line": 1540,
+    "text": "call_sessions"
+  },
+  {
+    "id": "SG-11.1-080",
+    "section": "11.1",
+    "source_line": 1541,
+    "text": "notifications"
+  },
+  {
+    "id": "SG-11.1-081",
+    "section": "11.1",
+    "source_line": 1542,
+    "text": "support_tickets"
+  },
+  {
+    "id": "SG-11.1-082",
+    "section": "11.1",
+    "source_line": 1543,
+    "text": "support_ticket_messages"
+  },
+  {
+    "id": "SG-11.1-083",
+    "section": "11.1",
+    "source_line": 1547,
+    "text": "ai_agents"
+  },
+  {
+    "id": "SG-11.1-084",
+    "section": "11.1",
+    "source_line": 1548,
+    "text": "ai_agent_tools"
+  },
+  {
+    "id": "SG-11.1-085",
+    "section": "11.1",
+    "source_line": 1549,
+    "text": "ai_knowledge_sources"
+  },
+  {
+    "id": "SG-11.1-086",
+    "section": "11.1",
+    "source_line": 1550,
+    "text": "ai_conversations"
+  },
+  {
+    "id": "SG-11.1-087",
+    "section": "11.1",
+    "source_line": 1551,
+    "text": "ai_interaction_events"
+  },
+  {
+    "id": "SG-11.1-088",
+    "section": "11.1",
+    "source_line": 1552,
+    "text": "ai_action_logs"
+  },
+  {
+    "id": "SG-11.1-089",
+    "section": "11.1",
+    "source_line": 1553,
+    "text": "ai_escalations"
+  },
+  {
+    "id": "SG-11.1-090",
+    "section": "11.1",
+    "source_line": 1554,
+    "text": "ai_evaluations"
+  },
+  {
+    "id": "SG-11.1-091",
+    "section": "11.1",
+    "source_line": 1556,
+    "text": "These are conceptual entities, not a final database migration specification. Exact table structures, indexes, relationships, and constraints must be finalized during technical design."
+  },
+  {
+    "id": "SG-12.2-001",
+    "section": "12.2",
+    "source_line": 1588,
+    "text": "Identity and authentication."
+  },
+  {
+    "id": "SG-12.2-002",
+    "section": "12.2",
+    "source_line": 1589,
+    "text": "Customer management."
+  },
+  {
+    "id": "SG-12.2-003",
+    "section": "12.2",
+    "source_line": 1590,
+    "text": "Merchant and store management."
+  },
+  {
+    "id": "SG-12.2-004",
+    "section": "12.2",
+    "source_line": 1591,
+    "text": "Product catalogue."
+  },
+  {
+    "id": "SG-12.2-005",
+    "section": "12.2",
+    "source_line": 1592,
+    "text": "Inventory."
+  },
+  {
+    "id": "SG-12.2-006",
+    "section": "12.2",
+    "source_line": 1593,
+    "text": "Social content."
+  },
+  {
+    "id": "SG-12.2-007",
+    "section": "12.2",
+    "source_line": 1594,
+    "text": "Feed and recommendations."
+  },
+  {
+    "id": "SG-12.2-008",
+    "section": "12.2",
+    "source_line": 1595,
+    "text": "Search."
+  },
+  {
+    "id": "SG-12.2-009",
+    "section": "12.2",
+    "source_line": 1596,
+    "text": "Messaging."
+  },
+  {
+    "id": "SG-12.2-010",
+    "section": "12.2",
+    "source_line": 1597,
+    "text": "Calling."
+  },
+  {
+    "id": "SG-12.2-011",
+    "section": "12.2",
+    "source_line": 1598,
+    "text": "Cart and checkout."
+  },
+  {
+    "id": "SG-12.2-012",
+    "section": "12.2",
+    "source_line": 1599,
+    "text": "Payments."
+  },
+  {
+    "id": "SG-12.2-013",
+    "section": "12.2",
+    "source_line": 1600,
+    "text": "Orders."
+  },
+  {
+    "id": "SG-12.2-014",
+    "section": "12.2",
+    "source_line": 1601,
+    "text": "Delivery."
+  },
+  {
+    "id": "SG-12.2-015",
+    "section": "12.2",
+    "source_line": 1602,
+    "text": "Reviews."
+  },
+  {
+    "id": "SG-12.2-016",
+    "section": "12.2",
+    "source_line": 1603,
+    "text": "Promotions."
+  },
+  {
+    "id": "SG-12.2-017",
+    "section": "12.2",
+    "source_line": 1604,
+    "text": "Rewards."
+  },
+  {
+    "id": "SG-12.2-018",
+    "section": "12.2",
+    "source_line": 1605,
+    "text": "Creator and affiliate management."
+  },
+  {
+    "id": "SG-12.2-019",
+    "section": "12.2",
+    "source_line": 1606,
+    "text": "AI orchestration."
+  },
+  {
+    "id": "SG-12.2-020",
+    "section": "12.2",
+    "source_line": 1607,
+    "text": "Customer support."
+  },
+  {
+    "id": "SG-12.2-021",
+    "section": "12.2",
+    "source_line": 1608,
+    "text": "Notifications."
+  },
+  {
+    "id": "SG-12.2-022",
+    "section": "12.2",
+    "source_line": 1609,
+    "text": "Administration."
+  },
+  {
+    "id": "SG-12.2-023",
+    "section": "12.2",
+    "source_line": 1610,
+    "text": "Analytics and reporting."
+  },
+  {
+    "id": "SG-12.2-024",
+    "section": "12.2",
+    "source_line": 1612,
+    "text": "Modules should have clear boundaries and documented interfaces."
+  },
+  {
+    "id": "SG-12.2-025",
+    "section": "12.2",
+    "source_line": 1614,
+    "text": "Separate services can be introduced later when real traffic, operational requirements, or team structure justify them."
+  },
+  {
+    "id": "SG-12.3-001",
+    "section": "12.3",
+    "source_line": 1618,
+    "text": "Versioned APIs."
+  },
+  {
+    "id": "SG-12.3-002",
+    "section": "12.3",
+    "source_line": 1619,
+    "text": "Consistent response formats."
+  },
+  {
+    "id": "SG-12.3-003",
+    "section": "12.3",
+    "source_line": 1620,
+    "text": "Validation."
+  },
+  {
+    "id": "SG-12.3-004",
+    "section": "12.3",
+    "source_line": 1621,
+    "text": "Authentication."
+  },
+  {
+    "id": "SG-12.3-005",
+    "section": "12.3",
+    "source_line": 1622,
+    "text": "Authorization."
+  },
+  {
+    "id": "SG-12.3-006",
+    "section": "12.3",
+    "source_line": 1623,
+    "text": "Pagination."
+  },
+  {
+    "id": "SG-12.3-007",
+    "section": "12.3",
+    "source_line": 1624,
+    "text": "Filtering."
+  },
+  {
+    "id": "SG-12.3-008",
+    "section": "12.3",
+    "source_line": 1625,
+    "text": "Sorting."
+  },
+  {
+    "id": "SG-12.3-009",
+    "section": "12.3",
+    "source_line": 1626,
+    "text": "Search."
+  },
+  {
+    "id": "SG-12.3-010",
+    "section": "12.3",
+    "source_line": 1627,
+    "text": "Rate limiting."
+  },
+  {
+    "id": "SG-12.3-011",
+    "section": "12.3",
+    "source_line": 1628,
+    "text": "Error handling."
+  },
+  {
+    "id": "SG-12.3-012",
+    "section": "12.3",
+    "source_line": 1629,
+    "text": "Request logging."
+  },
+  {
+    "id": "SG-12.3-013",
+    "section": "12.3",
+    "source_line": 1630,
+    "text": "Idempotency for important operations."
+  },
+  {
+    "id": "SG-12.3-014",
+    "section": "12.3",
+    "source_line": 1631,
+    "text": "API documentation."
+  },
+  {
+    "id": "SG-12.3-015",
+    "section": "12.3",
+    "source_line": 1632,
+    "text": "Automated integration tests."
+  },
+  {
+    "id": "SG-12.4-001",
+    "section": "12.4",
+    "source_line": 1640,
+    "text": "Image uploads."
+  },
+  {
+    "id": "SG-12.4-002",
+    "section": "12.4",
+    "source_line": 1641,
+    "text": "Video uploads."
+  },
+  {
+    "id": "SG-12.4-003",
+    "section": "12.4",
+    "source_line": 1642,
+    "text": "Video transcoding."
+  },
+  {
+    "id": "SG-12.4-004",
+    "section": "12.4",
+    "source_line": 1643,
+    "text": "Thumbnail generation."
+  },
+  {
+    "id": "SG-12.4-005",
+    "section": "12.4",
+    "source_line": 1644,
+    "text": "Image optimization."
+  },
+  {
+    "id": "SG-12.4-006",
+    "section": "12.4",
+    "source_line": 1645,
+    "text": "Adaptive video streaming."
+  },
+  {
+    "id": "SG-12.4-007",
+    "section": "12.4",
+    "source_line": 1646,
+    "text": "CDN delivery."
+  },
+  {
+    "id": "SG-12.4-008",
+    "section": "12.4",
+    "source_line": 1647,
+    "text": "Upload validation."
+  },
+  {
+    "id": "SG-12.4-009",
+    "section": "12.4",
+    "source_line": 1648,
+    "text": "File size restrictions."
+  },
+  {
+    "id": "SG-12.4-010",
+    "section": "12.4",
+    "source_line": 1649,
+    "text": "Malware scanning where appropriate."
+  },
+  {
+    "id": "SG-12.4-011",
+    "section": "12.4",
+    "source_line": 1650,
+    "text": "Media moderation."
+  },
+  {
+    "id": "SG-12.4-012",
+    "section": "12.4",
+    "source_line": 1651,
+    "text": "Storage lifecycle policies."
+  },
+  {
+    "id": "SG-12.5-001",
+    "section": "12.5",
+    "source_line": 1657,
+    "text": "Use structured product data and searchable product attributes."
+  },
+  {
+    "id": "SG-12.5-002",
+    "section": "12.5",
+    "source_line": 1661,
+    "text": "Product names."
+  },
+  {
+    "id": "SG-12.5-003",
+    "section": "12.5",
+    "source_line": 1662,
+    "text": "Descriptions."
+  },
+  {
+    "id": "SG-12.5-004",
+    "section": "12.5",
+    "source_line": 1663,
+    "text": "Categories."
+  },
+  {
+    "id": "SG-12.5-005",
+    "section": "12.5",
+    "source_line": 1664,
+    "text": "Brands."
+  },
+  {
+    "id": "SG-12.5-006",
+    "section": "12.5",
+    "source_line": 1665,
+    "text": "Specifications."
+  },
+  {
+    "id": "SG-12.5-007",
+    "section": "12.5",
+    "source_line": 1666,
+    "text": "Merchant names."
+  },
+  {
+    "id": "SG-12.5-008",
+    "section": "12.5",
+    "source_line": 1667,
+    "text": "Synonyms."
+  },
+  {
+    "id": "SG-12.5-009",
+    "section": "12.5",
+    "source_line": 1668,
+    "text": "Misspellings."
+  },
+  {
+    "id": "SG-12.5-010",
+    "section": "12.5",
+    "source_line": 1669,
+    "text": "Filters."
+  },
+  {
+    "id": "SG-12.5-011",
+    "section": "12.5",
+    "source_line": 1670,
+    "text": "Facets."
+  },
+  {
+    "id": "SG-12.5-012",
+    "section": "12.5",
+    "source_line": 1671,
+    "text": "Relevance ranking."
+  },
+  {
+    "id": "SG-12.5-013",
+    "section": "12.5",
+    "source_line": 1672,
+    "text": "Multilingual search."
+  },
+  {
+    "id": "SG-12.5-014",
+    "section": "12.5",
+    "source_line": 1674,
+    "text": "Recommendation systems should be measurable, explainable where practical, and constrained by availability and business rules."
+  },
+  {
+    "id": "SG-13.1-001",
+    "section": "13.1",
+    "source_line": 1682,
+    "text": "Secure authentication."
+  },
+  {
+    "id": "SG-13.1-002",
+    "section": "13.1",
+    "source_line": 1683,
+    "text": "OTP verification."
+  },
+  {
+    "id": "SG-13.1-003",
+    "section": "13.1",
+    "source_line": 1684,
+    "text": "Strong password policies."
+  },
+  {
+    "id": "SG-13.1-004",
+    "section": "13.1",
+    "source_line": 1685,
+    "text": "Optional multi-factor authentication."
+  },
+  {
+    "id": "SG-13.1-005",
+    "section": "13.1",
+    "source_line": 1686,
+    "text": "Session management."
+  },
+  {
+    "id": "SG-13.1-006",
+    "section": "13.1",
+    "source_line": 1687,
+    "text": "Device management."
+  },
+  {
+    "id": "SG-13.1-007",
+    "section": "13.1",
+    "source_line": 1688,
+    "text": "Suspicious login detection."
+  },
+  {
+    "id": "SG-13.1-008",
+    "section": "13.1",
+    "source_line": 1689,
+    "text": "Account recovery controls."
+  },
+  {
+    "id": "SG-13.2-001",
+    "section": "13.2",
+    "source_line": 1693,
+    "text": "Enforce permissions on the backend."
+  },
+  {
+    "id": "SG-13.2-002",
+    "section": "13.2",
+    "source_line": 1694,
+    "text": "Verify ownership of products, stores, orders, and messages."
+  },
+  {
+    "id": "SG-13.2-003",
+    "section": "13.2",
+    "source_line": 1695,
+    "text": "Prevent customers from accessing other customers' data."
+  },
+  {
+    "id": "SG-13.2-004",
+    "section": "13.2",
+    "source_line": 1696,
+    "text": "Prevent merchants from accessing other merchants' private data."
+  },
+  {
+    "id": "SG-13.2-005",
+    "section": "13.2",
+    "source_line": 1697,
+    "text": "Restrict administrative actions."
+  },
+  {
+    "id": "SG-13.2-006",
+    "section": "13.2",
+    "source_line": 1698,
+    "text": "Maintain auditable privileged operations."
+  },
+  {
+    "id": "SG-13.3-001",
+    "section": "13.3",
+    "source_line": 1702,
+    "text": "Use trusted payment gateways."
+  },
+  {
+    "id": "SG-13.3-002",
+    "section": "13.3",
+    "source_line": 1703,
+    "text": "Use provider-hosted or tokenized payment experiences."
+  },
+  {
+    "id": "SG-13.3-003",
+    "section": "13.3",
+    "source_line": 1704,
+    "text": "Never store raw card details."
+  },
+  {
+    "id": "SG-13.3-004",
+    "section": "13.3",
+    "source_line": 1705,
+    "text": "Verify payment notifications."
+  },
+  {
+    "id": "SG-13.3-005",
+    "section": "13.3",
+    "source_line": 1706,
+    "text": "Protect transaction endpoints."
+  },
+  {
+    "id": "SG-13.3-006",
+    "section": "13.3",
+    "source_line": 1707,
+    "text": "Reconcile financial records."
+  },
+  {
+    "id": "SG-13.3-007",
+    "section": "13.3",
+    "source_line": 1708,
+    "text": "Maintain secure refund and payout workflows."
+  },
+  {
+    "id": "SG-13.4-001",
+    "section": "13.4",
+    "source_line": 1712,
+    "text": "Encrypt data in transit."
+  },
+  {
+    "id": "SG-13.4-002",
+    "section": "13.4",
+    "source_line": 1713,
+    "text": "Protect sensitive data at rest."
+  },
+  {
+    "id": "SG-13.4-003",
+    "section": "13.4",
+    "source_line": 1714,
+    "text": "Apply least-privilege access."
+  },
+  {
+    "id": "SG-13.4-004",
+    "section": "13.4",
+    "source_line": 1715,
+    "text": "Limit employee access to personal information."
+  },
+  {
+    "id": "SG-13.4-005",
+    "section": "13.4",
+    "source_line": 1716,
+    "text": "Establish retention and deletion policies."
+  },
+  {
+    "id": "SG-13.4-006",
+    "section": "13.4",
+    "source_line": 1717,
+    "text": "Obtain required consent."
+  },
+  {
+    "id": "SG-13.4-007",
+    "section": "13.4",
+    "source_line": 1718,
+    "text": "Provide privacy controls."
+  },
+  {
+    "id": "SG-13.4-008",
+    "section": "13.4",
+    "source_line": 1719,
+    "text": "Maintain incident response procedures."
+  },
+  {
+    "id": "SG-13.5-001",
+    "section": "13.5",
+    "source_line": 1723,
+    "text": "Merchant verification."
+  },
+  {
+    "id": "SG-13.5-002",
+    "section": "13.5",
+    "source_line": 1724,
+    "text": "Product authenticity controls."
+  },
+  {
+    "id": "SG-13.5-003",
+    "section": "13.5",
+    "source_line": 1725,
+    "text": "Prohibited product policies."
+  },
+  {
+    "id": "SG-13.5-004",
+    "section": "13.5",
+    "source_line": 1726,
+    "text": "Fraud monitoring."
+  },
+  {
+    "id": "SG-13.5-005",
+    "section": "13.5",
+    "source_line": 1727,
+    "text": "Fake-review detection."
+  },
+  {
+    "id": "SG-13.5-006",
+    "section": "13.5",
+    "source_line": 1728,
+    "text": "Spam prevention."
+  },
+  {
+    "id": "SG-13.5-007",
+    "section": "13.5",
+    "source_line": 1729,
+    "text": "Account abuse detection."
+  },
+  {
+    "id": "SG-13.5-008",
+    "section": "13.5",
+    "source_line": 1730,
+    "text": "Dispute management."
+  },
+  {
+    "id": "SG-13.5-009",
+    "section": "13.5",
+    "source_line": 1731,
+    "text": "Refund and return policies."
+  },
+  {
+    "id": "SG-13.5-010",
+    "section": "13.5",
+    "source_line": 1732,
+    "text": "Customer protection processes."
+  },
+  {
+    "id": "SG-13.6-001",
+    "section": "13.6",
+    "source_line": 1736,
+    "text": "Use current applicable OWASP guidance, including API security risks, as a baseline for secure implementation. Payment integrations must be designed around the applicable PCI DSS requirements and the payment provider's responsibilities."
+  },
+  {
+    "id": "SG-14-001",
+    "section": "14",
+    "source_line": 1742,
+    "text": "The platform must be engineered for production operation."
+  },
+  {
+    "id": "SG-14-002",
+    "section": "14",
+    "source_line": 1746,
+    "text": "Efficient database indexing."
+  },
+  {
+    "id": "SG-14-003",
+    "section": "14",
+    "source_line": 1747,
+    "text": "Query optimization."
+  },
+  {
+    "id": "SG-14-004",
+    "section": "14",
+    "source_line": 1748,
+    "text": "Caching."
+  },
+  {
+    "id": "SG-14-005",
+    "section": "14",
+    "source_line": 1749,
+    "text": "Background processing."
+  },
+  {
+    "id": "SG-14-006",
+    "section": "14",
+    "source_line": 1750,
+    "text": "CDN media delivery."
+  },
+  {
+    "id": "SG-14-007",
+    "section": "14",
+    "source_line": 1751,
+    "text": "Asynchronous notifications."
+  },
+  {
+    "id": "SG-14-008",
+    "section": "14",
+    "source_line": 1752,
+    "text": "Queue monitoring."
+  },
+  {
+    "id": "SG-14-009",
+    "section": "14",
+    "source_line": 1753,
+    "text": "Retry and failure handling."
+  },
+  {
+    "id": "SG-14-010",
+    "section": "14",
+    "source_line": 1754,
+    "text": "Rate limiting."
+  },
+  {
+    "id": "SG-14-011",
+    "section": "14",
+    "source_line": 1755,
+    "text": "Database backups."
+  },
+  {
+    "id": "SG-14-012",
+    "section": "14",
+    "source_line": 1756,
+    "text": "Disaster recovery."
+  },
+  {
+    "id": "SG-14-013",
+    "section": "14",
+    "source_line": 1757,
+    "text": "Application monitoring."
+  },
+  {
+    "id": "SG-14-014",
+    "section": "14",
+    "source_line": 1758,
+    "text": "Error tracking."
+  },
+  {
+    "id": "SG-14-015",
+    "section": "14",
+    "source_line": 1759,
+    "text": "Load testing."
+  },
+  {
+    "id": "SG-14-016",
+    "section": "14",
+    "source_line": 1760,
+    "text": "Capacity planning."
+  },
+  {
+    "id": "SG-14-017",
+    "section": "14",
+    "source_line": 1761,
+    "text": "Deployment automation."
+  },
+  {
+    "id": "SG-14-018",
+    "section": "14",
+    "source_line": 1762,
+    "text": "Rollback procedures."
+  },
+  {
+    "id": "SG-14-019",
+    "section": "14",
+    "source_line": 1764,
+    "text": "Define measurable service-level objectives before launch."
+  },
+  {
+    "id": "SG-14-020",
+    "section": "14",
+    "source_line": 1768,
+    "text": "Core API availability target: 99.9%."
+  },
+  {
+    "id": "SG-14-021",
+    "section": "14",
+    "source_line": 1769,
+    "text": "Fast response times for common catalogue and account requests."
+  },
+  {
+    "id": "SG-14-022",
+    "section": "14",
+    "source_line": 1770,
+    "text": "Reliable order and payment processing."
+  },
+  {
+    "id": "SG-14-023",
+    "section": "14",
+    "source_line": 1771,
+    "text": "No duplicate orders from repeated requests."
+  },
+  {
+    "id": "SG-14-024",
+    "section": "14",
+    "source_line": 1772,
+    "text": "No loss of confirmed financial transactions."
+  },
+  {
+    "id": "SG-14-025",
+    "section": "14",
+    "source_line": 1773,
+    "text": "Monitored queue and notification delays."
+  },
+  {
+    "id": "SG-14-026",
+    "section": "14",
+    "source_line": 1774,
+    "text": "Tested backup restoration and recovery."
+  },
+  {
+    "id": "SG-15-001",
+    "section": "15",
+    "source_line": 1778,
+    "text": "The platform can support several revenue streams."
+  },
+  {
+    "id": "SG-15.1-001",
+    "section": "15.1",
+    "source_line": 1782,
+    "text": "Earn a configurable commission on eligible merchant sales."
+  },
+  {
+    "id": "SG-15.2-001",
+    "section": "15.2",
+    "source_line": 1786,
+    "text": "Offer subscription tiers with different tools, analytics, store capabilities, and business services."
+  },
+  {
+    "id": "SG-15.3-001",
+    "section": "15.3",
+    "source_line": 1790,
+    "text": "Allow merchants to pay for clearly labelled promotional placements."
+  },
+  {
+    "id": "SG-15.4-001",
+    "section": "15.4",
+    "source_line": 1794,
+    "text": "Support commission-based product promotion and creator partnerships."
+  },
+  {
+    "id": "SG-15.5-001",
+    "section": "15.5",
+    "source_line": 1798,
+    "text": "Offer advanced analytics, automation, AI tools, bulk operations, and campaign management as optional paid services."
+  },
+  {
+    "id": "SG-15.6-001",
+    "section": "15.6",
+    "source_line": 1802,
+    "text": "Offer premium promotional opportunities for merchant live sessions and featured events."
+  },
+  {
+    "id": "SG-15.7-001",
+    "section": "15.7",
+    "source_line": 1808,
+    "text": "All commercial fees must be transparent and configurable."
+  },
+  {
+    "id": "SG-16-001",
+    "section": "16",
+    "source_line": 1812,
+    "text": "The platform should be built to support different countries without rewriting its core architecture."
+  },
+  {
+    "id": "SG-16-002",
+    "section": "16",
+    "source_line": 1816,
+    "text": "Multiple languages."
+  },
+  {
+    "id": "SG-16-003",
+    "section": "16",
+    "source_line": 1817,
+    "text": "Localized interfaces."
+  },
+  {
+    "id": "SG-16-004",
+    "section": "16",
+    "source_line": 1818,
+    "text": "Local currencies."
+  },
+  {
+    "id": "SG-16-005",
+    "section": "16",
+    "source_line": 1819,
+    "text": "Currency conversion where appropriate."
+  },
+  {
+    "id": "SG-16-006",
+    "section": "16",
+    "source_line": 1820,
+    "text": "Country-specific tax rules."
+  },
+  {
+    "id": "SG-16-007",
+    "section": "16",
+    "source_line": 1821,
+    "text": "Regional payment gateways."
+  },
+  {
+    "id": "SG-16-008",
+    "section": "16",
+    "source_line": 1822,
+    "text": "Mobile-money integrations."
+  },
+  {
+    "id": "SG-16-009",
+    "section": "16",
+    "source_line": 1823,
+    "text": "Regional delivery partners."
+  },
+  {
+    "id": "SG-16-010",
+    "section": "16",
+    "source_line": 1824,
+    "text": "Local address formats."
+  },
+  {
+    "id": "SG-16-011",
+    "section": "16",
+    "source_line": 1825,
+    "text": "Time zones."
+  },
+  {
+    "id": "SG-16-012",
+    "section": "16",
+    "source_line": 1826,
+    "text": "Country-specific merchant verification."
+  },
+  {
+    "id": "SG-16-013",
+    "section": "16",
+    "source_line": 1827,
+    "text": "Local consumer protection policies."
+  },
+  {
+    "id": "SG-16-014",
+    "section": "16",
+    "source_line": 1828,
+    "text": "Configurable shipping and return rules."
+  },
+  {
+    "id": "SG-16-015",
+    "section": "16",
+    "source_line": 1830,
+    "text": "Language support should be based on actual translation quality and testing. AI translation must not be assumed to be accurate for legal, financial, or product-safety information without appropriate review."
+  },
+  {
+    "id": "SG-17.2-001",
+    "section": "17.2",
+    "source_line": 1842,
+    "text": "For eligible categories, provide size guidance using merchant sizing data and customer-provided preferences. Avoid guaranteeing fit."
+  },
+  {
+    "id": "SG-17.4-001",
+    "section": "17.4",
+    "source_line": 1850,
+    "text": "Offer price-drop alerts and price history where the platform has reliable historical data."
+  },
+  {
+    "id": "SG-17.7-001",
+    "section": "17.7",
+    "source_line": 1862,
+    "text": "Allow customers to discover gifts by occasion, budget, recipient interests, and delivery date."
+  },
+  {
+    "id": "SG-17.8-001",
+    "section": "17.8",
+    "source_line": 1866,
+    "text": "Customers can create and share product lists with friends and family."
+  },
+  {
+    "id": "SG-17.9-001",
+    "section": "17.9",
+    "source_line": 1870,
+    "text": "Support themed shopping events, merchant showcases, seasonal campaigns, and creator events."
+  },
+  {
+    "id": "SG-17.10-001",
+    "section": "17.10",
+    "source_line": 1874,
+    "text": "Allow customers to share authentic product experiences while clearly distinguishing user-generated content from merchant advertising."
+  },
+  {
+    "id": "SG-17.11-001",
+    "section": "17.11",
+    "source_line": 1878,
+    "text": "Long-term support for merchants selling through their storefront, physical store, social content, and other authorized channels with synchronized inventory."
+  },
+  {
+    "id": "SG-17.12-001",
+    "section": "17.12",
+    "source_line": 1884,
+    "text": "Accounting tools."
+  },
+  {
+    "id": "SG-17.12-002",
+    "section": "17.12",
+    "source_line": 1885,
+    "text": "Inventory systems."
+  },
+  {
+    "id": "SG-17.12-003",
+    "section": "17.12",
+    "source_line": 1886,
+    "text": "Product catalogue imports."
+  },
+  {
+    "id": "SG-17.12-004",
+    "section": "17.12",
+    "source_line": 1887,
+    "text": "Shipping systems."
+  },
+  {
+    "id": "SG-17.12-005",
+    "section": "17.12",
+    "source_line": 1888,
+    "text": "Payment services."
+  },
+  {
+    "id": "SG-17.12-006",
+    "section": "17.12",
+    "source_line": 1889,
+    "text": "Customer relationship management tools."
+  },
+  {
+    "id": "SG-17.12-007",
+    "section": "17.12",
+    "source_line": 1890,
+    "text": "Approved commerce platforms."
+  },
+  {
+    "id": "SG-17.13-001",
+    "section": "17.13",
+    "source_line": 1894,
+    "text": "Provide secure APIs and webhooks for approved third-party partners, subject to permission and rate limits."
+  },
+  {
+    "id": "SG-18-001",
+    "section": "18",
+    "source_line": 1898,
+    "text": "The platform should have a recognizable and consistent visual identity."
+  },
+  {
+    "id": "SG-18-002",
+    "section": "18",
+    "source_line": 1902,
+    "text": "Mobile-first design."
+  },
+  {
+    "id": "SG-18-003",
+    "section": "18",
+    "source_line": 1903,
+    "text": "Simple navigation."
+  },
+  {
+    "id": "SG-18-004",
+    "section": "18",
+    "source_line": 1904,
+    "text": "Clear product information."
+  },
+  {
+    "id": "SG-18-005",
+    "section": "18",
+    "source_line": 1905,
+    "text": "Fast shopping journeys."
+  },
+  {
+    "id": "SG-18-006",
+    "section": "18",
+    "source_line": 1906,
+    "text": "Consistent branding."
+  },
+  {
+    "id": "SG-18-007",
+    "section": "18",
+    "source_line": 1907,
+    "text": "Accessible typography."
+  },
+  {
+    "id": "SG-18-008",
+    "section": "18",
+    "source_line": 1908,
+    "text": "High-quality product imagery."
+  },
+  {
+    "id": "SG-18-009",
+    "section": "18",
+    "source_line": 1909,
+    "text": "Responsive layouts."
+  },
+  {
+    "id": "SG-18-010",
+    "section": "18",
+    "source_line": 1910,
+    "text": "Clear loading and error states."
+  },
+  {
+    "id": "SG-18-011",
+    "section": "18",
+    "source_line": 1911,
+    "text": "Helpful empty states."
+  },
+  {
+    "id": "SG-18-012",
+    "section": "18",
+    "source_line": 1912,
+    "text": "Consistent forms and validation."
+  },
+  {
+    "id": "SG-18-013",
+    "section": "18",
+    "source_line": 1913,
+    "text": "Accessible touch targets."
+  },
+  {
+    "id": "SG-18-014",
+    "section": "18",
+    "source_line": 1914,
+    "text": "Dark mode support where appropriate."
+  },
+  {
+    "id": "SG-18-015",
+    "section": "18",
+    "source_line": 1915,
+    "text": "Localization-ready layouts."
+  },
+  {
+    "id": "SG-18-016",
+    "section": "18",
+    "source_line": 1921,
+    "text": "Home."
+  },
+  {
+    "id": "SG-18-017",
+    "section": "18",
+    "source_line": 1922,
+    "text": "Explore."
+  },
+  {
+    "id": "SG-18-018",
+    "section": "18",
+    "source_line": 1923,
+    "text": "Reels."
+  },
+  {
+    "id": "SG-18-019",
+    "section": "18",
+    "source_line": 1924,
+    "text": "Shop."
+  },
+  {
+    "id": "SG-18-020",
+    "section": "18",
+    "source_line": 1925,
+    "text": "Profile."
+  },
+  {
+    "id": "SG-18-021",
+    "section": "18",
+    "source_line": 1929,
+    "text": "Messages."
+  },
+  {
+    "id": "SG-18-022",
+    "section": "18",
+    "source_line": 1930,
+    "text": "Notifications."
+  },
+  {
+    "id": "SG-18-023",
+    "section": "18",
+    "source_line": 1931,
+    "text": "Cart."
+  },
+  {
+    "id": "SG-18-024",
+    "section": "18",
+    "source_line": 1933,
+    "text": "Rewards, wishlist, orders, and settings can be accessible through the appropriate profile or shopping areas without overcrowding the main navigation."
+  },
+  {
+    "id": "SG-18-025",
+    "section": "18",
+    "source_line": 1935,
+    "text": "Merchant mode should have its own navigation."
+  },
+  {
+    "id": "SG-19-001",
+    "section": "19",
+    "source_line": 1939,
+    "text": "Before production release, the platform must undergo:"
+  },
+  {
+    "id": "SG-19-002",
+    "section": "19",
+    "source_line": 1943,
+    "text": "Registration and login."
+  },
+  {
+    "id": "SG-19-003",
+    "section": "19",
+    "source_line": 1944,
+    "text": "Role switching."
+  },
+  {
+    "id": "SG-19-004",
+    "section": "19",
+    "source_line": 1945,
+    "text": "Merchant onboarding."
+  },
+  {
+    "id": "SG-19-005",
+    "section": "19",
+    "source_line": 1946,
+    "text": "Product management."
+  },
+  {
+    "id": "SG-19-006",
+    "section": "19",
+    "source_line": 1947,
+    "text": "Content publishing."
+  },
+  {
+    "id": "SG-19-007",
+    "section": "19",
+    "source_line": 1948,
+    "text": "Product tagging."
+  },
+  {
+    "id": "SG-19-008",
+    "section": "19",
+    "source_line": 1949,
+    "text": "Search."
+  },
+  {
+    "id": "SG-19-009",
+    "section": "19",
+    "source_line": 1950,
+    "text": "Cart and checkout."
+  },
+  {
+    "id": "SG-19-010",
+    "section": "19",
+    "source_line": 1951,
+    "text": "Payment."
+  },
+  {
+    "id": "SG-19-011",
+    "section": "19",
+    "source_line": 1952,
+    "text": "Orders."
+  },
+  {
+    "id": "SG-19-012",
+    "section": "19",
+    "source_line": 1953,
+    "text": "Refunds."
+  },
+  {
+    "id": "SG-19-013",
+    "section": "19",
+    "source_line": 1954,
+    "text": "Delivery."
+  },
+  {
+    "id": "SG-19-014",
+    "section": "19",
+    "source_line": 1955,
+    "text": "Rewards."
+  },
+  {
+    "id": "SG-19-015",
+    "section": "19",
+    "source_line": 1956,
+    "text": "Messaging."
+  },
+  {
+    "id": "SG-19-016",
+    "section": "19",
+    "source_line": 1957,
+    "text": "Calling."
+  },
+  {
+    "id": "SG-19-017",
+    "section": "19",
+    "source_line": 1958,
+    "text": "AI workflows."
+  },
+  {
+    "id": "SG-19-018",
+    "section": "19",
+    "source_line": 1959,
+    "text": "Admin operations."
+  },
+  {
+    "id": "SG-19-019",
+    "section": "19",
+    "source_line": 1963,
+    "text": "Authentication testing."
+  },
+  {
+    "id": "SG-19-020",
+    "section": "19",
+    "source_line": 1964,
+    "text": "Authorization testing."
+  },
+  {
+    "id": "SG-19-021",
+    "section": "19",
+    "source_line": 1965,
+    "text": "API security testing."
+  },
+  {
+    "id": "SG-19-022",
+    "section": "19",
+    "source_line": 1966,
+    "text": "Payment testing."
+  },
+  {
+    "id": "SG-19-023",
+    "section": "19",
+    "source_line": 1967,
+    "text": "Upload security."
+  },
+  {
+    "id": "SG-19-024",
+    "section": "19",
+    "source_line": 1968,
+    "text": "Abuse and fraud testing."
+  },
+  {
+    "id": "SG-19-025",
+    "section": "19",
+    "source_line": 1969,
+    "text": "Privacy testing."
+  },
+  {
+    "id": "SG-19-026",
+    "section": "19",
+    "source_line": 1970,
+    "text": "Penetration testing."
+  },
+  {
+    "id": "SG-19-027",
+    "section": "19",
+    "source_line": 1974,
+    "text": "Concurrent users."
+  },
+  {
+    "id": "SG-19-028",
+    "section": "19",
+    "source_line": 1975,
+    "text": "Feed loading."
+  },
+  {
+    "id": "SG-19-029",
+    "section": "19",
+    "source_line": 1976,
+    "text": "Product search."
+  },
+  {
+    "id": "SG-19-030",
+    "section": "19",
+    "source_line": 1977,
+    "text": "Video streaming."
+  },
+  {
+    "id": "SG-19-031",
+    "section": "19",
+    "source_line": 1978,
+    "text": "Checkout load."
+  },
+  {
+    "id": "SG-19-032",
+    "section": "19",
+    "source_line": 1979,
+    "text": "Payment callback handling."
+  },
+  {
+    "id": "SG-19-033",
+    "section": "19",
+    "source_line": 1980,
+    "text": "Notification queues."
+  },
+  {
+    "id": "SG-19-034",
+    "section": "19",
+    "source_line": 1981,
+    "text": "AI concurrency."
+  },
+  {
+    "id": "SG-19-035",
+    "section": "19",
+    "source_line": 1982,
+    "text": "Database load."
+  },
+  {
+    "id": "SG-19-036",
+    "section": "19",
+    "source_line": 1986,
+    "text": "Product accuracy."
+  },
+  {
+    "id": "SG-19-037",
+    "section": "19",
+    "source_line": 1987,
+    "text": "Price accuracy."
+  },
+  {
+    "id": "SG-19-038",
+    "section": "19",
+    "source_line": 1988,
+    "text": "Stock accuracy."
+  },
+  {
+    "id": "SG-19-039",
+    "section": "19",
+    "source_line": 1989,
+    "text": "Order access permissions."
+  },
+  {
+    "id": "SG-19-040",
+    "section": "19",
+    "source_line": 1990,
+    "text": "Multilingual understanding."
+  },
+  {
+    "id": "SG-19-041",
+    "section": "19",
+    "source_line": 1991,
+    "text": "Voice recognition."
+  },
+  {
+    "id": "SG-19-042",
+    "section": "19",
+    "source_line": 1992,
+    "text": "Accent recognition."
+  },
+  {
+    "id": "SG-19-043",
+    "section": "19",
+    "source_line": 1993,
+    "text": "Call interruption handling."
+  },
+  {
+    "id": "SG-19-044",
+    "section": "19",
+    "source_line": 1994,
+    "text": "Human handoff."
+  },
+  {
+    "id": "SG-19-045",
+    "section": "19",
+    "source_line": 1995,
+    "text": "Unauthorized action prevention."
+  },
+  {
+    "id": "SG-19-046",
+    "section": "19",
+    "source_line": 1996,
+    "text": "Hallucination testing."
+  },
+  {
+    "id": "SG-19-047",
+    "section": "19",
+    "source_line": 1997,
+    "text": "Latency and reliability."
+  },
+  {
+    "id": "SG-19-048",
+    "section": "19",
+    "source_line": 1998,
+    "text": "Cost per resolved interaction."
+  },
+  {
+    "id": "SG-19-049",
+    "section": "19",
+    "source_line": 2000,
+    "text": "AI testing must verify not only whether an answer sounds correct, but also whether the requested backend action actually succeeded."
+  },
+  {
+    "id": "SG-20-001",
+    "section": "20",
+    "source_line": 2004,
+    "text": "The platform is ambitious. It should be developed in controlled phases without compromising the long-term architecture."
+  },
+  {
+    "id": "SG-20-002",
+    "section": "20",
+    "source_line": 2008,
+    "text": "Finalize product requirements."
+  },
+  {
+    "id": "SG-20-003",
+    "section": "20",
+    "source_line": 2009,
+    "text": "Finalize user journeys."
+  },
+  {
+    "id": "SG-20-004",
+    "section": "20",
+    "source_line": 2010,
+    "text": "Create design system."
+  },
+  {
+    "id": "SG-20-005",
+    "section": "20",
+    "source_line": 2011,
+    "text": "Design mobile application."
+  },
+  {
+    "id": "SG-20-006",
+    "section": "20",
+    "source_line": 2012,
+    "text": "Design merchant dashboard."
+  },
+  {
+    "id": "SG-20-007",
+    "section": "20",
+    "source_line": 2013,
+    "text": "Design admin dashboard."
+  },
+  {
+    "id": "SG-20-008",
+    "section": "20",
+    "source_line": 2014,
+    "text": "Define database architecture."
+  },
+  {
+    "id": "SG-20-009",
+    "section": "20",
+    "source_line": 2015,
+    "text": "Define API contracts."
+  },
+  {
+    "id": "SG-20-010",
+    "section": "20",
+    "source_line": 2016,
+    "text": "Establish security standards."
+  },
+  {
+    "id": "SG-20-011",
+    "section": "20",
+    "source_line": 2020,
+    "text": "Authentication."
+  },
+  {
+    "id": "SG-20-012",
+    "section": "20",
+    "source_line": 2021,
+    "text": "Customer profiles."
+  },
+  {
+    "id": "SG-20-013",
+    "section": "20",
+    "source_line": 2022,
+    "text": "Merchant onboarding."
+  },
+  {
+    "id": "SG-20-014",
+    "section": "20",
+    "source_line": 2023,
+    "text": "Store management."
+  },
+  {
+    "id": "SG-20-015",
+    "section": "20",
+    "source_line": 2024,
+    "text": "Product catalogue."
+  },
+  {
+    "id": "SG-20-016",
+    "section": "20",
+    "source_line": 2025,
+    "text": "Categories."
+  },
+  {
+    "id": "SG-20-017",
+    "section": "20",
+    "source_line": 2026,
+    "text": "Search."
+  },
+  {
+    "id": "SG-20-018",
+    "section": "20",
+    "source_line": 2027,
+    "text": "Product details."
+  },
+  {
+    "id": "SG-20-019",
+    "section": "20",
+    "source_line": 2028,
+    "text": "Wishlist."
+  },
+  {
+    "id": "SG-20-020",
+    "section": "20",
+    "source_line": 2029,
+    "text": "Cart."
+  },
+  {
+    "id": "SG-20-021",
+    "section": "20",
+    "source_line": 2030,
+    "text": "Checkout."
+  },
+  {
+    "id": "SG-20-022",
+    "section": "20",
+    "source_line": 2031,
+    "text": "Payment gateway."
+  },
+  {
+    "id": "SG-20-023",
+    "section": "20",
+    "source_line": 2032,
+    "text": "Orders."
+  },
+  {
+    "id": "SG-20-024",
+    "section": "20",
+    "source_line": 2033,
+    "text": "Basic delivery tracking."
+  },
+  {
+    "id": "SG-20-025",
+    "section": "20",
+    "source_line": 2037,
+    "text": "Home feed."
+  },
+  {
+    "id": "SG-20-026",
+    "section": "20",
+    "source_line": 2038,
+    "text": "Merchant following."
+  },
+  {
+    "id": "SG-20-027",
+    "section": "20",
+    "source_line": 2039,
+    "text": "Posts."
+  },
+  {
+    "id": "SG-20-028",
+    "section": "20",
+    "source_line": 2040,
+    "text": "Reels."
+  },
+  {
+    "id": "SG-20-029",
+    "section": "20",
+    "source_line": 2041,
+    "text": "Stories."
+  },
+  {
+    "id": "SG-20-030",
+    "section": "20",
+    "source_line": 2042,
+    "text": "Product tagging."
+  },
+  {
+    "id": "SG-20-031",
+    "section": "20",
+    "source_line": 2043,
+    "text": "Likes."
+  },
+  {
+    "id": "SG-20-032",
+    "section": "20",
+    "source_line": 2044,
+    "text": "Comments."
+  },
+  {
+    "id": "SG-20-033",
+    "section": "20",
+    "source_line": 2045,
+    "text": "Shares."
+  },
+  {
+    "id": "SG-20-034",
+    "section": "20",
+    "source_line": 2046,
+    "text": "Saves."
+  },
+  {
+    "id": "SG-20-035",
+    "section": "20",
+    "source_line": 2047,
+    "text": "Merchant storefronts."
+  },
+  {
+    "id": "SG-20-036",
+    "section": "20",
+    "source_line": 2048,
+    "text": "Notifications."
+  },
+  {
+    "id": "SG-20-037",
+    "section": "20",
+    "source_line": 2052,
+    "text": "Messaging."
+  },
+  {
+    "id": "SG-20-038",
+    "section": "20",
+    "source_line": 2053,
+    "text": "Product cards in chat."
+  },
+  {
+    "id": "SG-20-039",
+    "section": "20",
+    "source_line": 2054,
+    "text": "Audio/video calls."
+  },
+  {
+    "id": "SG-20-040",
+    "section": "20",
+    "source_line": 2055,
+    "text": "Reviews."
+  },
+  {
+    "id": "SG-20-041",
+    "section": "20",
+    "source_line": 2056,
+    "text": "Rewards."
+  },
+  {
+    "id": "SG-20-042",
+    "section": "20",
+    "source_line": 2057,
+    "text": "Coupons."
+  },
+  {
+    "id": "SG-20-043",
+    "section": "20",
+    "source_line": 2058,
+    "text": "Referrals."
+  },
+  {
+    "id": "SG-20-044",
+    "section": "20",
+    "source_line": 2059,
+    "text": "Loyalty levels."
+  },
+  {
+    "id": "SG-20-045",
+    "section": "20",
+    "source_line": 2063,
+    "text": "Full merchant dashboard."
+  },
+  {
+    "id": "SG-20-046",
+    "section": "20",
+    "source_line": 2064,
+    "text": "Inventory."
+  },
+  {
+    "id": "SG-20-047",
+    "section": "20",
+    "source_line": 2065,
+    "text": "Order fulfilment."
+  },
+  {
+    "id": "SG-20-048",
+    "section": "20",
+    "source_line": 2066,
+    "text": "Campaign management."
+  },
+  {
+    "id": "SG-20-049",
+    "section": "20",
+    "source_line": 2067,
+    "text": "Merchant analytics."
+  },
+  {
+    "id": "SG-20-050",
+    "section": "20",
+    "source_line": 2068,
+    "text": "Admin dashboard."
+  },
+  {
+    "id": "SG-20-051",
+    "section": "20",
+    "source_line": 2069,
+    "text": "Moderation."
+  },
+  {
+    "id": "SG-20-052",
+    "section": "20",
+    "source_line": 2070,
+    "text": "Payment reconciliation."
+  },
+  {
+    "id": "SG-20-053",
+    "section": "20",
+    "source_line": 2071,
+    "text": "Payouts."
+  },
+  {
+    "id": "SG-20-054",
+    "section": "20",
+    "source_line": 2072,
+    "text": "Support management."
+  },
+  {
+    "id": "SG-20-055",
+    "section": "20",
+    "source_line": 2076,
+    "text": "AI shopping assistant."
+  },
+  {
+    "id": "SG-20-056",
+    "section": "20",
+    "source_line": 2077,
+    "text": "AI product search."
+  },
+  {
+    "id": "SG-20-057",
+    "section": "20",
+    "source_line": 2078,
+    "text": "AI recommendations."
+  },
+  {
+    "id": "SG-20-058",
+    "section": "20",
+    "source_line": 2079,
+    "text": "AI merchant assistant."
+  },
+  {
+    "id": "SG-20-059",
+    "section": "20",
+    "source_line": 2080,
+    "text": "AI content tools."
+  },
+  {
+    "id": "SG-20-060",
+    "section": "20",
+    "source_line": 2081,
+    "text": "AI voice assistant."
+  },
+  {
+    "id": "SG-20-061",
+    "section": "20",
+    "source_line": 2082,
+    "text": "AI telephone support."
+  },
+  {
+    "id": "SG-20-062",
+    "section": "20",
+    "source_line": 2083,
+    "text": "AI-to-human handoff."
+  },
+  {
+    "id": "SG-20-063",
+    "section": "20",
+    "source_line": 2084,
+    "text": "AI monitoring and evaluation."
+  },
+  {
+    "id": "SG-20-064",
+    "section": "20",
+    "source_line": 2088,
+    "text": "Live shopping."
+  },
+  {
+    "id": "SG-20-065",
+    "section": "20",
+    "source_line": 2089,
+    "text": "Creator and affiliate marketplace."
+  },
+  {
+    "id": "SG-20-066",
+    "section": "20",
+    "source_line": 2090,
+    "text": "Group buying."
+  },
+  {
+    "id": "SG-20-067",
+    "section": "20",
+    "source_line": 2091,
+    "text": "Product comparison."
+  },
+  {
+    "id": "SG-20-068",
+    "section": "20",
+    "source_line": 2092,
+    "text": "Visual shopping."
+  },
+  {
+    "id": "SG-20-069",
+    "section": "20",
+    "source_line": 2093,
+    "text": "Smart collections."
+  },
+  {
+    "id": "SG-20-070",
+    "section": "20",
+    "source_line": 2094,
+    "text": "Price alerts."
+  },
+  {
+    "id": "SG-20-071",
+    "section": "20",
+    "source_line": 2095,
+    "text": "Back-in-stock alerts."
+  },
+  {
+    "id": "SG-20-072",
+    "section": "20",
+    "source_line": 2096,
+    "text": "Advanced personalization."
+  },
+  {
+    "id": "SG-20-073",
+    "section": "20",
+    "source_line": 2100,
+    "text": "Multi-country support."
+  },
+  {
+    "id": "SG-20-074",
+    "section": "20",
+    "source_line": 2101,
+    "text": "Additional payment providers."
+  },
+  {
+    "id": "SG-20-075",
+    "section": "20",
+    "source_line": 2102,
+    "text": "Additional delivery partners."
+  },
+  {
+    "id": "SG-20-076",
+    "section": "20",
+    "source_line": 2103,
+    "text": "Omnichannel integrations."
+  },
+  {
+    "id": "SG-20-077",
+    "section": "20",
+    "source_line": 2104,
+    "text": "Advanced analytics."
+  },
+  {
+    "id": "SG-20-078",
+    "section": "20",
+    "source_line": 2105,
+    "text": "Search optimization."
+  },
+  {
+    "id": "SG-20-079",
+    "section": "20",
+    "source_line": 2106,
+    "text": "Infrastructure scaling."
+  },
+  {
+    "id": "SG-20-080",
+    "section": "20",
+    "source_line": 2107,
+    "text": "Enterprise merchant capabilities."
+  },
+  {
+    "id": "SG-20-081",
+    "section": "20",
+    "source_line": 2109,
+    "text": "Phases may overlap when dependencies, staffing, and testing allow, but critical payment, security, and order-management foundations must be completed before public launch."
+  },
+  {
+    "id": "SG-21-001",
+    "section": "21",
+    "source_line": 2113,
+    "text": "The project must follow a controlled design and implementation process."
+  },
+  {
+    "id": "SG-21-002",
+    "section": "21",
+    "source_line": 2119,
+    "text": "Identify the next screen or module."
+  },
+  {
+    "id": "SG-21-003",
+    "section": "21",
+    "source_line": 2120,
+    "text": "Define its purpose and users."
+  },
+  {
+    "id": "SG-21-004",
+    "section": "21",
+    "source_line": 2121,
+    "text": "Design the screen using the platform's established brand identity."
+  },
+  {
+    "id": "SG-21-005",
+    "section": "21",
+    "source_line": 2122,
+    "text": "Include the required interface elements and interactions."
+  },
+  {
+    "id": "SG-21-006",
+    "section": "21",
+    "source_line": 2123,
+    "text": "Present the completed screen for review."
+  },
+  {
+    "id": "SG-21-007",
+    "section": "21",
+    "source_line": 2124,
+    "text": "Wait for explicit user approval."
+  },
+  {
+    "id": "SG-21-008",
+    "section": "21",
+    "source_line": 2125,
+    "text": "If changes are requested, revise the same screen."
+  },
+  {
+    "id": "SG-21-009",
+    "section": "21",
+    "source_line": 2126,
+    "text": "Mark the screen complete only after approval."
+  },
+  {
+    "id": "SG-21-010",
+    "section": "21",
+    "source_line": 2127,
+    "text": "Ask whether to proceed to the next screen."
+  },
+  {
+    "id": "SG-21-011",
+    "section": "21",
+    "source_line": 2128,
+    "text": "Repeat until all screens are approved."
+  },
+  {
+    "id": "SG-21-012",
+    "section": "21",
+    "source_line": 2130,
+    "text": "The same process should apply to backend implementation and integration."
+  },
+  {
+    "id": "SG-21-013",
+    "section": "21",
+    "source_line": 2134,
+    "text": "Implement the approved frontend."
+  },
+  {
+    "id": "SG-21-014",
+    "section": "21",
+    "source_line": 2135,
+    "text": "Implement the required backend functionality."
+  },
+  {
+    "id": "SG-21-015",
+    "section": "21",
+    "source_line": 2136,
+    "text": "Connect the frontend to the API."
+  },
+  {
+    "id": "SG-21-016",
+    "section": "21",
+    "source_line": 2137,
+    "text": "Test the complete workflow."
+  },
+  {
+    "id": "SG-21-017",
+    "section": "21",
+    "source_line": 2138,
+    "text": "Present the working result."
+  },
+  {
+    "id": "SG-21-018",
+    "section": "21",
+    "source_line": 2139,
+    "text": "Obtain approval."
+  },
+  {
+    "id": "SG-21-019",
+    "section": "21",
+    "source_line": 2140,
+    "text": "Continue to the next module."
+  },
+  {
+    "id": "SG-21-020",
+    "section": "21",
+    "source_line": 2142,
+    "text": "Maintain a project checklist showing pending, in-progress, approved, implemented, and tested modules."
+  },
+  {
+    "id": "SG-22-001",
+    "section": "22",
+    "source_line": 2146,
+    "text": "The platform must not be considered production-ready simply because its screens look complete."
+  },
+  {
+    "id": "SG-22-002",
+    "section": "22",
+    "source_line": 2150,
+    "text": "Approved product requirements."
+  },
+  {
+    "id": "SG-22-003",
+    "section": "22",
+    "source_line": 2151,
+    "text": "Completed critical user journeys."
+  },
+  {
+    "id": "SG-22-004",
+    "section": "22",
+    "source_line": 2152,
+    "text": "Secure authentication and authorization."
+  },
+  {
+    "id": "SG-22-005",
+    "section": "22",
+    "source_line": 2153,
+    "text": "Verified merchant onboarding."
+  },
+  {
+    "id": "SG-22-006",
+    "section": "22",
+    "source_line": 2154,
+    "text": "Reliable product catalogue."
+  },
+  {
+    "id": "SG-22-007",
+    "section": "22",
+    "source_line": 2155,
+    "text": "Tested payment integrations."
+  },
+  {
+    "id": "SG-22-008",
+    "section": "22",
+    "source_line": 2156,
+    "text": "Correct order and refund processing."
+  },
+  {
+    "id": "SG-22-009",
+    "section": "22",
+    "source_line": 2157,
+    "text": "Delivery integrations or operational procedures."
+  },
+  {
+    "id": "SG-22-010",
+    "section": "22",
+    "source_line": 2158,
+    "text": "Working support processes."
+  },
+  {
+    "id": "SG-22-011",
+    "section": "22",
+    "source_line": 2159,
+    "text": "Privacy and legal review."
+  },
+  {
+    "id": "SG-22-012",
+    "section": "22",
+    "source_line": 2160,
+    "text": "Content moderation."
+  },
+  {
+    "id": "SG-22-013",
+    "section": "22",
+    "source_line": 2161,
+    "text": "Fraud controls."
+  },
+  {
+    "id": "SG-22-014",
+    "section": "22",
+    "source_line": 2162,
+    "text": "Monitoring and alerting."
+  },
+  {
+    "id": "SG-22-015",
+    "section": "22",
+    "source_line": 2163,
+    "text": "Backups and recovery tests."
+  },
+  {
+    "id": "SG-22-016",
+    "section": "22",
+    "source_line": 2164,
+    "text": "Load and security testing."
+  },
+  {
+    "id": "SG-22-017",
+    "section": "22",
+    "source_line": 2165,
+    "text": "App-store release readiness."
+  },
+  {
+    "id": "SG-22-018",
+    "section": "22",
+    "source_line": 2166,
+    "text": "Customer and merchant documentation."
+  },
+  {
+    "id": "SG-22-019",
+    "section": "22",
+    "source_line": 2167,
+    "text": "Incident response procedures."
+  },
+  {
+    "id": "SG-22-020",
+    "section": "22",
+    "source_line": 2168,
+    "text": "Operational support ownership."
+  },
+  {
+    "id": "SG-22-021",
+    "section": "22",
+    "source_line": 2170,
+    "text": "Launch should begin with a controlled pilot, a limited group of merchants, and a measured rollout before broad public availability."
+  },
+  {
+    "id": "SG-23-001",
+    "section": "23",
+    "source_line": 2178,
+    "text": "Monthly active customers."
+  },
+  {
+    "id": "SG-23-002",
+    "section": "23",
+    "source_line": 2179,
+    "text": "Customer retention."
+  },
+  {
+    "id": "SG-23-003",
+    "section": "23",
+    "source_line": 2180,
+    "text": "Product discovery-to-purchase conversion."
+  },
+  {
+    "id": "SG-23-004",
+    "section": "23",
+    "source_line": 2181,
+    "text": "Cart abandonment."
+  },
+  {
+    "id": "SG-23-005",
+    "section": "23",
+    "source_line": 2182,
+    "text": "Repeat purchase rate."
+  },
+  {
+    "id": "SG-23-006",
+    "section": "23",
+    "source_line": 2183,
+    "text": "Average order value."
+  },
+  {
+    "id": "SG-23-007",
+    "section": "23",
+    "source_line": 2184,
+    "text": "Customer satisfaction."
+  },
+  {
+    "id": "SG-23-008",
+    "section": "23",
+    "source_line": 2185,
+    "text": "Return and refund rate."
+  },
+  {
+    "id": "SG-23-009",
+    "section": "23",
+    "source_line": 2186,
+    "text": "Time to resolve support requests."
+  },
+  {
+    "id": "SG-23-010",
+    "section": "23",
+    "source_line": 2190,
+    "text": "Active merchants."
+  },
+  {
+    "id": "SG-23-011",
+    "section": "23",
+    "source_line": 2191,
+    "text": "Merchant activation rate."
+  },
+  {
+    "id": "SG-23-012",
+    "section": "23",
+    "source_line": 2192,
+    "text": "Merchant retention."
+  },
+  {
+    "id": "SG-23-013",
+    "section": "23",
+    "source_line": 2193,
+    "text": "Products listed."
+  },
+  {
+    "id": "SG-23-014",
+    "section": "23",
+    "source_line": 2194,
+    "text": "Content published."
+  },
+  {
+    "id": "SG-23-015",
+    "section": "23",
+    "source_line": 2195,
+    "text": "Orders per merchant."
+  },
+  {
+    "id": "SG-23-016",
+    "section": "23",
+    "source_line": 2196,
+    "text": "Merchant sales growth."
+  },
+  {
+    "id": "SG-23-017",
+    "section": "23",
+    "source_line": 2197,
+    "text": "Merchant fulfilment performance."
+  },
+  {
+    "id": "SG-23-018",
+    "section": "23",
+    "source_line": 2198,
+    "text": "Merchant satisfaction."
+  },
+  {
+    "id": "SG-23-019",
+    "section": "23",
+    "source_line": 2202,
+    "text": "Feed engagement."
+  },
+  {
+    "id": "SG-23-020",
+    "section": "23",
+    "source_line": 2203,
+    "text": "Product-tag clicks."
+  },
+  {
+    "id": "SG-23-021",
+    "section": "23",
+    "source_line": 2204,
+    "text": "Video completion."
+  },
+  {
+    "id": "SG-23-022",
+    "section": "23",
+    "source_line": 2205,
+    "text": "Live shopping conversion."
+  },
+  {
+    "id": "SG-23-023",
+    "section": "23",
+    "source_line": 2206,
+    "text": "Follow-to-purchase conversion."
+  },
+  {
+    "id": "SG-23-024",
+    "section": "23",
+    "source_line": 2207,
+    "text": "Creator-attributed sales."
+  },
+  {
+    "id": "SG-23-025",
+    "section": "23",
+    "source_line": 2208,
+    "text": "Shares and saves."
+  },
+  {
+    "id": "SG-23-026",
+    "section": "23",
+    "source_line": 2209,
+    "text": "Content-to-order conversion."
+  },
+  {
+    "id": "SG-23-027",
+    "section": "23",
+    "source_line": 2213,
+    "text": "AI resolution rate."
+  },
+  {
+    "id": "SG-23-028",
+    "section": "23",
+    "source_line": 2214,
+    "text": "Correct tool execution rate."
+  },
+  {
+    "id": "SG-23-029",
+    "section": "23",
+    "source_line": 2215,
+    "text": "Human escalation rate."
+  },
+  {
+    "id": "SG-23-030",
+    "section": "23",
+    "source_line": 2216,
+    "text": "Product-answer accuracy."
+  },
+  {
+    "id": "SG-23-031",
+    "section": "23",
+    "source_line": 2217,
+    "text": "Order-answer accuracy."
+  },
+  {
+    "id": "SG-23-032",
+    "section": "23",
+    "source_line": 2218,
+    "text": "Customer satisfaction."
+  },
+  {
+    "id": "SG-23-033",
+    "section": "23",
+    "source_line": 2219,
+    "text": "Voice latency."
+  },
+  {
+    "id": "SG-23-034",
+    "section": "23",
+    "source_line": 2220,
+    "text": "Call completion rate."
+  },
+  {
+    "id": "SG-23-035",
+    "section": "23",
+    "source_line": 2221,
+    "text": "Cost per resolved request."
+  },
+  {
+    "id": "SG-23-036",
+    "section": "23",
+    "source_line": 2222,
+    "text": "Incorrect or unauthorized action rate."
+  },
+  {
+    "id": "SG-23-037",
+    "section": "23",
+    "source_line": 2226,
+    "text": "API availability."
+  },
+  {
+    "id": "SG-23-038",
+    "section": "23",
+    "source_line": 2227,
+    "text": "Payment success rate."
+  },
+  {
+    "id": "SG-23-039",
+    "section": "23",
+    "source_line": 2228,
+    "text": "Order processing time."
+  },
+  {
+    "id": "SG-23-040",
+    "section": "23",
+    "source_line": 2229,
+    "text": "Delivery success rate."
+  },
+  {
+    "id": "SG-23-041",
+    "section": "23",
+    "source_line": 2230,
+    "text": "Refund processing time."
+  },
+  {
+    "id": "SG-23-042",
+    "section": "23",
+    "source_line": 2231,
+    "text": "Application crash rate."
+  },
+  {
+    "id": "SG-23-043",
+    "section": "23",
+    "source_line": 2232,
+    "text": "Security incidents."
+  },
+  {
+    "id": "SG-23-044",
+    "section": "23",
+    "source_line": 2233,
+    "text": "Queue processing delays."
+  },
+  {
+    "id": "SG-24-001",
+    "section": "24",
+    "source_line": 2237,
+    "text": "The platform should learn from successful commerce and social products without copying their proprietary designs, branding, or implementations."
+  },
+  {
+    "id": "SG-24-002",
+    "section": "24",
+    "source_line": 2250,
+    "text": "The product's differentiation should come from the integration of these experiences:"
+  },
+  {
+    "id": "SG-24-003",
+    "section": "24",
+    "source_line": 2252,
+    "text": "Social-first product discovery."
+  },
+  {
+    "id": "SG-24-004",
+    "section": "24",
+    "source_line": 2253,
+    "text": "Shopping directly from every eligible content format."
+  },
+  {
+    "id": "SG-24-005",
+    "section": "24",
+    "source_line": 2254,
+    "text": "Customer–merchant communication."
+  },
+  {
+    "id": "SG-24-006",
+    "section": "24",
+    "source_line": 2255,
+    "text": "AI-powered shopping and telephone support."
+  },
+  {
+    "id": "SG-24-007",
+    "section": "24",
+    "source_line": 2256,
+    "text": "Rewards for meaningful participation."
+  },
+  {
+    "id": "SG-24-008",
+    "section": "24",
+    "source_line": 2257,
+    "text": "Creator and affiliate commerce."
+  },
+  {
+    "id": "SG-24-009",
+    "section": "24",
+    "source_line": 2258,
+    "text": "Merchant business-management tools."
+  },
+  {
+    "id": "SG-24-010",
+    "section": "24",
+    "source_line": 2259,
+    "text": "Secure end-to-end marketplace operations."
+  },
+  {
+    "id": "SG-24-011",
+    "section": "24",
+    "source_line": 2260,
+    "text": "Localized payments and delivery."
+  },
+  {
+    "id": "SG-24-012",
+    "section": "24",
+    "source_line": 2261,
+    "text": "Personalized discovery and intelligent customer assistance."
+  },
+  {
+    "id": "SG-24-013",
+    "section": "24",
+    "source_line": 2263,
+    "text": "No individual feature should be marketed as globally unique merely because it is included in this platform. Competitive advantage will depend on execution, trust, merchant adoption, customer experience, market fit, and continuous improvement."
+  },
+  {
+    "id": "SG-25-001",
+    "section": "25",
+    "source_line": 2269,
+    "text": "One mobile application for customers and merchants."
+  },
+  {
+    "id": "SG-25-002",
+    "section": "25",
+    "source_line": 2270,
+    "text": "Customer and merchant mode switching."
+  },
+  {
+    "id": "SG-25-003",
+    "section": "25",
+    "source_line": 2271,
+    "text": "A dedicated merchant web dashboard."
+  },
+  {
+    "id": "SG-25-004",
+    "section": "25",
+    "source_line": 2272,
+    "text": "A dedicated admin dashboard."
+  },
+  {
+    "id": "SG-25-005",
+    "section": "25",
+    "source_line": 2273,
+    "text": "A shared Laravel backend."
+  },
+  {
+    "id": "SG-25-006",
+    "section": "25",
+    "source_line": 2274,
+    "text": "A structured product marketplace."
+  },
+  {
+    "id": "SG-25-007",
+    "section": "25",
+    "source_line": 2275,
+    "text": "Social shopping feeds."
+  },
+  {
+    "id": "SG-25-008",
+    "section": "25",
+    "source_line": 2276,
+    "text": "Reels and shoppable videos."
+  },
+  {
+    "id": "SG-25-009",
+    "section": "25",
+    "source_line": 2277,
+    "text": "Stories and promotional content."
+  },
+  {
+    "id": "SG-25-010",
+    "section": "25",
+    "source_line": 2278,
+    "text": "Multi-product tagging."
+  },
+  {
+    "id": "SG-25-011",
+    "section": "25",
+    "source_line": 2279,
+    "text": "Merchant storefronts."
+  },
+  {
+    "id": "SG-25-012",
+    "section": "25",
+    "source_line": 2280,
+    "text": "Customer profiles."
+  },
+  {
+    "id": "SG-25-013",
+    "section": "25",
+    "source_line": 2281,
+    "text": "Social interactions."
+  },
+  {
+    "id": "SG-25-014",
+    "section": "25",
+    "source_line": 2282,
+    "text": "Messaging."
+  },
+  {
+    "id": "SG-25-015",
+    "section": "25",
+    "source_line": 2283,
+    "text": "Audio and video calls."
+  },
+  {
+    "id": "SG-25-016",
+    "section": "25",
+    "source_line": 2284,
+    "text": "AI shopping assistance."
+  },
+  {
+    "id": "SG-25-017",
+    "section": "25",
+    "source_line": 2285,
+    "text": "AI voice and telephone calling agents."
+  },
+  {
+    "id": "SG-25-018",
+    "section": "25",
+    "source_line": 2286,
+    "text": "AI merchant assistance."
+  },
+  {
+    "id": "SG-25-019",
+    "section": "25",
+    "source_line": 2287,
+    "text": "Product recommendations."
+  },
+  {
+    "id": "SG-25-020",
+    "section": "25",
+    "source_line": 2288,
+    "text": "Visual product discovery."
+  },
+  {
+    "id": "SG-25-021",
+    "section": "25",
+    "source_line": 2289,
+    "text": "Cart and checkout."
+  },
+  {
+    "id": "SG-25-022",
+    "section": "25",
+    "source_line": 2290,
+    "text": "Secure payments."
+  },
+  {
+    "id": "SG-25-023",
+    "section": "25",
+    "source_line": 2291,
+    "text": "Orders and delivery tracking."
+  },
+  {
+    "id": "SG-25-024",
+    "section": "25",
+    "source_line": 2292,
+    "text": "Reviews and ratings."
+  },
+  {
+    "id": "SG-25-025",
+    "section": "25",
+    "source_line": 2293,
+    "text": "Rewards and loyalty."
+  },
+  {
+    "id": "SG-25-026",
+    "section": "25",
+    "source_line": 2294,
+    "text": "Coupons and campaigns."
+  },
+  {
+    "id": "SG-25-027",
+    "section": "25",
+    "source_line": 2295,
+    "text": "Live shopping."
+  },
+  {
+    "id": "SG-25-028",
+    "section": "25",
+    "source_line": 2296,
+    "text": "Group buying."
+  },
+  {
+    "id": "SG-25-029",
+    "section": "25",
+    "source_line": 2297,
+    "text": "Creator and affiliate marketing."
+  },
+  {
+    "id": "SG-25-030",
+    "section": "25",
+    "source_line": 2298,
+    "text": "Advanced merchant analytics."
+  },
+  {
+    "id": "SG-25-031",
+    "section": "25",
+    "source_line": 2299,
+    "text": "Administration and moderation."
+  },
+  {
+    "id": "SG-25-032",
+    "section": "25",
+    "source_line": 2300,
+    "text": "Security, privacy, fraud prevention, and compliance."
+  },
+  {
+    "id": "SG-25-033",
+    "section": "25",
+    "source_line": 2301,
+    "text": "Multilingual and multi-market capabilities."
+  },
+  {
+    "id": "SG-25-034",
+    "section": "25",
+    "source_line": 2302,
+    "text": "Scalable infrastructure and integrations."
+  },
+  {
+    "id": "SG-25-035",
+    "section": "25",
+    "source_line": 2308,
+    "text": "This document is the master product blueprint. Detailed designs, technical specifications, database migrations, API contracts, and implementation tasks should be derived from it and approved progressively."
+  }
+]
